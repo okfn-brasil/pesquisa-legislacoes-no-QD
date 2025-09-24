@@ -39,12 +39,12 @@ DATE_SEARCH_FORMAT = "%Y-%m-%d"
 EXCERPT_SIZE = 2000
 DAYS_TO_ADD_START = 0
 DAYS_TO_ADD_END = 14
+DOWNLOAD_PDF = True
 
 try:
     df = pd.read_csv(
         CSV_FILE_PATH,
         dtype={"Número": "string"},
-        converters={"Número": lambda x: x.strip()},
         keep_default_na=False
     )
 
@@ -66,36 +66,38 @@ try:
                 published_since = row["Data"] + "-01-01"
                 published_until = str(int(row["Data"])+1) + "-01-01"       
        
-        params = {
-            "querystring": querystring,
-            "territory_ids": territory_id,
-            "published_since": published_since,
-            "published_until": published_until,
-            "excerpt_size": 2000
-        }
-        
-        response = requests.get(API_BASE_URL, params=params)
-        dados = response.json()
-        print(row["Município / UF"], dados.get("total_gazettes"))
-        #print(dados)
-        if dados.get("total_gazettes") > 0:
-            territory_folder_path = row["Município / UF"]
-            os.makedirs(territory_folder_path, exist_ok=True)
-            excerpts = dados.get("excerpts") 
-            for gazette in dados.get("gazettes"):
-                file_content = gazette["excerpts"][0]
-                file_name = row["Município / UF"] + "/" + gazette["date"] + ".txt"
-                with open(file_name, "w", encoding='utf-8') as f:
-                    f.write(file_content)
-                response_gazette_file = requests.get(gazette["txt_url"], stream=True)
-                response_gazette_file.raise_for_status()
-                gazette_file_name = row["Município / UF"] + "/" + gazette["date"] + "_full_gazzete.txt"
-                with open(gazette_file_name, "wb") as f:
-                    for chunk in response_gazette_file.iter_content(chunk_size=8192):
-                        f.write(chunk)
-                response_gazette_pdf_file = requests.get(gazette["url"])
-                with open(gazette_file_name + ".pdf", "wb") as pdf_file:
-                    pdf_file.write(response_gazette_pdf_file.content)
+            params = {
+                "querystring": querystring,
+                "territory_ids": territory_id,
+                "published_since": published_since,
+                "published_until": published_until,
+                "excerpt_size": 2000
+            }
+            
+            response = requests.get(API_BASE_URL, params=params)
+            dados = response.json()
+            print(row["Município / UF"], dados.get("total_gazettes"))
+            #print(dados)
+            if dados.get("total_gazettes") > 0:
+                territory_folder_path = row["Município / UF"]
+                os.makedirs(territory_folder_path, exist_ok=True)
+                excerpts = dados.get("excerpts") 
+                for gazette in dados.get("gazettes"):
+                    file_content = gazette["excerpts"][0]
+                    file_name = row["Município / UF"] + "/" + gazette["date"] + ".txt"
+                    with open(file_name, "w", encoding='utf-8') as f:
+                        f.write(file_content)
+                    response_gazette_file = requests.get(gazette["txt_url"], stream=True)
+                    response_gazette_file.raise_for_status()
+                    gazzete_base_file_name = row["Município / UF"] + "/" + gazette["date"] + "_full_gazzete"
+                    gazette_file_name = gazzete_base_file_name + "txt"
+                    with open(gazette_file_name, "wb") as f:
+                        for chunk in response_gazette_file.iter_content(chunk_size=8192):
+                            f.write(chunk)
+                    if DOWNLOAD_PDF:
+                        response_gazette_pdf_file = requests.get(gazette["url"])
+                        with open(gazzete_base_file_name + ".pdf", "wb") as pdf_file:
+                            pdf_file.write(response_gazette_pdf_file.content)
                 
 except Exception as e:
     print(e)                
