@@ -34,8 +34,8 @@ import requests
 API_BASE_URL = "https://queridodiario.ok.org.br/api/gazettes"
 
 # OPÇÕES DE PESQUISA
-distancia_max_entre_termos = 30
-lista_de_palavras = ["regula", "regulamenta"]
+distancia_max_entre_termos = 15
+lista_de_palavras = ["Lei"]
 
 opcoes_de_pesquisa = [
     {"numero": "14.129", "ano": 2021, "nome": "Lei Governo Digital", "sigla":"LGD"},
@@ -43,13 +43,14 @@ opcoes_de_pesquisa = [
 
 # TODO: avaliar futuramente se "lei" não seria uma stopword dentro do contexto
 
+
 # %%
-def verifica_regulamentacao(cidade_id, query_lei, ano_da_publicacao):
+def verifica_regulamentacao(cidade_id, query_lei):
 
     params = {
         "querystring": query_lei,
         "territory_ids": cidade_id,
-        "published_since": f'{ano_da_publicacao}-01-01',
+        "published_since": '2021-07-20',
         "excerpt_size": 2000
     }
 
@@ -59,20 +60,22 @@ def verifica_regulamentacao(cidade_id, query_lei, ano_da_publicacao):
 
 # %%
 print("Iniciando a verificação de regulamentação de leis nas capitais...")
-resultados_finais = {}
+resultados_finais = {nome_cidade: {} for nome_cidade in CAPITAIS.values()}
 
 for lei_a_ser_buscada in opcoes_de_pesquisa:
+    
+    pesquisa_completa = ""
+    # Esta linha foi modificada para garantir que a pesquisa_completa seja construída corretamente
+    for palavra_chave in lista_de_palavras:
+        texto_bruto = f'"{palavra_chave} {lei_a_ser_buscada["numero"]}"~{distancia_max_entre_termos}'
+        texto_bruto_sem_ponto = texto_bruto.replace(".", "")
+        pesquisa_completa += f"{texto_bruto} {texto_bruto_sem_ponto} "
+    
+    for cidade_id, nome_cidade in CAPITAIS.items():
+        qnt_de_resultados = verifica_regulamentacao(cidade_id, pesquisa_completa)
+        
+        # Armazena os resultados no dicionário
+        resultados_finais[nome_cidade][lei_a_ser_buscada['sigla']] = qnt_de_resultados
+        
+        print(f"{nome_cidade} | {lei_a_ser_buscada['sigla']} | Qnt resultados: {qnt_de_resultados}")
 
-  pesquisa_completa = ""
-  for opcao_de_regula in lista_de_palavras:
-    texto_bruto = f'"{opcao_de_regula} {lei_a_ser_buscada["numero"]}"~{distancia_max_entre_termos}'
-    texto_bruto_sem_ponto = texto_bruto.replace(".","")
-
-    pesquisa_completa += f"{texto_bruto} {texto_bruto_sem_ponto} "
-
-  for cidade_id, nome_cidade in CAPITAIS.items():
-    resultados_finais[nome_cidade] = {}
-
-    # Executa a consulta
-    qnt_de_resultados = verifica_regulamentacao(cidade_id, pesquisa_completa, lei_a_ser_buscada["ano"])
-    print(f"{nome_cidade} | {lei_a_ser_buscada['sigla']} | Qnt resultados: {qnt_de_resultados}")
