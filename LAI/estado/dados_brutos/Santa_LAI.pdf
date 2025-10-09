@@ -1,0 +1,1897 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>LegisWeb</title>
+	<meta charset="iso-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="LegisWeb" >
+	<meta name="description" content="Agilize decisões seguras. Legislação, Comentários e Consultoria nas áreas de IR e Contribuições, ICMS, IPI, ISS, Contabilidade e Societário, Simples Nacional, Trabalhista e Previdenciária. Cálculos e Tabelas de Substituição Tributária. Agenda Tributária, Tabelas Práticas, Boletim Semanal e Simuladores de Cálculos.">
+	<meta name="keywords" content="legislação,contabilidade,tributária,ir,st,icms,ipi,iss,consultoria,substituição tributária,agenda">
+	<link href="/css/bootstrap.min.css?v=035" type="text/css" rel="stylesheet" media="screen">
+	<link href="/css/yamm.css?v=035" type="text/css" rel="stylesheet" media="screen">
+	<link href="/css/style.css?v=035" type="text/css" rel="stylesheet" media="screen">
+	<link href="/css/font-awesome.min.css?v=035" type="text/css" rel="stylesheet" media="screen">
+	<link href="/css/raleway.css?v=035" type="text/css" rel="stylesheet" media="screen">
+	<link href="/css/print.css?v=035" type="text/css" rel="stylesheet" media="print">
+<style>
+    :root{
+        --primary-color: #E8481D;
+        --primary-border-color: #E0451B;
+        --primary-dark-color: #BE3B17;
+        --primary-dark-border-color: #9C3013;
+        --primary-light-color: #FF6131;
+
+        --secondary-color: #131F2A;
+        --secondary-border-color: #122529;
+        --secondary-dark-color: #06090C;
+        --secondary-dark-border-color: #121729;
+        --secondary-light-color: #20313F;
+
+        --info-color: #126DFF;
+        --info-border-color: #1169F6;
+        --info-dark-color: #0F5BD4;
+        --info-dark-border-color: #0C4CB3;
+        --info-light-color: #69A4F9;
+
+        --alt-color: #D0E7FF;
+        --alt-border-color: #CAE0F6;
+        --alt-dark-color: #AEC1D4;
+        --alt-dark-border-color: #92A2B3;
+
+        --success-color: #11D14E;
+        --success-border-color: #10C94B;
+        --success-dark-color: #0E9935;
+        --success-dark-border-color: #0B8531;
+        --success-light-color: #48FF7C;
+
+        --warning-color: #E5A41E;
+        --warning-border-color: #DD9D1D;
+        --warning-dark-color: #BB8518;
+        --warning-dark-border-color: #996D14;
+        --warning-light-color: #F7F3D2;
+        --warning-light-text-color: #8A6D3B;
+        --warning-light-border-color: #FAEBCC;
+
+        --danger-color: #E42120;
+        --danger-border-color: #DA1F1F;
+        --danger-dark-color: #B81A1A;
+        --danger-dark-border-color: #961515;
+        --danger-light-color: #F7D2D2;
+        --danger-light-border-color: #F4BEBE;
+
+    }
+</style>	<link rel="shortcut icon" href="/img/favicon/favicon.svg">
+	<link rel="apple-touch-icon-precomposed" href="/img/favicon/icone_lw_57x57.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/favicon/icone_lw_72x72.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/favicon/icone_lw_114x114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/favicon/icone_lw_144x144.png">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJK9QBT');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1534909430502072');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1534909430502072&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
+        <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+        <link href="/css/owl.carousel.min.css?v=035" type="text/css" rel="stylesheet" media="screen">
+        <link href="/css/owl.theme.default.min.css?v=035" type="text/css" rel="stylesheet" media="screen">
+        <link href="/css/owl.clientes.css?v=035" type="text/css" rel="stylesheet" media="screen">
+
+        <!-- Cards -->
+        <link href="/css/cards.css?v=035" type="text/css" rel="stylesheet" media="screen">
+
+        <style>
+            .espacador{
+                display: none;
+            }
+
+            .owl-centered .owl-wrapper {
+                display: table !important;
+            }
+
+            .owl-centered .owl-item {
+                display: table-cell;
+                float: none;
+                vertical-align: middle;
+            }
+
+            .img-grayscale {
+                filter: grayscale(1);
+            }
+
+            .img-grayscale:hover {
+                filter: grayscale(0);
+            }
+        </style>
+    </head>
+    <body onload="">
+        <div id="boxcarregando"></div>
+
+                <!-- hidden-print -->
+<div class="row hidden-print" id="avisos-feriado" style="margin: 0; padding: 0;">
+    
+    
+    
+    
+    
+    </div>
+
+<!-- end-hidden-print -->
+
+<!-- hidden-print -->
+<div style="background-color: #ffffff;">
+    <!-- Header -->
+    <header>
+        <!--<div class="row">
+    <div class="col-md-12">
+        <p class="text-center alert alert-warning"><strong>Nosso sistema de telefonia está em manutenção. Contamos com a compreensão de todos.</strong></p>
+    </div>
+</div>-->
+
+<div class="visible-md visible-lg hidden-print container_topo">
+    <div style="min-height: 40px" class="container topo header_publico">
+        <div class="rowe col-md-12">
+            <div class="col-md-6" style="padding-left:0;">
+
+                <ul class="list-inline">
+                    <li style="padding-right: 1px;">
+                        <a class="btn btn-topo-contato" id="telefones_topo" href="#" data-toggle="modal" data-target="#modalTelefones"><i class="fa fa-phone"></i>&nbsp; 0800 202 5544</a>&nbsp;&nbsp;
+                    </li>
+                    <li class="dropdown" style="background-color: #131F2A; padding-left: 1px;">
+                        <a class="btn btn-topo-contato" href="/#" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-comments"></i>&nbsp; Atendimento &nbsp;<b class="caret"></b></a>
+                        <ul class="dropdown-menu dropdown-list" style="width: 300px; padding: 20px; margin: 10px;">
+                            <li>
+                                Dúvidas Frequentes<br>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <a href="/faq/#ancora1" title="Como assinar e quanto custa?">&nbsp;&bull; Como assinar e quanto custa?</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/#ancora2" title="Esqueci minha senha">&nbsp;&bull; Esqueci minha senha</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/#ancora3" title="Meu acesso foi bloqueado">&nbsp;&bull; Meu acesso foi bloqueado</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/#ancora4" title="Renovar assinatura">&nbsp;&bull; Renovar assinatura</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/#ancora5" title="Gerenciar sub-usuários">&nbsp;&bull; Gerenciar sub-usuários</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/#ancora6" title="Quais os Telefones da Consultoria?">&nbsp;&bull; Quais os Telefones da Consultoria?</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/#ancora7" title="2ª via de boleto bancário">&nbsp;&bull; 2ª via de boleto bancário</a>
+                                    </li>
+                                    <li>
+                                        <a href="/faq/#ancora8" title="Como adquirir pacote de Consultoria?">&nbsp;&bull; Como adquirir pacote de Consultoria?</a>
+                                    </li>
+                                </ul>
+                                <hr>
+                                <div class="text-center">
+                                    <p>Consulte a página <a href="/faq/">Dúvidas Frequentes</a></p>
+                                    <p>Entre em contato para outras dúvidas ou sugestões:
+                                    <p>
+                                    <p>
+                                        <a href="/faleconosco/" class="btn btn-primary"><i class="fa fa-envelope"></i> &nbsp;&nbsp; Fale Conosco</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li style="padding-right: 1px; padding-left: 1px">
+                        <a class="btn btn-topo-contato" href="/quemsomos/"><i class="fa fa-users"></i>&nbsp; Quem somos</a>&nbsp;&nbsp;
+                    </li>
+                </ul>
+
+            </div>
+
+            <form name="formlogin" method="post" action="/assinante/login/">
+
+                <div class="col-md-6 pull-right">
+                    <div class="col-md-4 col-md-offset-3" style="padding-right: 0;">
+                        <input type="text" class="form-control" style="height: 24px;" name="login" placeholder="Login">
+                    </div>
+                    <div class="col-md-4" style="padding-right: 0;">
+                        <input type="password" class="form-control" style="height: 24px;" id="senha_topo" name="senha" placeholder="Senha">
+                    </div>
+                    <div class="col-md-1">
+                        <button class="btn btn-acessar-j btn-sm" style="height:24px; padding: 3px 10px ;" type="submit">Acessar</button>
+                        <!--<a class="btn btn-acessar"  data-toggle="modal" data-target="#loginFail" onclick="mudarEstado('login_fail')">Acessar</a>-->
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+        <!-- MENU -->
+        <style>
+            #menu .borda-botao-nav>a {
+                background-color: #ffffff;
+                color: var(--secondary-color);
+                font-weight: bold;
+                font-size: 14px;
+            }
+
+            #menu a {
+                text-decoration: none;
+            }
+        </style>
+        <div id="menu" class="hidden-print" style="border: none;">
+            <div class="container" style="background:transparent; padding: 0;">
+                <div class="row hidden-xs hidden-sm">
+                    <div class="navbar yamm">
+                        <div id="navbar-collapse-2" class="navbar-collapse collapse">
+                            <div class="col-md-3 visible-md col-md-4 visible-lg">
+    <a href="/" title="LegisWeb">
+        <img alt="Logotipo Legisweb" src="/img/logo-site.webp" style="padding: 15px;" />
+    </a>
+</div>
+<ul id="menuPublico" class="nav navbar-nav pull-right" style="background-color: white;">
+            <li class="borda-botao-nav hidden-sm" style="padding: 12px 2px">
+            <a href="/produtos/consultoria/" title="Consultoria">CONSULTORIA</a>
+        </li>
+            <li class="borda-botao-nav hidden-sm" style="padding: 12px 2px">
+            <a href="/produtos/sistemas/" title="Sistemas">SISTEMAS</a>
+        </li>
+            <li class="borda-botao-nav hidden-sm" style="padding: 12px 2px">
+            <a href="/produtos/comercio_exterior/" title="Comércio Exterior">COMÉRCIO EXTERIOR</a>
+        </li>
+            <li class="borda-botao-nav hidden-sm" style="padding: 12px 2px">
+            <a href="/produtos/sistemas/portais/" title="Portais">PORTAIS</a>
+        </li>
+            <li class="borda-botao-nav hidden-sm" style="padding: 12px 2px">
+            <a href="/reforma_tributaria/" title="Reforma Tributária">REFORMA TRIBUTÁRIA</a>
+        </li>
+    </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row visible-xs visible-sm">
+                    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var dropdownMenus = document.querySelectorAll('.dropdown-menu');
+
+        dropdownMenus.forEach(function(menu) {
+            menu.addEventListener('click', function(e) {
+                // Check if clicked element has class 'collapse-item' or is inside an element with that class
+                if (e.target.classList.contains('collapse-item') || e.target.closest('.collapse-item')) {
+                    e.stopPropagation();
+                }
+            });
+        });
+    });
+</script>
+<style>
+    .dropdown-menu-legis li .borda-botao-nav {
+        padding: 10px 15px;
+    }
+
+    .dropdown-menu-legis .borda-botao-nav a {
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+
+    .dropdown-menu-legis .borda-botao-nav a:hover {
+        background-color: #ffffff;
+    }
+
+    .dropdown-menu-legis>li {
+        font-weight: bold !important;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="col-xs-12 col-sm-12">
+        <nav class="navbar" role="navigation" style="padding: 10px 0px;">
+            <a href="/">
+                <img src="/img/logo-site.webp" alt="LegisWeb - Informação Rápida e Confiável" />
+            </a>
+            <button type="button" class="btn btn-secondary btn-lg dropdown-toggle pull-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bars btn_flutuante"></i>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right dropdown-menu-legis">
+                
+                                    <li class="borda-botao-nav"><a href="/assinante/consultoria/" title="Consultoria">CONSULTORIA</a></li>
+                                    <li class="borda-botao-nav"><a href="/assinante/sistemas/" title="Sistemas">SISTEMAS</a></li>
+                                    <li class="borda-botao-nav"><a href="/assinante/comercio_exterior/" title="Comércio Exterior">COMÉRCIO EXTERIOR</a></li>
+                                    <li class="borda-botao-nav"><a href="/assinante/sistemas/portais/" title="Portais">PORTAIS</a></li>
+                                    <li class="borda-botao-nav"><a href="/reforma_tributaria/" title="Reforma Tributária">REFORMA TRIBUTÁRIA</a></li>
+                                <li class="borda-botao-nav"><a href="/faleconosco/" title="Fale Conosco">FALE CONOSCO</a> </li>
+            </ul>
+        </nav>
+    </div>
+            <div class="col-xs-12">
+            <form name="formlogin" method="post" action="/assinante/login/">
+                <div class="col-sm-12 col-xs-12" style="padding: 0;">
+                    <div class="col-xs-12" style="padding: 0; margin-bottom: 10px;">
+                        <input type="text" class="form-control" name="login" placeholder="Login">
+                    </div>
+                    <div class="col-xs-12" style="padding: 0; margin-bottom: 10px;">
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="senha_topo_mobile" name="senha" placeholder="Senha">
+                            <span class="input-group-btn">
+                                <button class="btn btn-acessar" type="submit">Acessar</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="espacador"></div>
+<!-- end-hidden-print -->
+<header class="print-header hidden-on-screen">
+    <img src="/img/logo-site.webp" height="26" alt="Logo" class="print-logo-left" />
+        <hr />
+</header>
+
+        <div class="container visible-xs visible-sm" style="background:transparent; padding: 0px 16px 0px 16px;">
+            <div class="row">
+                
+                
+                
+                
+            </div>
+        </div>
+        <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" title="Clique para conhecer" role="listbox">
+
+                <div class="item active" role="option">
+                    <a href="https://forms.gle/xaShnEtZRZtoJbD8A" target="_blank">
+                        <img style="width: 100%; max-height: 400px" src="/img/sliders-novos/deslogado/treinamento-gratuito-2025-10.webp" alt="Treinamento Gratuito">
+                    </a>
+                </div>
+                <div class="item" role="option">
+                    <a href="https://www.legisweb.com.br/produtos/sistemas/sped/?utm_source=site&utm_medium=banner&utm_campaign=Auditor+Sped">
+                        <img style="width: 100%; max-height: 400px" src="/img/sliders-novos/deslogado/sped-contribuicoes.webp" alt="Auditor Sped Contribuições">
+                    </a>
+                </div>
+                <div class="item" role="option">
+                    <a href="https://www.legisweb.com.br/assinante/sistemas/auditor_nfe/acesso/?utm_source=site&utm_medium=banner&utm_campaign=Auditor+XML">
+                        <img style="width: 100%; max-height: 400px" src="/img/sliders-novos/deslogado/docsfiscais.webp" alt="Auditor de Documentos Fiscais">
+                    </a>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" style="opacity: inherit;" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="fa fa-chevron-left fa-lg" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" style="opacity: inherit;" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="fa fa-chevron-right fa-lg" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="servicos-home">
+            <div class="container cards-home" style="padding: 0 16px 0 16px;">
+                <div class="espacador"></div>
+                <div class="row text-center">
+                    <!--                    <div class="col-md-12">
+                                            <a href="coronavirus/">
+                                                <img src="img/banner_coronavirus_publico.jpg" alt="CORONAVÍRUS: Mantenha-se atualizado e informado" class="img-responsive" />
+                                                <br>
+                                            </a>
+                                        </div>-->
+                    <div class="col-md-12">
+                        <br>
+                        <h1>Agilize Decisões Seguras</h1>
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <div class="row">
+                                <hr class="risco_titulos" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-24 text-center w3-hover-legis cursor-default">
+                            <img src="img/news.png" title="" alt="">
+                            <h1 style="font-size: 15px;"><strong>LEGISLAÇÃO E PUBLICAÇÕES</strong></h1>
+                            <p>Oferecemos em nosso banco de dados mais de 1 milhão de legislações tributárias federais, estaduais e das capitais, acompanhadas diariamente.
+                                Disponibilizamos Procedimentos, Perguntas e Tabelas Práticas para facilitar o entendimento e agilizar a aplicação da legislação brasileira.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-24 text-center w3-hover-legis cursor-default">
+                            <img src="img/consultores.png" title="" alt="">
+                            <h1 style="font-size: 15px;"><strong>CONSULTORIA E SUPORTE</strong></h1>
+                            <p>Com um atendimento rápido e de qualidade, oferecemos a melhor consultoria do mercado, diretamente com advogados e especialistas em direito tributário.
+                                Via telefone sem limite de tempo e via site com possibilidade de interação sem custo adicional quando mantendo o mesmo assunto.
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-24 text-center w3-hover-legis cursor-default">
+                            <img src="img/tecnologia.png" title="" alt="">
+                            <h1 style="font-size: 15px;"><strong>TECNOLOGIA E DISPONIBILIDADE</strong></h1>
+                            <p>Garantia de um site rápido com a maior taxa de disponibilidade do mercado. Nossos produtos são desenvolvidos com tecnologia própria, de ponta, o que garante uma navegação rápida e fluída.
+                                Mantemos uma interface intuitiva e de fácil acesso, sempre buscando a simplicidade e facilidade de uso.
+                            </p>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-24 text-center w3-hover-legis cursor-default">
+                            <img src="img/atendimento.png" title="" alt="">
+                            <h1 style="font-size: 15px;"><strong>ATENDIMENTO E TREINAMENTO</strong></h1>
+                            <p>Primamos pela excelência no atendimento para solucionar dúvidas e solicitações de forma rápida e eficiente. Mantemos uma equipe de profissionais especializados e capacitados, sempre prontos para treinar e orientar o cliente a utilizar nossos produtos com maior eficácia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="espacador"></div>
+            </div>
+        </div>
+
+        <div class="servicos-home">
+            <div class="container cards-home" style="background-color: #fff; padding: 0 16px 0 16px;">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="custom-heading">
+                            <br>
+                            <h1>Mais de 200 Sistemas Incluídos em Sua Assinatura!</h1>
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <div class="row">
+                                    <hr class="risco_titulos" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                                                    <a href="produtos/sistemas/impostos_aliquotas" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Impostos e Alíquotas" alt="Impostos e Alíquotas" src="/img/produtos/ico_sis/impostos-e-aliquotas.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Impostos e Alíquotas&#013;&#013;Toda tributação do produto através de sua NCM." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Impostos e Alíquotas</strong>
+                                                </span>
+                                                <br>
+                                                Toda tributação do produto através de sua NCM.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/st/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Substituição Tributária" alt="Substituição Tributária" src="/img/produtos/ico_sis/ST.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Substituição Tributária&#013;&#013;Aplicabilidade, Base de Cálculo, MVAs e Simuladores de Cálculo." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Substituição Tributária</strong>
+                                                </span>
+                                                <br>
+                                                Aplicabilidade, Base de Cálculo, MVAs e Simuladores de Cálculo.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/aliquota_interna/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Alíquota do ICMS" alt="Alíquota do ICMS" src="/img/produtos/ico_sis/aliquota-interna.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Alíquota do ICMS&#013;&#013;Permite consultar a alíquota de ICMS de um produto." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Alíquota do ICMS</strong>
+                                                </span>
+                                                <br>
+                                                Permite consultar a alíquota de ICMS de um produto.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/pis_cofins/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="PIS e COFINS" alt="PIS e COFINS" src="/img/produtos/ico_sis/pis-cofins.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="PIS e COFINS&#013;&#013;Consulte alíquotas, isenções e simule cálculos de PIS e COFINS." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>PIS e COFINS</strong>
+                                                </span>
+                                                <br>
+                                                Consulte alíquotas, isenções e simule cálculos de PIS e COFINS.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/atividades_simples/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Atividades Simples Nacional" alt="Atividades Simples Nacional" src="/img/produtos/ico_sis/atividade-simples-nacional.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Atividades Simples Nacional&#013;&#013;Verifique se uma atividade é permitida no Simples Nacional." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Atividades Simples Nacional</strong>
+                                                </span>
+                                                <br>
+                                                Verifique se uma atividade é permitida no Simples Nacional.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/beneficios_fiscais/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Benefícios Fiscais" alt="Benefícios Fiscais" src="/img/produtos/ico_sis/beneficio-fiscal.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Benefícios Fiscais&#013;&#013;Pesquise os possíveis benefícios fiscais aplicados aos produtos." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Benefícios Fiscais</strong>
+                                                </span>
+                                                <br>
+                                                Pesquise os possíveis benefícios fiscais aplicados aos produtos.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/tipi/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Tabela do IPI (TIPI)" alt="Tabela do IPI (TIPI)" src="/img/produtos/ico_sis/tabela-tipi.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Tabela do IPI (TIPI)&#013;&#013;A Tabela do IPI é mantida sempre atualizada e revisada." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Tabela do IPI (TIPI)</strong>
+                                                </span>
+                                                <br>
+                                                A Tabela do IPI é mantida sempre atualizada e revisada.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/cest/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Consulta CEST" alt="Consulta CEST" src="/img/produtos/ico_sis/cod-cest.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Consulta CEST&#013;&#013;Consulta à lista de produtos do Convênio ICMS 142/2018." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Consulta CEST</strong>
+                                                </span>
+                                                <br>
+                                                Consulta à lista de produtos do Convênio ICMS 142/2018.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/tributacoes_federais/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Tributações Federais" alt="Tributações Federais" src="/img/produtos/ico_sis/tributacao-federal.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Tributações Federais&#013;&#013;São apresentadas as Tributações Federais das Pessoas Jurídicas." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Tributações Federais</strong>
+                                                </span>
+                                                <br>
+                                                São apresentadas as Tributações Federais das Pessoas Jurídicas.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/portais/?id=355" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Portal do Simples Nacional" alt="Portal do Simples Nacional" src="/img/produtos/ico_sis/simples-nacional.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Portal do Simples Nacional&#013;&#013;Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte" style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Portal do Simples Nacional</strong>
+                                                </span>
+                                                <br>
+                                                Regime Especial Unificado de Arrecadação de Tributos e Contribuições devidos pelas Microempresas e Empresas de Pequeno Porte                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/gestor_nfe/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Gestor de Doc. Fiscais" alt="Gestor de Doc. Fiscais" src="/img/produtos/ico_sis/gestor-nfe.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Gestor de Doc. Fiscais&#013;&#013;Receba, armazene e valide a tributação de seus documentos fiscais." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Gestor de Doc. Fiscais</strong>
+                                                </span>
+                                                <br>
+                                                Receba, armazene e valide a tributação de seus documentos fiscais.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/cnae/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Consulta CNAE" alt="Consulta CNAE" src="/img/produtos/ico_sis/cnae.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Consulta CNAE&#013;&#013;Identifica e classifica as atividades através da tabela de Classificação Nacional de Atividades Econômicas." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Consulta CNAE</strong>
+                                                </span>
+                                                <br>
+                                                Identifica e classifica as atividades através da tabela de Classificação Nacional de Atividades Econômicas.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/retencao/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Retenção de Trib. e Contribuições" alt="Retenção de Trib. e Contribuições" src="/img/produtos/ico_sis/retencao-de-tributo.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Retenção de Trib. e Contribuições&#013;&#013;Consulte os prazos, condições e alíquotas para retenção federal das Contribuições." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Retenção de Trib. e Contribuições</strong>
+                                                </span>
+                                                <br>
+                                                Consulte os prazos, condições e alíquotas para retenção federal das Contribuições.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/carga_tributaria/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Carga Tributária Média" alt="Carga Tributária Média" src="/img/produtos/ico_sis/carga-tributaria-media.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Carga Tributária Média&#013;&#013;Permite a consulta da Carga Tributária Média de produtos e serviço." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Carga Tributária Média</strong>
+                                                </span>
+                                                <br>
+                                                Permite a consulta da Carga Tributária Média de produtos e serviço.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                                    <a href="produtos/sistemas/simulador_planejamento_tributario/" class="links-dest">
+                                <div class="siste_home col-lg-4 col-md-4 col-sm-6 col-xs-12 w3-hover-shadow w3-padding-hor-8 cursor-pointer w3-hover-legis" style="margin-bottom: 5px; margin-top: 5px; height: 140px;">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 nopadding text-right">
+                                            <img class="img-responsive ico-sis ico-sis-60" title="Planejamento Tributário + Reforma Tributária" alt="Planejamento Tributário + Reforma Tributária" src="/img/produtos/ico_sis/planejamento-tributario.png">
+                                        </div>
+                                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-left">
+                                            <p title="Planejamento Tributário + Reforma Tributária&#013;&#013;Possibilita verificar o cálculo, por meio do CNAE." style="display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+                                                <span style="color: #131F2A; text-transform: uppercase;">
+                                                    <strong>Planejamento Tributário + Reforma Tributária</strong>
+                                                </span>
+                                                <br>
+                                                Possibilita verificar o cálculo, por meio do CNAE.                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                                            </div>
+
+                    <div class="col-lg-12 col-xs-12 text-center">
+                        <p style="font-size: 18px;"><a href="produtos/sistemas/">Conheça Todos os Sistemas &raquo;</a></p>
+                    </div>
+                </div>
+
+                <div class="espacador"></div>
+            </div>
+        </div>
+
+        <!-- ASSINE A LEGISWEB -->
+        <!--        <div id="assine">
+                    <div class="container" style="background: transparent; padding: 0 16px 0 16px;">
+                        <div class="row">
+                            <div class="col-sm-8 col-sm-offset-2">
+                                <h1><strong>Simplifique</strong> e <strong>Agilize</strong> suas Tarefas</h1>
+                                <div>
+                                    <p>
+                                        Assine o LegisWeb e facilite suas tarefas contábeis, tributárias, trabalhistas e previdênciárias.
+                                    </p>
+                                </div>
+                                <div style="margin: 25px 0">
+                                    <button type="button" class="btn btn-lg btn-acessar" data-toggle="modal" data-target="#myModal2">Clique Aqui e Assine!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+        <div style="background-color:  #131F2A;">
+            <div class="container" style="background: transparent;">
+                <script>
+    function validaForm(origem, campo1, campo2, campo3, campo4, campo5, campo6, id_unico) {
+
+        if (origem === 'form1') {
+            if (typeof id_unico === 'undefined' || id_unico === '' || id_unico === null) {
+                alert('O ID de POST está vazio.');
+                return false;
+            }
+
+            if (typeof campo6 === 'undefined' || campo6 === '' || campo6 === null) {
+                alert('Selecione o tipo de pessoa.');
+                return false;
+            }
+
+            if (typeof campo1 === 'undefined' || campo1 === '' || campo1 === null) {
+                alert('Preencha o campo Nome.');
+                return false;
+            }
+
+
+            if ((typeof campo2 === 'undefined' || campo2 === '' || campo2 === null) && campo6 === '2') {
+                console.log(campo2);
+                alert('Preencha o campo Razão Social da Empresa.');
+                return false;
+            }
+
+
+            if (typeof campo3 === 'undefined' || campo3 === '' || campo3 === null) {
+                alert('Preencha o campo Email.');
+
+                return false;
+            }
+
+            if (typeof campo4 !== 'undefined' && campo4 !== '' && campo4 !== null) {
+                if (isNaN(campo4.replace('-', '')) === true) {
+                    alert('O Telefone 1 informado não é um número.');
+
+                    return false;
+                }
+            } else {
+                alert('Preencha o campo Telefone.');
+                return false;
+            }
+
+            if (isNaN(campo5.replace('-', '')) === true) {
+                alert('O Telefone 2 informado não é um número.');
+                return false;
+            }
+
+
+            document.getElementById('nome').style.display = 'none';
+            document.getElementById('curso_razao').style.display = 'none';
+            document.getElementById('curso_email').style.display = 'none';
+            document.getElementById('curso_telefone').style.display = 'none';
+            document.getElementById('curso_telefone2').style.display = 'none';
+            document.getElementById('tipopessoa').style.display = 'none';
+
+            document.getElementById('acao').style.display = 'none';
+            document.getElementById('formRapidoTitulo').style.display = 'none';
+
+            carregaAjax(JSON.stringify({
+                id_post: id_unico,
+                nome: campo1,
+                razao_social: campo2,
+                email: campo3,
+                telefone: campo4,
+                telefone2: campo5,
+                tipopessoa: campo6
+            }), origem, 'boxform', 'carregaFormRapido', 'acao', null, 'boxcarregar-form');
+
+                            gtag('event', 'conversion', {
+                    'send_to': 'AW-1010346095/dcYoCL_QsIoYEO_Q4uED'
+                });
+            
+            return true;
+
+        }
+    }
+    //        else if(origem === 'form2'){
+    //            if(typeof id_unico === 'undefined' || id_unico === '' || id_unico === null){
+    //                alert('O ID de POST está vazio.');
+    //                
+    //                return false;
+    //            }
+    //            
+    //            if(typeof document.getElementById('id').value === 'undefined' || document.getElementById('id').value === '' || document.getElementById('id').value === null){
+    //                alert('Não foi possível obter um ID para os valores enviados anteriormente.');
+    //                
+    //                return false;
+    //            }
+    //            
+    //            if(typeof document.getElementById('hash').value === 'undefined' || document.getElementById('hash').value === '' || document.getElementById('hash').value === null){
+    //                alert('Não foi possível obter um HASH para os valores enviados anteriormente.');
+    //                
+    //                return false;
+    //            }
+    //            
+    ////            if(typeof campo1 === 'undefined' || campo1 === '' || campo1 === null){
+    ////                alert('Preencha o campo Nome da Empresa.');
+    ////                
+    ////                return false;
+    ////            }
+    //            
+    //            if(typeof campo2 === 'undefined' || campo2 === '' || campo2 === null){
+    //                alert('Preencha o campo Email.');
+    //                
+    //                return false;
+    //            }
+    //            
+    //            document.getElementById('nome_empresa').style.display = 'none';
+    //            document.getElementById('frm_email').style.display = 'none';
+    //            document.getElementById('acao').style.display = 'none';
+    //
+    //            carregaAjax(JSON.stringify({id_post: id_unico, nome_empresa: campo1, email: campo2 , id: document.getElementById('id').value, hash: document.getElementById('hash').value}), origem, 'boxform', 'carregaFormRapido', 'acao', null, 'boxcarregar-form');
+    //
+    //            return true;
+    //        }
+    //    }
+    //    
+    function setCampo(tipo) {
+        if (tipo == '2') {
+            document.getElementById('curso_razao').disabled = false;
+        } else {
+            document.getElementById('curso_razao').disabled = true;
+        }
+    }
+</script>
+<style>
+    form-control:disabled,
+    form-control[disabled] {
+        border: 1px solid #999999;
+        background-color: #000000;
+        color: #666666;
+    }
+</style>
+<div class="row">
+    <div class="col-md-12" style="border:0; margin: 0; padding-top: 30px; background-color: #131F2A; min-height: 305px;">
+        <h3 style="padding:0 0 19px 0; color: white; font-size: 36px; text-shadow: 1px 1px #333;" class="text-center">Como assinar e conhecer nossos serviços</h3>
+        <form id="homedireto">
+            <div class="row">
+                <div class="col-md-12 text-center" style="font-size:18px; color: white; font-weight: bold; text-shadow: 1px 1px #333;" id="boxcarregar-form"></div>
+
+                <div id="boxform">
+                    <input type="hidden" id="idpost" name="idpost" value="68e8307424238" />
+                    <p class="text-center" id="formRapidoTitulo" style="padding-bottom: 41px; font-size:24px; color: white; text-shadow: 1px 1px #333;">Preencha o formulário e entraremos em contato</p>
+
+                    <!--                    <div class="form-group row">
+                        <div class="col-md-6">
+                            <label for="apres_pessoa"><span class="required">*</span> Tipo de pessoa:</label>
+                            <select class="form-control" name="apres_pessoa">
+                                <option value="">Selecione</option>
+                                <option value="1">Física</option><option value="2">Jurídica</option>
+                            </select>
+                        </div>
+                    </div>                    -->
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <select class="form-control" name="tipopessoa" id="tipopessoa" onchange="setCampo(this.value)">
+                                <option value="">Selecione o Tipo de Pessoa</option>
+                                <option value="1">Física</option>
+                                <option value="2">Jurídica</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="nome" name="nome" placeholder="Nome Completo" maxlength="255" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="curso_razao" name="razao" placeholder="Razão Social da Empresa" maxlength="255" disabled />
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="curso_email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control" type="text" id="curso_telefone" name="telefone" placeholder="DDD + Telefone 1" maxlength="12" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input class="form-control telefone" type="text" id="curso_telefone2" name="telefone2" placeholder="DDD + Telefone 2 (opcional)" maxlength="12" />
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group text-center pull-center">
+                            <button class="btn btn-primary" type="button" id="acao" name="acao" onclick="return validaForm('form1', document.getElementById('nome').value, document.getElementById('curso_razao').value, document.getElementById('curso_email').value, document.getElementById('curso_telefone').value, document.getElementById('curso_telefone2').value, document.getElementById('tipopessoa').value, document.getElementById('idpost').value)">Cadastrar &raquo;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>            </div>
+        </div>
+
+        <!-- NOTICIAS -->
+        <div class="noticias-home">
+            <div class="container" style="background-color: white; padding: 0 16px 30px 16px;">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="custom-heading">
+                            <br>
+                            <h1>Últimas Publicações</h1>
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <div class="row">
+                                    <hr class="risco_titulos" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="espacador"></div>
+
+                        <!-- LEGISLACAO FEDERAL -->
+                        <div class="col-sm-4 text-left clearfix">
+                            <h1 style="font-size: 24px; color: #131F2A; text-align: left;">Legislação <strong style="color: #E8481D">Federal</strong></h1>
+
+                                                                                                <div class="noticia-item">
+                                        <a href="/legislacao/?id=484727">
+                                            <h2 class="text-left titulo">Notícia Siscomex Importação Nº 100 DE 09/10/2025</h2>
+                                                                                            <p class="text-justify noticia">Alteração de tratamento administrativo - Decex - Material usado e bens sujeitos a exame de similaridade</p>
+                                                                                        <p class="text-left data">DOU: 9 out 2025</p>
+                                        </a>
+
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="/legislacao/?id=484719">
+                                            <h2 class="text-left titulo">Comunicado BACEN Nº 43987 DE 08/10/2025</h2>
+                                                                                            <p class="text-justify noticia">Divulga a Taxa Básica Financeira (TBF), o Redutor "R" e a Taxa Referencial (TR) relativos a 7 de outubro de 2025.</p>
+                                                                                        <p class="text-left data">DOU: 9 out 2025</p>
+                                        </a>
+
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="/legislacao/?id=484711">
+                                            <h2 class="text-left titulo">Solução de Consulta COSIT Nº 215 DE 08/10/2025</h2>
+                                                                                            <p class="text-justify noticia">Assunto: Contribuição para o PIS/Pasep - Não cumulatividade. Créditos. Atividade de locação de máquinas e equipamentos. Dispênd...</p>
+                                                                                        <p class="text-left data">DOU: 9 out 2025</p>
+                                        </a>
+
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="/legislacao/?id=484709">
+                                            <h2 class="text-left titulo">Despacho CONFAZ Nº 34 DE 08/10/2025</h2>
+                                                                                            <p class="text-justify noticia">Publica Convênio de Cooperação Técnica aprovado na 198ª Reunião Ordinária do CONFAZ, realizada no dia 3.10.2025.</p>
+                                                                                        <p class="text-left data">DOU: 9 out 2025</p>
+                                        </a>
+
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="/legislacao/?id=484698">
+                                            <h2 class="text-left titulo">Despacho CONFAZ Nº 33 DE 08/10/2025</h2>
+                                                                                            <p class="text-justify noticia">Publica Ajustes SINIEF aprovados na 198ª Reunião Ordinária do CONFAZ, realizada no dia 3.10.2025.</p>
+                                                                                        <p class="text-left data">DOU: 9 out 2025</p>
+                                        </a>
+
+                                    </div>
+                                                            
+                            <a class="pull-right legis_mais" href="/legislacao_ultimas/?abr=federal&acao=Pesquisar&ord=dodesc#resultado">Mais federais</a>
+                        </div>
+
+                        <!-- LEGISLAÇÃO ESTADUAL -->
+                        <div class="col-sm-4 text-center clearfix">
+                            <div style="display: table; width: 100%">
+                                <h1 style="font-size: 24px; color: #131F2A; text-align: left;">Legislação <strong style="color: #E8481D">Estadual</strong>
+                                    <div class="form-group pull-right">
+                                                                                    <select name="estado" class="form-control" id="estado" onchange="carregaAjax(this.value, 'legislacao_estadual', 'boxlegislacaoestadual', 'carregaLegisEstadual', 'legislacao_estadual')">
+                                                <option value="">Todos</option>
+                                                                                                    <option value="1" >AC</option>
+                                                                                                    <option value="2" >AL</option>
+                                                                                                    <option value="3" >AP</option>
+                                                                                                    <option value="4" >AM</option>
+                                                                                                    <option value="5" >BA</option>
+                                                                                                    <option value="6" >CE</option>
+                                                                                                    <option value="7" >DF</option>
+                                                                                                    <option value="8" >ES</option>
+                                                                                                    <option value="9" >GO</option>
+                                                                                                    <option value="10" >MA</option>
+                                                                                                    <option value="11" >MT</option>
+                                                                                                    <option value="12" >MS</option>
+                                                                                                    <option value="13" >MG</option>
+                                                                                                    <option value="14" >PA</option>
+                                                                                                    <option value="15" >PB</option>
+                                                                                                    <option value="16" >PR</option>
+                                                                                                    <option value="17" >PE</option>
+                                                                                                    <option value="18" >PI</option>
+                                                                                                    <option value="19" >RJ</option>
+                                                                                                    <option value="20" >RN</option>
+                                                                                                    <option value="21" >RS</option>
+                                                                                                    <option value="22" >RO</option>
+                                                                                                    <option value="23" >RR</option>
+                                                                                                    <option value="24" >SC</option>
+                                                                                                    <option value="25" >SP</option>
+                                                                                                    <option value="26" >SE</option>
+                                                                                                    <option value="27" >TO</option>
+                                                                                            </select>
+                                                                            </div>
+                                    <br class="visible-sm visible-xs">
+                                </h1>
+                            </div>
+
+                                                            <span id="boxlegislacaoestadual">
+                                                                            <div class="noticia-item">
+                                            <a href="/legislacao/?id=484734">
+                                                <h2 class="text-left titulo">BA - Instrução Normativa SEFAZ Nº 3 DE 08/10/2025</h2>
+                                                                                                    <p class="text-justify noticia">Dispõe sobre o cadastramento de credores no Sistema Integrado de Planejamento, Contabilidade e Finanças - Fiplan no âmbito da A...</p>
+                                                                                                <p class="text-left data"><time datetime="2025-10-9">DOE: 9 out 2025</time></p>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="noticia-item">
+                                            <a href="/legislacao/?id=484731">
+                                                <h2 class="text-left titulo">MS - Edital de Notificação SAT Nº 80 DE 08/10/2025</h2>
+                                                                                                    <p class="text-justify noticia">Notifica as entidades representativas do setor envolvido na produção e na comercialização de vinhos e espumantes, do resultado ...</p>
+                                                                                                <p class="text-left data"><time datetime="2025-10-9">DOE: 9 out 2025</time></p>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="noticia-item">
+                                            <a href="/legislacao/?id=484730">
+                                                <h2 class="text-left titulo">MS - Portaria IAGRO/MS Nº 3761 DE 08/10/2025</h2>
+                                                                                                    <p class="text-justify noticia">Estabelece normas e critérios para o trânsito 
+intraestadual e interestadual de suínos no 
+Estado do Mato Grosso do Sul.</p>
+                                                                                                <p class="text-left data"><time datetime="2025-10-9">DOE: 9 out 2025</time></p>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="noticia-item">
+                                            <a href="/legislacao/?id=484728">
+                                                <h2 class="text-left titulo">MS - Edital de Notificação SAT Nº 81 DE 08/10/2025</h2>
+                                                                                                    <p class="text-justify noticia">Notifica as entidades representativas do setor envolvido na produção e na comercialização de azeite de oliva, do resultado da p...</p>
+                                                                                                <p class="text-left data"><time datetime="2025-10-9">DOE: 9 out 2025</time></p>
+                                            </a>
+
+                                        </div>
+                                                                            <div class="noticia-item">
+                                            <a href="/legislacao/?id=484726">
+                                                <h2 class="text-left titulo">MS - Decreto Nº 16684 DE 08/10/2025</h2>
+                                                                                                    <p class="text-justify noticia">Estabelece os requisitos, as condições e os procedimentos para que o Estado de Mato Grosso do Sul, suas autarquias e as suas fu...</p>
+                                                                                                <p class="text-left data"><time datetime="2025-10-9">DOE: 9 out 2025</time></p>
+                                            </a>
+
+                                        </div>
+                                    
+                                    <a class="pull-right legis_mais" href="/legislacao_ultimas/?abr=estado&acao=Filtrar&ord=dodesc#resultado">Mais estaduais</a>
+                                </span>
+
+                                                    </div>
+
+                        <!-- ULTIMAS NOTICIAS -->
+                        <div class="col-sm-4 text-center clearfix ultimas-not">
+                            <h1 style="font-size: 24px; color: #131F2A;">Últimas <strong style="color: #E8481D">Notícias</strong></h1>
+                                                                                                <div class="noticia-item">
+                                        <a href="noticia/?id=31607">
+                                            <h2 class="text-justify titulo">ICMS/SC: Governo de SC compartilha sistema de gestão fiscal com o Comitê Gestor do IBS da Reforma Tributária</h2>
+                                            <p class="text-left data">
+                                                <time datetime="2025-10-9">9 out 2025</time> - <span class="noticiaCategoria">ICMS, IPI, ISS e Outros</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="noticia/?id=31606">
+                                            <h2 class="text-justify titulo">ICMS/RO: Aplicativo Nota Fiscal Fácil passa a atender também os Microempreendedores Individuais em Rondônia</h2>
+                                            <p class="text-left data">
+                                                <time datetime="2025-10-9">9 out 2025</time> - <span class="noticiaCategoria">ICMS, IPI, ISS e Outros</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="noticia/?id=31605">
+                                            <h2 class="text-justify titulo">Alteração de tratamento administrativo - Decex - Material usado e bens sujeitos a exame de similaridade</h2>
+                                            <p class="text-left data">
+                                                <time datetime="2025-10-9">9 out 2025</time> - <span class="noticiaCategoria">Comércio Exterior</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="noticia/?id=31604">
+                                            <h2 class="text-justify titulo">eSocial implanta nova validação para descontos de empréstimo consignado do Programa Crédito do Trabalhador</h2>
+                                            <p class="text-left data">
+                                                <time datetime="2025-10-9">9 out 2025</time> - <span class="noticiaCategoria">Trabalho / Previdência</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="noticia/?id=31603">
+                                            <h2 class="text-justify titulo">Deputados analisam medida provisória que compensa recuo no IOF; acompanhe</h2>
+                                            <p class="text-left data">
+                                                <time datetime="2025-10-9">9 out 2025</time> - <span class="noticiaCategoria">ICMS, IPI, ISS e Outros</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="noticia/?id=31602">
+                                            <h2 class="text-justify titulo">Projeto ratifica convenção sobre transporte internacional de cargas</h2>
+                                            <p class="text-left data">
+                                                <time datetime="2025-10-9">9 out 2025</time> - <span class="noticiaCategoria">Comércio Exterior</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                                                    <div class="noticia-item">
+                                        <a href="noticia/?id=31601">
+                                            <h2 class="text-justify titulo">ICMS/PA: Governo do Pará aumenta valor da renúncia fiscal para o incentivo de projetos culturais via Programa Semear</h2>
+                                            <p class="text-left data">
+                                                <time datetime="2025-10-8">8 out 2025</time> - <span class="noticiaCategoria">ICMS, IPI, ISS e Outros</span>
+                                            </p>
+                                        </a>
+                                    </div>
+                                                                                        <a class="pull-right legis_mais" href="noticias/">Mais notícias</a>
+                        </div>
+
+                        <div class="espacador"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- NEWSLETTER -->
+        <div id="newsletter">
+            <div class="container" style="background: transparent; padding: 0 16px 0 16px;">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h1>Mantenha-se <strong>Atualizado</strong></h1>
+                        <div>
+                            <p>
+                                Receba nosso Boletim Diário com
+                                as principais legislações, notícias, próximas obrigações e informes fiscais/tributários publicados.
+                            </p>
+                        </div>
+                        <div style="margin: 25px 0">
+                            <a href="/produtos/boletim-diario/" class="btn btn-lg btn-news">Experimente Grátis por 30 dias</a>
+                        </div>
+
+                        <div>
+                            <h1 style="font-size: 24px; margin-bottom: 10px;">
+                                Último Boletim: nº 195 de 09/10/2025                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CLIENTES -->
+        <div class="clientes-home" style="display: block" >
+            <div class="container" style="background-color: #fff; padding: 0 16px 40px 16px;">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div class="custom-heading">
+                            <br>
+                            <h1>Alguns de Nossos Clientes</h1>
+                            <div class="col-lg-6 col-lg-offset-3">
+                                <div class="row">
+                                    <hr class="risco_titulos" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="espacador"></div>
+                        <div class="owl-carousel owl-centered owl-theme">
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/olfir-rogedo.webp" title="escritorio olfir rogedo">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/honda-color.webp" title="Honda">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/esacon-contabilidade.webp" title="escaon contabilidade">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/tramontina-color.webp" title="Tramontina">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/alpargatas-color.webp" title="Alpargatas">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/souza-cruz-color.webp" title="Souza Cruz">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/copa-energia-color.webp" title="Copa Energia">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/rihappy-color.webp" title="Ri Happy">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/voith-color.webp" title="Voith">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/stam-color.webp" title="Stam">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/marisa-color.webp" title="Marisa">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/cemig-color.webp" title="Cemig">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/unimed-color.webp" title="Unimed">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/saint-gobain-color.webp" title="Saint Gobain">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/danone-color.webp" title="Danone">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/am-pm-color.webp" title="Am Pm">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/bautech-color.webp" title="Bautech">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/camil-color.webp" title="Camil">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/copaza-color.webp" title="Copaza">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/fiotec-color.webp" title="Fiotec">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/lorenzetti-color.webp" title="Lorenzetti">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/lowell-color.webp" title="Lowell">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/aegea-color.webp" title="Aegea">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/parati-color.webp" title="Parati">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/weleda-color.webp" title="Weleda">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/wickbold-color.webp" title="Wickbold">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/whirlpool-color.webp" title="Whirlpool">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/senac-logo-color.webp" title="Senac">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/intelbras-color.webp" title="Intelbras">
+                            </div>
+                                                        <div class="item">
+                                <img class="img-grayscale" src="img/clientes/gedore-color.webp" title="Gedore">
+                            </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--INDICADORES ECONOMICOS-->
+        
+        <div id="footer-wrapper" class="footer-dark">
+    <footer id="footer">
+        <div class="container" style="background: transparent; padding: 0 16px 0 16px;">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 rodape">
+                    <div>
+                        <strong>ASSINAR O LEGISWEB</strong><br />
+                        <span>Mantenha-se informado e atualizado com o LegisWeb.</span><br />
+                    </div>
+                    <div style="padding-top: 5px">
+                        <a href="#myModal2" class="btn btn-assinar MainNavText" data-toggle="modal" data-target="#myModal2" style="margin-bottom: 15px;" id="MainNavHelp">
+                            <span>COMO ASSINAR</span>
+                        </a>
+                        <br><strong>LIGUE GRÁTIS</strong>
+                        <p>0800 202 5544</p><br />
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 rodape">
+                    <strong>PRODUTOS E SERVIÇOS</strong><br />
+                    <a href="/produtos/bancodedados/">Banco de Dados</a><br />
+                    <a href="/produtos/consultoria/">Consultoria</a><br />
+                    <a href="/produtos/sistemas/">Sistemas</a><br />
+                    <a href="/produtos/agenda/">Agenda Tributária</a><br />
+                    <a href="/produtos/comercio_exterior/">Comércio Exterior</a><br />
+                    <a href="/produtos/boletim-diario/">Boletim Diário</a><br>
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 rodape">
+                    <strong>LINKS LEGISWEB</strong><br />
+                    <a href="/">Página Inicial</a><br />
+                    <a href="/quemsomos/">Quem Somos</a><br />
+                    <a href="/noticias/">Notícias</a><br />
+                    <a href="/legislacao_ultimas/">Legislação</a><br />
+                    <a href="/faq/">Dúvidas Frequentes</a><br />
+                    <a href="/faleconosco/">Fale Conosco</a><br />
+                </div>
+                <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2 rodape">
+                    <strong>NOTÍCIAS POR ASSUNTO</strong><br />
+                    <a href="/noticias/?termo=&assunto=6&acao=Buscar">Comércio Exterior</a><br />
+                    <a href="/noticias/?termo=&assunto=4&acao=Buscar">Contabilidade / Societário</a><br />
+                    <a href="/noticias/?termo=&assunto=2&acao=Buscar">ICMS, IPI, ISS e Outros</a><br />
+                    <a href="/noticias/?termo=&assunto=1&acao=Buscar">IR / Contribuições</a><br />
+                    <a href="/noticias/?termo=&assunto=5&acao=Buscar">Simples Nacional</a><br />
+                    <a href="/noticias/?termo=&assunto=3&acao=Buscar">Trabalho / Previdência</a><br />
+                </div>
+                <div class="col-xs-6 col-sm-4 col-md-6 col-lg-2 rodape">
+                    <strong>SIGA-NOS</strong><br />
+                    <a href="https://www.facebook.com/LegiswebBrasil/" class="rodape-redes-sociais" aria-label="Siga-nos Facebook" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/in/legisweb-44a51b105/" class="rodape-redes-sociais" aria-label="Siga-nos LinkedIn" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://www.instagram.com/legisweb/" target="_blank" aria-label="Siga-nos Instagram" class="rodape-redes-sociais"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@legisweb_br/" target="_blank" aria-label="Siga-nos Youtube" class="rodape-redes-sociais"><i class="fa fa-youtube-play"></i></a>
+                    <br><br>
+                    <a class="btn btn-sm btn-primary" style="margin-bottom: 15px;" href="/trabalheconosco/"><strong>TRABALHE CONOSCO</strong></a>
+
+
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-2 rodape-bg">
+                    <div class="rodape-ja-sou-cliente">
+                        <i class="fa fa-user"></i>
+                        <span>JÁ SOU CLIENTE</span>
+                    </div>
+                    <div class="rodape-ja-sou-cliente2barra">
+                        <a href="/assinante/">Área do Assinante</a>
+                    </div>
+                    <div class="rodape-ja-sou-cliente2barra">
+                        <a href="/faleconosco/">Fale Conosco</a>
+                    </div>
+                    <div class="rodape-ja-sou-cliente2">
+                        <a href="#" data-toggle="modal" data-target="#modalTelefones">Telefones</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <div class="container" style="background:transparent; padding: 0 16px 0 16px;">
+                <div class="row text-center">
+                    <p><a href="/">LEGISWEB LTDA - 2025 - Agilize Decisões Seguras</a></p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="scroll-up">?</a>
+            <style>
+        .flutuante{
+            position:fixed;
+            width:60px;
+            height:60px;
+            bottom:80px;
+            right:20px;
+            background-color:#1bd741;
+            color:#FFF;
+            border-radius:50px;
+            text-align:center;
+            font-size:30px;
+            box-shadow: 2px 2px 3px #DDD;
+            z-index:100;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .flutuante:hover{
+            transition: transform 0.2s, opacity 0.2s;
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+            color:#FFF;
+        }
+
+        .flutuante:focus{
+            color:#FFF;
+        }
+
+        .botao_flutuante{
+            margin-top: 7px;
+            font-size: 45px;
+            text-align: center;
+        }
+
+        .botao_flutuante::hover{
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        .botao_flutuante::active{
+            color:#FFF;
+        }
+
+        .pulsar:before {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            content: '';
+            box-shadow: inset 0 0 0 3px #1bd741;
+            transition: transform 0.1s, opacity 0.2s;
+            animation: pulsar 2.7s infinite;
+        }
+
+
+        @keyframes pulsar {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.6);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+        
+        .menu-whats{
+            position:fixed;
+            bottom:110px;
+            right:50px;
+            text-align:center;
+            font-size:16px;
+            z-index:99;
+            border-radius: 10px;
+            box-shadow: 2px 2px 3px #999;
+        }
+    </style>
+
+    <script>
+        
+        function menuWhats() {
+            var aberto = document.getElementById('whatsapp-menu').hidden;
+
+            if(aberto === true){
+                document.getElementById('whatsapp-menu').hidden = false;
+            }else{
+                document.getElementById('whatsapp-menu').hidden = true;
+            }
+
+        }
+
+        function abrirWhatsApp(numero, departamento){
+            $.ajax({
+                type: "POST",
+                url: "/funcao/ajax/insereContatoWhatsapp.php",
+                success: function (data) {
+                    if(departamento == 'API') {
+                        window.location.href = encodeURI("https://api.whatsapp.com/send?phone="+numero+"&text=*_Protocolo "+data.codigo_contato+" (não apagar)_*\n\nOlá, gostaria de conhecer os produtos da LegisWeb.&app_absent=1");     
+                    } else {
+                        window.location.href = encodeURI("https://api.whatsapp.com/send?phone="+numero+"&text=Olá, gostaria de falar com o departamento "+departamento+"!&app_absent=1");
+                    }
+                    gtag('event', 'conversion', {'send_to': 'AW-1010346095/y7sJCPmysIoYEO_Q4uED'});
+                }
+            });
+        }
+    </script>
+
+    <div id="whatsapp-menu" class="menu-whats" hidden>
+        <div style="padding: 10px 10px 10px 0px; font-size: 18px; color: white; background-color: #008069; border-top-left-radius: 10px; border-top-right-radius: 10px; ">
+            <img src="/img/favicon/icone_lw_32x32.png" style="padding-left:0px;"/>&nbsp;
+            WhatsApp LegisWeb 
+            <button class="btn btn-default btn-xs pull-right" onclick="menuWhats()" style="border-radius: 5px; "><i class="fa fa-close"></i></button>
+        </div>
+        <div style="padding: 20px; background-color:#eae6df; background-image: url('/img/wpp_background.png'); background-size: cover; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+            <div style="padding: 13px; font-size: 16px; color: white; margin: 0; background-color: #c5e6c1; color: #111b21; border-radius: 10px; box-shadow: 1px 1px 2px #999;">
+                Entre em contato e assine
+            </div>
+
+            <div>
+                <br>
+                <!-- <button class="btn btn-default" style="min-width: 200px; margin: 10px;" onclick="abrirWhatsApp('5531988355467', 'de Vendas')">Vendas &nbsp;<i class="fa fa-external-link"></i></button><br> -->
+                <button class="btn btn-default" style="min-width: 200px; margin: 10px;" onclick="abrirWhatsApp(551934513311, 'API')">Vendas &nbsp;<i class="fa fa-external-link"></i></button><br>
+                
+            </div>
+        </div>
+    </div>
+
+    <a href="javascript:void(0)" class="flutuante pulsar" onclick="menuWhats();">
+        <i class="fa fa-whatsapp botao_flutuante"></i>
+    </a>
+    </footer>
+</div>
+
+<!-- MODAIS -->
+
+<!-- Modal Login -->
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLogin">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header3">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="modalLoginLabel">
+                    <i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;&nbsp; Acesso ao Sistema
+                </h4>
+            </div>
+            <form method="post" action="/assinante/login/">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="login" class="control-label">Login:</label>
+                        <input type="text" class="form-control" id="login" name="login" placeholder="Digite seu login">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="senha" class="control-label">Senha:</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha">
+                    </div>
+                    <i>Ainda não é assinante? <a href="#myModal2" onclick="modalFormReformaTributaria()">Clique aqui</a> e descubra como assinar!</i>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-primary">Acessar&nbsp; <i class="fa fa-angle-double-right"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Função para abrir o modal de apresentação setando Reforma Tributária
+    function modalFormReformaTributaria() {
+        $('#modalLogin').modal('hide');
+        $('#myModal2').modal('show');
+
+        let inputReformaTributaria = document.querySelector('#form_apres #reforma_tributaria');
+        if (typeof inputReformaTributaria !== 'undefined' && inputReformaTributaria !== null) {
+            return true;
+        }
+
+        let form = document.getElementById('form_apres');
+
+        // cria input hidden
+        let input = document.createElement('input');
+        input.type = 'hidden';
+        input.id = 'reforma_tributaria';
+        input.name = 'reforma_tributaria';
+        input.value = '1';
+        form.appendChild(input);
+
+        // Adiciona evento quando o modal é fechado
+        $('#myModal2').off('hide.bs.modal');
+        $('#myModal2').on('hide.bs.modal', function() {
+            // Remove o input hidden
+            let inputReformaTributaria = document.querySelector('#form_apres #reforma_tributaria');
+            if (typeof inputReformaTributaria !== 'undefined' && inputReformaTributaria !== null) {
+                inputReformaTributaria.remove();
+            }
+        });
+    }
+</script>
+
+<!-- Apresentação -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="modal_como_assinar">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header2">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="modal_como_assinar">
+                    <i class="fa fa-chevron-circle-right"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    Como Assinar? Agende uma Apresentação!
+                </h4>
+            </div>
+            <div class="modal-body" id="apres_body">
+                <div class="apresloader" style="display: none" id="apresloader">
+                    <span>
+                        <img src="/img/squares.gif" alt="" />
+                    </span>
+                </div>
+                <!-- Alertas de erro ou sucesso-->
+                <div class="alert alert-danger" id="apres_error" role="alert" style="display: none"></div>
+                <div class="text-center" id="apres_sucesso" role="alert" style="margin-top: 10px;display: none">
+                    <p style="font-size: 15px; margin: 6px 0 0 15px">
+                        Sua mensagem foi enviada. Em breve entraremos em contato.<br><br>
+                        Se antecipe baixando o visualizador: <a href="http://download.teamviewer.com/download/TeamViewer_Setup_pt.exe">Baixar Visualizador</a>
+                    </p>
+                </div>
+                <form class="clearfix" id="form_apres">
+                    <input type="hidden" name="tipo" value="apres" />
+
+                    <div class="form-group row">
+                        <p>
+                            Preencha o formulário e um de nossos representantes entrará em contato para agendar ou realizar a apresentação do LegisWeb e informar as formas de comercialização.
+                            <br />
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="apres_pessoa"><span class="required">*</span> Tipo de pessoa:</label>
+                            <select class="form-control" name="apres_pessoa">
+                                <option value="">Selecione</option>
+                                <option value="1">Física</option>
+                                <option value="2">Jurídica</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for=""><span class="required">*</span> Nome ou Razão Social:</label>
+                            <input type="text" class="form-control" name="apres_nome">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="apres_contato"><span class="required"></span> Pessoa para Contato:</label>
+                            <input type="text" class="form-control" name="apres_contato">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="apres_mail"><span class="required">*</span> E-mail:</label>
+                            <input type="text" class="form-control" name="apres_mail">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="apres_telefone"><span class="required">*</span> Telefone:</label>
+                            <input type="text" class="form-control" name="apres_telefone">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="apres_celular"><span class="required"></span> Celular:</label>
+                            <input type="text" class="form-control" name="apres_celular">
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="apres_estado"><span class="required">*</span> Estado:</label>
+                            <select class="form-control" id="apres_estado" name="apres_estado">
+                                <option value="">UF</option>
+                                                                    <option value="1">AC</option>
+                                                                    <option value="2">AL</option>
+                                                                    <option value="3">AP</option>
+                                                                    <option value="4">AM</option>
+                                                                    <option value="5">BA</option>
+                                                                    <option value="6">CE</option>
+                                                                    <option value="7">DF</option>
+                                                                    <option value="8">ES</option>
+                                                                    <option value="9">GO</option>
+                                                                    <option value="10">MA</option>
+                                                                    <option value="11">MT</option>
+                                                                    <option value="12">MS</option>
+                                                                    <option value="13">MG</option>
+                                                                    <option value="14">PA</option>
+                                                                    <option value="15">PB</option>
+                                                                    <option value="16">PR</option>
+                                                                    <option value="17">PE</option>
+                                                                    <option value="18">PI</option>
+                                                                    <option value="19">RJ</option>
+                                                                    <option value="20">RN</option>
+                                                                    <option value="21">RS</option>
+                                                                    <option value="22">RO</option>
+                                                                    <option value="23">RR</option>
+                                                                    <option value="24">SC</option>
+                                                                    <option value="25">SP</option>
+                                                                    <option value="26">SE</option>
+                                                                    <option value="27">TO</option>
+                                                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="form-group">
+                            <label for="apres_cidade"><span class="required">*</span> Cidade:</label>
+                            <select class="form-control" name="apres_cidade">
+                                <option value="">Selecione um estado...</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="apres_mensagem">Deixe uma mensagem:</label>
+                            <textarea class="form-control" rows="2" name="apres_mensagem"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-body" id="apres_sucesso" style="padding: 30px; text-align: center; display: none">
+                <h3>
+                    <i class="fa fa-check-circle-o" style="color: #029738; padding: 0px 20px 0px 0px;"></i>
+                    Obrigado pelo interesse! Em breve um de nossos representantes entrará em contato.
+                </h3>
+            </div>
+            <div class="modal-footer" id="apres_rodape_sucesso" style="display: none;">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+            </div>
+
+            <div class="modal-footer" id="apres_rodape_footer">
+                <p id="avisoVisualizador" style="float: left; font-size: 15px; margin: 6px 0 0 0px"><a href="http://download.teamviewer.com/download/TeamViewer_Setup_pt.exe">Baixar Visualizador TeamViewer</a> (Versão Windows)</p>
+                <p id="avisoVisualizador2" style="float: left; font-size: 15px; margin: 6px 0 0 0px"><a href="https://download.anydesk.com/AnyDesk.exe">Baixar Visualizador AnyDesk</a> (Versão Windows)</p>
+                <button id="btnAgendarApresentacao" type="button" class="btn btn-acessar" onclick="$('#form_apres').submit();">Agendar Apresentação</button>
+                <button id="btnFechar" type="button" class="btn btn-acessar" data-dismiss="modal" aria-label="Close" style="display:none;">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Recuperar Senha -->
+<div class="modal fade" id="esqueci_senha" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document" id="classModalLogin">
+        <!-- Esqueci Senha -->
+        <div class="modal-content">
+            <div class="modal-header3">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="modal_esqueci_senha">
+                    <i class="fa fa fa-question-circle-o"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    Recuperar senha
+                </h4>
+            </div>
+            <div class="modal-body">
+                <p>Caso você tenha esquecido sua senha, informe seu <strong>login</strong> e <strong>e-mail principal</strong>
+                    cadastrado no LegisWeb e clique no botão Recuperar Senha para dar
+                    início ao processo de recuperação de senha:</p>
+                <form id="esqueci_senha_form">
+
+                    <div class="form_group">
+                        <fieldset>
+                            <div class="form-group">
+                                <label>
+                                    <span class="required">*</span> Informe seu login:
+                                </label>
+                                <input type="text" class="form-control" name="usuario" placeholder="Digite seu Login">
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    <span class="required">*</span> Informe seu e-mail:
+                                </label>
+                                <input type="email" class="form-control" name="email" placeholder="Digite seu E-mail">
+                            </div>
+                        </fieldset>
+                    </div>
+                </form><br>
+                <p>Você também pode entrar em contato conosco para solicitar a alteração de sua senha
+                    através da página <a href="/faleconosco/">Fale Conosco</a>.</p>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="$('#esqueci_senha_form').submit()">Recuperar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- hidden-print -->
+<!-- Modal dos Telefones (Publico/Assinante) -->
+<div class="modal fade" id="modalTelefones" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="display: table">
+            <div class="modal-header3">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    <i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp; Fale Conosco
+                </h4>
+            </div>
+            <div class="modal-body col-md-10 col-md-offset-1">
+                <div class="col-md-12">
+                    <p class="text-center tel-menor"><strong>Ligue para nossa Central de Atendimento</strong></p>
+                    <h2 class="text-center"><strong><span id="tel-numero"><a href="tel:08002025544">0800 202 5544</a></span></strong></h2>
+                    <br />
+                    <p class="text-center"><span id="tel-uf" class="tel-menor">Número alternativo: <a href="tel:1930709085">(19) 3070-9085</a></span></p>
+                    <br />
+                    <p class="text-center"><span id="tel-uf" class="tel-menor">Número alternativo do Pará: <a href="tel:9131977414">(91) 3197-7414</a></span></p>
+                </div>
+            </div>
+            <div class="modal-footer col-md-12">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJK9QBT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script src="/js/jquery.js?v=236"></script>
+	<script src="/js/jquery.mask.min.js?v=236"></script>
+	<script src="/js/bootstrap.min.js?v=236"></script>
+	<script src="/js/script.js?v=236"></script>
+	<script src="/js/acesso_usuario.js?v=236"></script>
+<script src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/1046c5ed-9e20-4086-9901-df20a7b97bc7-loader.js?v=236" async></script>
+
+
+        <script src="/js/formValidation.min.js?v=236"></script>
+<script src="/js/valBootstrap.min.js?v=236"></script>
+<script src="/js/owl.carousel.min.js?v=236"></script>
+
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: false,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                lazyLoadEager: 20,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            });
+
+            $(".owl-prev").html('<i class="fa fa-chevron-left"></i>');
+            $(".owl-next").html('<i class="fa fa-chevron-right"></i>');
+
+            $('.carousel').carousel({
+                interval: 5000,
+                pause: "hover"
+            })
+        </script>
+    </body>
+</html>
