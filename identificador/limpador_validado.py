@@ -49,26 +49,38 @@ def limpar_csv(caminho_csv, nome_lei):
     df = df[colunas_validas].copy()
 
     # 5) Filtra linhas com base nos critérios de regulamentação
-
-    # 🟢 Mantém apenas linhas onde "Encontrou regulamentação" == "Sim"
     if col_encontrou:
         df = df[df[col_encontrou].astype(str).str.strip().str.lower() == "sim"]
 
-    # 🔢 Remove linhas sem número da regulamentação (se existir)
     if col_regulamenta:
         df = df[df[col_regulamenta].notna() & (df[col_regulamenta].str.strip() != "")]
-    # 🔗 Ou, se não houver número, remove linhas sem link
     elif col_link:
         df = df[df[col_link].notna() & (df[col_link].str.strip() != "")]
 
-    # 5.1) 🧩 Extrai apenas o número do decreto (3 a 5 dígitos, pode conter ponto)
+    # 5.1) 🧩 Extrai apenas o número do decreto (3–5 dígitos, pode conter ponto, ignora anos)
     if col_regulamenta in df.columns:
+
+        # Regex melhorada:
+        # - captura o primeiro número de 3–5 dígitos ou com ponto (ex: 6.837, 12.345)
+        # - ignora anos (19xx, 20xx)
+        # - não pega números após "de" (como em "de 2024")
+        pattern = re.compile(
+            r'\b(?!19\d{2}\b|20\d{2}\b)(\d{1,2}(?:\.\d{3})+|\d{3,5})(?=[^\d]|$)',
+            flags=re.IGNORECASE
+        )
+
         def extrair_decreto(texto):
             if pd.isna(texto):
                 return None
-            # Regex: primeiro número com 3-5 dígitos (pode ter ponto)
-            match = re.search(r'\b\d{1,2}\.?\d{3,4}\b', texto)
-            return match.group(0) if match else texto.strip()
+            texto_str = str(texto)
+            # remove datas no formato “de 2024”, “de 1999” para evitar capturar anos
+            texto_str = re.sub(r'\bde\s+(19|20)\d{2}\b', '', texto_str, flags=re.IGNORECASE)
+            match = pattern.search(texto_str)
+            if match:
+                return match.group(1)
+            # fallback: tenta qualquer número com 3–5 dígitos antes de um ano
+            alt = re.search(r'\b(?!19\d{2}\b|20\d{2}\b)\d{3,5}\b', texto_str)
+            return alt.group(0) if alt else texto_str.strip()
 
         df[col_regulamenta] = df[col_regulamenta].astype(str).apply(extrair_decreto)
 
