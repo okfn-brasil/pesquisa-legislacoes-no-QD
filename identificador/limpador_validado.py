@@ -8,50 +8,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Pastas principais com leis
 LEIS = ["LAI", "LGD", "LGPD", "MROSC"]
 
-# Padrões de número de decreto
-PADRAO_COM_PONTO = re.compile(r"\b\d{1,3}\.\d{3}\b")  # Ex: 35.606, 123.456
-PADRAO_SIMPLES = re.compile(r"\b\d{3,6}\b")           # Ex: 1234, 35606, 123456
-
-
-def eh_ano_plausivel(num_str: str) -> bool:
-    """Retorna True se num_str for um ano entre 1900 e 2099."""
-    try:
-        valor = int(num_str)
-        return 1900 <= valor <= 2099
-    except ValueError:
-        return False
-
-
-def extrair_numero(texto):
-    """
-    Extrai o número do decreto:
-      - Prioriza formato com ponto (ex: 35.606)
-      - Caso não exista, pega número 3–6 dígitos que NÃO seja ano (1900–2099)
-    """
-    if texto is None:
-        return None
-
-    texto_str = str(texto).strip()
-    if not texto_str or texto_str.lower() in ("nan", "none", "n/a", "-"):
-        return None
-
-    # 1️⃣ Padrão com ponto
-    match = PADRAO_COM_PONTO.search(texto_str)
-    if match:
-        return match.group(0)
-
-    # 2️⃣ Padrão simples (descartando anos)
-    for m in PADRAO_SIMPLES.finditer(texto_str):
-        candidato = m.group(0)
-        if not eh_ano_plausivel(candidato):
-            return candidato
-
-    return None
-
-
 def limpar_csv(caminho_csv, nome_lei):
     print(f"🧹 Limpando {caminho_csv} ...")
 
+    # 1) Lê CSV
     try:
         df = pd.read_csv(caminho_csv, encoding='utf-8', dtype=str)
     except UnicodeDecodeError:
@@ -59,40 +19,66 @@ def limpar_csv(caminho_csv, nome_lei):
 
     df.columns = df.columns.str.strip()
 
-    # Localiza colunas
+    # 2) Identifica colunas principais
     col_capital_estado = next((c for c in df.columns if "capital" in c.lower() or "estado" in c.lower()), None)
     col_nome = next((c for c in df.columns if c.lower().strip() == "nome"), None)
-    col_regulamenta = next((c for c in df.columns if "regulamenta" in c.lower()), None)
 
-    if not all([col_capital_estado, col_nome, col_regulamenta]):
-        print(f"[AVISO] Colunas esperadas não encontradas completamente em {nome_lei}")
-        print(f"Encontradas: {col_capital_estado}, {col_nome}, {col_regulamenta}")
+    # 🔍 Encontra coluna que começa com "Encontrou regulamentação"
+    col_encontrou = next(
+        (c for c in df.columns if c.lower().startswith("encontrou regulamentação")),
+        None
+    )
 
-    # Filtra colunas válidas
-    df_limpo = df[[c for c in [col_capital_estado, col_nome, col_regulamenta] if c is not None]].copy()
+    # 🔗 Coluna do número do decreto
+    col_regulamenta = "Se sim, número da regulamentação" if "Se sim, número da regulamentação" in df.columns else None
 
-    # Renomeia para padrão fixo
-    mapa_renomear = {
-        col_capital_estado: "Capital / Estado",
-        col_nome: "Nome",
-        col_regulamenta: "Decreto"
-    }
-    df_limpo.rename(columns=mapa_renomear, inplace=True)
+    # 🔗 Coluna do link da regulamentação
+    col_link = "Se sim, link da regulamentação" if "Se sim, link da regulamentação" in df.columns else None
 
-    # Extrai apenas o número do decreto
-    if "Decreto" in df_limpo.columns:
-        df_limpo["Decreto"] = df_limpo["Decreto"].apply(extrair_numero)
+    # 3) Verifica se as colunas principais foram encontradas
+    if not any([col_regulamenta, col_link]):
+        print(f"[AVISO] Colunas de regulamentação não encontradas em {nome_lei}")
+        print(f"Encontradas: {col_regulamenta}, {col_link}")
 
-    # Cria pasta de saída
+    if not all([col_capital_estado, col_nome, col_encontrou]):
+        print(f"[AVISO] Colunas principais ausentes em {nome_lei}")
+        print(f"Encontradas: {col_capital_estado}, {col_nome}, {col_encontrou}")
+
+    # 4) Define colunas válidas (mantém a ordem lógica)
+    colunas_validas = [c for c in [col_capital_estado, col_nome, col_encontrou, col_regulamenta, col_link] if c is not None]
+    df = df[colunas_validas].copy()
+
+    # 5) Filtra linhas com base nos critérios de regulamentação
+
+    # 🟢 Mantém apenas linhas onde "Encontrou regulamentação" == "Sim"
+    if col_encontrou:
+        df = df[df[col_encontrou].astype(str).str.strip().str.lower() == "sim"]
+
+    # 🔢 Remove linhas sem número da regulamentação (se existir)
+    if col_regulamenta:
+        df = df[df[col_regulamenta].notna() & (df[col_regulamenta].str.strip() != "")]
+    # 🔗 Ou, se não houver número, remove linhas sem link
+    elif col_link:
+        df = df[df[col_link].notna() & (df[col_link].str.strip() != "")]
+
+    # 5.1) 🧩 Extrai apenas o número do decreto (3 a 5 dígitos, pode conter ponto)
+    if col_regulamenta in df.columns:
+        def extrair_decreto(texto):
+            if pd.isna(texto):
+                return None
+            # Regex: primeiro número com 3-5 dígitos (pode ter ponto)
+            match = re.search(r'\b\d{1,2}\.?\d{3,4}\b', texto)
+            return match.group(0) if match else texto.strip()
+
+        df[col_regulamenta] = df[col_regulamenta].astype(str).apply(extrair_decreto)
+
+    # 6) Cria pasta de saída e salva CSV
     pasta_saida = os.path.join(BASE_DIR, "identificador", "identificado")
     os.makedirs(pasta_saida, exist_ok=True)
-
-    # Caminho final
     saida_csv = os.path.join(pasta_saida, f"identificado_{nome_lei}.csv")
-    df_limpo.to_csv(saida_csv, index=False, encoding='utf-8-sig')
+    df.to_csv(saida_csv, index=False, encoding='utf-8-sig')
 
     print(f"✅ Arquivo salvo em: {saida_csv}\n")
-
 
 def main():
     print("🚀 Iniciando limpeza dos arquivos validado_*.csv\n")
@@ -103,7 +89,6 @@ def main():
         else:
             print(f"[IGNORADO] Arquivo não encontrado: {caminho_csv}")
     print("🏁 Processo concluído!")
-
 
 if __name__ == "__main__":
     main()

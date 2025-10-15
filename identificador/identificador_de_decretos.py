@@ -11,7 +11,7 @@ def extrair_numero_decreto(texto: str):
     """
     if pd.isna(texto):
         return None
-    match = re.search(r"\b\d{1,3}\.\d{3}\b", str(texto))
+    match = re.search(r'\b\d{1,2}\.?\d{3,4}\b', str(texto))
     return match.group(0) if match else None
 
 
