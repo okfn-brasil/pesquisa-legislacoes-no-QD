@@ -2,92 +2,169 @@ import os
 import re
 import pandas as pd
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+# Caminho base do projeto (sobe um nível da pasta identificador/)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def extrair_numero_decreto(texto: str):
+# Leis analisadas
+LEIS = ["LAI", "LGD", "LGPD", "MROSC"]
+
+# Quantos caracteres ao redor do decreto extrair do texto
+TRECHO_LIMITE = 300
+
+
+def ler_txts():
     """
-    Extrai o número do decreto no formato 12.345, 35.606 etc.
-    Retorna None se não encontrar.
+    Lê todos os arquivos .txt nas pastas dados_extraidos e retorna um dicionário
+    {nome_arquivo_sem_ext: {"caminho": ..., "conteudo": ...}}
     """
-    if pd.isna(texto):
+    textos = {}
+
+    for lei in LEIS:
+        for tipo in ["capital", "estado"]:
+            pasta_txt = os.path.join(BASE_DIR, lei, tipo, "dados_extraidos")
+            if not os.path.exists(pasta_txt):
+                continue
+
+            for arquivo in os.listdir(pasta_txt):
+                if arquivo.lower().endswith(".txt"):
+                    caminho_txt = os.path.join(pasta_txt, arquivo)
+                    try:
+                        with open(caminho_txt, "r", encoding="utf-8") as f:
+                            conteudo = f.read()
+                    except UnicodeDecodeError:
+                        with open(caminho_txt, "r", encoding="latin-1") as f:
+                            conteudo = f.read()
+
+                    chave = os.path.splitext(arquivo)[0]  # mantemos case original do nome do arquivo (sem extensão)
+                    textos[chave] = {"caminho": caminho_txt, "conteudo": conteudo}
+
+    print(f"📄 Total de arquivos .txt carregados: {len(textos)}")
+    return textos
+
+
+def buscar_trecho(texto, termo):
+    """Procura o termo no texto e retorna um trecho contextual se encontrado."""
+    if not termo or not isinstance(texto, str):
         return None
-    match = re.search(r'\b\d{1,2}\.?\d{3,4}\b', str(texto))
-    return match.group(0) if match else None
+
+    termo_limpo = re.escape(str(termo).strip())
+    padrao = re.compile(termo_limpo, flags=re.IGNORECASE)
+    match = padrao.search(texto)
+    if match:
+        start = max(0, match.start() - TRECHO_LIMITE // 2)
+        end = min(len(texto), match.end() + TRECHO_LIMITE // 2)
+        return texto[start:end].strip()
+    return None
 
 
-def carregar_dados(lei: str):
-    resultados = []
+def carregar_csvs_identificados():
+    """Carrega todos os identificado_<LEI>.csv que existirem e retorna dict {LEI: df}"""
+    pasta_identificados = os.path.join(BASE_DIR, "identificador", "identificado")
+    csvs = {}
+    for lei in LEIS:
+        caminho_csv = os.path.join(pasta_identificados, f"identificado_{lei}.csv")
+        if os.path.exists(caminho_csv):
+            try:
+                df = pd.read_csv(caminho_csv, encoding="utf-8", dtype=str)
+            except UnicodeDecodeError:
+                df = pd.read_csv(caminho_csv, encoding="latin-1", dtype=str)
+            csvs[lei] = df.fillna("")  # evita NaN
+            print(f"✅ CSV carregado: identificado_{lei}.csv → {len(df)} linhas")
+        else:
+            print(f"[IGNORADO] CSV não encontrado: identificado_{lei}.csv")
+    return csvs
 
-    lei_dir = os.path.join(BASE_DIR, lei)
-    csv_path = os.path.join(lei_dir, f"validado_{lei}.csv")
 
-    if not os.path.exists(csv_path):
-        print(f"[AVISO] CSV não encontrado: {csv_path}")
-        return pd.DataFrame()
+def identificar_por_arquivo(textos, csvs):
+    """
+    Para cada arquivo .txt, detecta a LEI pelo nome do arquivo e procura os valores das colunas
+    'Se sim, número da regulamentação (original)' (primeiro) e depois '(número extraído)' no texto.
+    Gera um CSV de resultados por LEI.
+    """
+    pasta_saida = os.path.join(BASE_DIR, "identificador", "resultados")
+    os.makedirs(pasta_saida, exist_ok=True)
 
-    decretos_df = pd.read_csv(csv_path, encoding='utf-8', sep=',', dtype=str)
-    decretos_df.columns = decretos_df.columns.str.strip()
+    # agrupar resultados por lei
+    resultados_por_lei = {lei: [] for lei in LEIS}
 
-    # Tenta encontrar a coluna com o número da regulamentação
-    col_num = None
-    for col in decretos_df.columns:
-        if "regulamenta" in col.lower():
-            col_num = col
-            break
+    for nome_arquivo, info in textos.items():
+        nome_arquivo_upper = nome_arquivo.upper()
+        conteudo = info["conteudo"]
 
-    if col_num is None:
-        print(f"[ERRO] Coluna com número de regulamentação não encontrada em {csv_path}")
-        return pd.DataFrame()
+        # detectar qual LEI pertence ao arquivo pelo próprio nome do arquivo
+        lei_encontrada = None
+        for lei in LEIS:
+            if lei in nome_arquivo_upper:
+                lei_encontrada = lei
+                break
 
-    # Extrai o número do decreto usando regex
-    decretos_df["numero_decreto"] = decretos_df[col_num].apply(extrair_numero_decreto)
-
-    # Tenta identificar a coluna do município (ou cidade)
-    col_mun = None
-    for col in decretos_df.columns:
-        if "munic" in col.lower() or "cidade" in col.lower():
-            col_mun = col
-            break
-
-    # Percorre capital e estado
-    for nivel in ['capital', 'estado']:
-        extrato_dir = os.path.join(lei_dir, nivel, 'dados_extraidos')
-        if not os.path.exists(extrato_dir):
+        if not lei_encontrada:
+            # pula arquivos que não mencionam nenhuma das LEIS no nome
+            print(f"[PULAR] '{nome_arquivo}' - nenhuma das LEIS encontrada no nome do arquivo.")
             continue
 
-        for arquivo in os.listdir(extrato_dir):
-            if arquivo.endswith(".txt"):
-                caminho_txt = os.path.join(extrato_dir, arquivo)
-                cidade = arquivo.split("_")[0]  # ex: "Macapa_LAI.txt" -> "Macapa"
-                texto = open(caminho_txt, 'r', encoding='utf-8').read()
+        # checar se temos o CSV carregado para essa lei
+        if lei_encontrada not in csvs:
+            print(f"[PULAR] '{nome_arquivo}' - CSV identificado_{lei_encontrada}.csv não carregado.")
+            continue
 
-                # tenta achar o decreto da cidade no csv
-                numero_decreto = None
-                for _, row in decretos_df.iterrows():
-                    nome_municipio = str(row.get(col_mun, '')).lower()
-                    if cidade.lower() in nome_municipio:
-                        numero_decreto = row.get('numero_decreto')
-                        break
+        df = csvs[lei_encontrada]
 
-                resultados.append({
-                    "tipo_lei": lei,
-                    "nivel": nivel,
-                    "nome_arquivo": arquivo,
-                    "cidade": cidade,
-                    "numero_decreto": numero_decreto,
-                    "texto": texto
-                })
+        # tentaremos buscar cada linha do CSV dentro deste arquivo .txt
+        # (pode gerar vários matches por arquivo, se o CSV tiver múltiplos municípios que correspondam)
+        for _, row in df.iterrows():
+            # identifica colunas com possíveis nomes (insensível a caixa)
+            # prioridade: "(original)" depois "(número extraído)"
+            col_num_original = next((c for c in df.columns if "(original)" in c.lower()), None)
+            col_num_extraido = next((c for c in df.columns if "número extraído" in c.lower() or "numero extraido" in c.lower()), None)
+            col_nome = next((c for c in df.columns if c.lower().strip() == "nome"), None)
 
-    return pd.DataFrame(resultados)
+            municipio = str(row.get(col_nome, "")).strip() if col_nome else ""
+            valor_original = str(row.get(col_num_original, "")).strip() if col_num_original else ""
+            valor_extraido = str(row.get(col_num_extraido, "")).strip() if col_num_extraido else ""
+
+            # 1) tenta buscar pelo valor original (exato)
+            trecho = None
+            if valor_original:
+                trecho = buscar_trecho(conteudo, valor_original)
+
+            # 2) se não encontrou, tenta com o número extraído
+            if not trecho and valor_extraido:
+                trecho = buscar_trecho(conteudo, valor_extraido)
+
+            # se não encontrou nada, marca como não encontrado
+            if not trecho:
+                trecho = "❌ Decreto não encontrado no texto"
+
+            resultados_por_lei[lei_encontrada].append({
+                "Arquivo TXT": nome_arquivo,
+                "Caminho TXT": info["caminho"],
+                "Município (CSV)": municipio,
+                "Decreto (original)": valor_original,
+                "Decreto (número extraído)": valor_extraido,
+                "Trecho Encontrado": trecho
+            })
+
+        print(f"🔎 Processado: {nome_arquivo}  → {lei_encontrada} (verificadas {len(df)} linhas do CSV)")
+
+    # salvar resultados por lei
+    for lei, resultados in resultados_por_lei.items():
+        if not resultados:
+            print(f"[AVISO] Nenhum resultado para {lei}, pulando gravação.")
+            continue
+        df_res = pd.DataFrame(resultados)
+        saida_csv = os.path.join(pasta_saida, f"decretos_identificados_por_arquivo_{lei}.csv")
+        df_res.to_csv(saida_csv, index=False, encoding="utf-8-sig")
+        print(f"✅ Resultados salvos: {saida_csv} ({len(df_res)} registros)")
 
 
-def carregar_todas_as_leis():
-    leis = ['LAI', 'LGD', 'LGPD', 'MROSC']
-    dfs = [carregar_dados(lei) for lei in leis if os.path.exists(os.path.join(BASE_DIR, lei))]
-    return pd.concat(dfs, ignore_index=True) if dfs else pd.DataFrame()
+def main():
+    print("🚀 Iniciando identificador de decretos pelos nomes dos arquivos .txt...\n")
+    textos = ler_txts()
+    csvs = carregar_csvs_identificados()
+    identificar_por_arquivo(textos, csvs)
+    print("\n🏁 Processo finalizado.")
 
 
 if __name__ == "__main__":
-    df = carregar_todas_as_leis()
-    print(f"Total de documentos carregados: {len(df)}")
-    print(df.head())
+    main()

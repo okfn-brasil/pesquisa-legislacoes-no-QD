@@ -1,31 +1,29 @@
-﻿Capital / Estado,Nome,Encontrou regulamentação da Lei de Governo Digital?,"Se sim, número da regulamentação","Se sim, link da regulamentação"
-Capital,Campo Grande (MS),Sim,15627,https://www.campogrande.ms.gov.br/regulamentacao-da-lei-do-governo-digital/
-Capital,Cuiabá (MT),Sim,5715,https://www.cuiaba.mt.gov.br/storage/webdisco/2015/07/28/outros/f6efe5f8e686d95b7a7cf7bec1836277.pdf
-Capital,Palmas (TO),Sim,2.486,https://legislativo.palmas.to.gov.br/media/leis/decreto-2.486-2024-02-06-9-2-2024-16-13-43.pdf
-Capital,São Luís (MA),Sim,60.416,https://diariooficial.saoluis.ma.gov.br/uploads/diario_oficial/10001/BHBhmznsULX3jSoQoPm7aPv-WkVnTv8h.pdf
-Capital,Vitória (ES),Sim,22.546,https://diariooficial.vitoria.es.gov.br/ExibirArquivo.aspx?qs=nnmrXIDe5L4hR81FZwDXlD95Q%2fWHOCtXgeCw%2fnRIrFMxQA7S5mwuf0RM3mOCPGtiwqKwtsQd8WTWmli6Dukj2fMuVTFKqHr3%2bQXqmYe13EDQ5RvUr%2bPUtKwU1FWKrauL
-Capital,Belém (PA),Sim,101,https://cmb.pa.gov.br/wp-content/uploads/2024/01/Resolucao-101-2023-CMB-Regulamenta-lei-14.129-2021.pdf
-Capital,São Paulo (SP),Sim,61.718,https://legislacao.prefeitura.sp.gov.br/leis/decreto-61718-de-18-de-agosto-de-2022
-Capital,Goiania (GO),Sim,14.129,https://www.goiania.go.gov.br/Download/legislacao/diariooficial/2025/do_20250604_000008551.pdf
-Capital,Natal (RN),Sim,13.224,https://www2.natal.rn.gov.br/_anexos/publicacao/dom/dom_20241101_3d61d6bb5dd0134741986b4f8823ee18.pdf
-Estado,Sergipe,Sim,1.107,https://legison.pge.se.gov.br/uploads/atos/32033/DN-1107-2025.pdf
-Estado,Pará,Sim,4.473,https://lex.pge.pa.gov.br/#/texto-integral/21577
-Estado,Minas Gerais,Sim,48.383,https://www.almg.gov.br/legislacao-mineira/texto/DEC/48383/2022/
-Estado,Mato Grosso,Sim,017,https://app1.sefaz.mt.gov.br/sistema/legislacao/legislacaotribut.nsf/5edf9c5193c58088032567580038916b/1e263a60f2c163f604258a6300610ff4?OpenDocument 
-Estado,Paraná,Sim,5512,https://www.transparencia.pr.gov.br/pte/assunto/8/294?origem=2
-Estado,Goiás,Sim,10.058,https://legisla.casacivil.go.gov.br/pesquisa_legislacao/105154/decreto-10058
-Estado,Amapá,Sim,3830,"http://www.transparencia.ap.gov.br/relatorios/atos/decretos/GAB_GOV_DECRETO_3830_DE_03_DE_NOVEMBRO_DE_2020.pdf
-
-http://www.transparencia.ap.gov.br/relatorios/atos/decretos/GAB_GOV_DECRETO_3830_DE_03_DE_NOVEMBRO_DE_2020.pdf"
-Estado,Alagoas,Sim,9.272,https://transparencia.al.gov.br/media/upload/page_201/arquivo5-1745947307.02-lei_no_9.272_de_11_de_junho_de_2024.pdf
-Estado,Amazonas,Sim,-,https://transparencia.tce.am.gov.br/wp-content/uploads/2023/08/Portaria-No08-2023-SEGER-GOVERNO-DIGITAL.pdf
-Estado,Tocantins,Sim,6757,https://servicos.casacivil.to.gov.br/decretos/decreto/6757
-Estado,Pernambuco,Sim,56.434,https://legis.alepe.pe.gov.br/texto.aspx?id=77185&tipo=TEXTOORIGINAL
-Estado,Acre,Sim,11.200,https://www.legis.ac.gov.br/detalhar/5536
-Estado,Rio de Janeiro,Sim,48.011,https://www.rj.gov.br/transparencia/sites/default/files/arquivos_paginas/Decreto%2048.011%202022_0.pdf
-Estado,Maranhão,Sim,40.154,https://www.transparencia.ma.gov.br/storage/anexos-portal/anexo_2025-07-17_15-44-30_53c8211baea0a00ff966ef7b08933b365e5d2561e8a7da10b816a19a63f1bc7f.pdf
-Estado,São Paulo,Sim,67.799,https://www.al.sp.gov.br/repositorio/legislacao/decreto/2023/decreto-67799-13.07.2023.html
-Estado,Piauí,Sim,21.979,https://www.etipi.com.br/wp-content/uploads/2024/05/Decreto-21.979-de-13-de-Abril-de-2023.pdf
-Estado,Espírito Santo,Sim,5778,https://ioes.dio.es.gov.br/portal/visualizacoes/html/9331/#e:9331/#m:1468652
-Capital,Porto Velho (RO),Sim,19.173,https://sapl.portovelho.ro.leg.br/media/sapl/public/normajuridica/2023/25507/decreto_19.173-2023.pdf
-Capital,Rio Branco (AC),Sim,1.714,http://portalcgm.riobranco.ac.gov.br/lai/wp-content/uploads/2015/02/DECRETO-N%C2%BA-1714-2025-Regulamenta-a-Lei-Federal-n%C2%BA-14.129-2021-GOVERNO-DIGITAL.pdf
+﻿Capital / Estado,Nome,Encontrou regulamentação da Lei de Governo Digital?,"Se sim, número da regulamentação (original)","Se sim, número da regulamentação (número extraído)"
+Capital,Campo Grande (MS),Sim,Decreto Municipal  15627 31/07/2023,15627
+Capital,Cuiabá (MT),Sim,Lei Municipal 5715 de 27/09/2013,5715
+Capital,Palmas (TO),Sim,"DECRETO Nº 2.486, DE 6 DE FEVEREIRO DE 2024.",2.486
+Capital,São Luís (MA),Sim,"Nº 60.416, DE 17 DE MAIO DE 2024",60.416
+Capital,Vitória (ES),Sim,"n 22.546, 2023-07-14",22.546
+Capital,Belém (PA),Sim,"RESOLUÇÃO N° 101, DE 28 DE NOVEMBRO DE 2023",101
+Capital,São Paulo (SP),Sim,DECRETO Nº 61.718 de 18 de Agosto de 2022,61.718
+Capital,Goiania (GO),Sim,"Decreto nº 14.129, de 29/03/2021",14.129
+Capital,Natal (RN),Sim,DECRETO N.º 13.224 DE 24 DE OUTUBRO DE 2024,13.224
+Estado,Sergipe,Sim,DECRETO Nº 1.107 DE 16 DE ABRIL DE 2025,1.107
+Estado,Pará,Sim,"DECRETO Nº 4.473, DE 13 DE FEVEREIRO DE 2025",4.473
+Estado,Minas Gerais,Sim,"Decreto nº 48.383, de 18/03/2022",48.383
+Estado,Mato Grosso,Sim,INSTRUÇÃO NORMATIVA N° 017/2023/SEPLAG,017
+Estado,Paraná,Sim,Decreto 5512 - 16 de Abril de 2024,5512
+Estado,Goiás,Sim,"DECRETO Nº 10.058, DE 18 DE MARÇO DE 2022.",10.058
+Estado,Amapá,Sim,DECRETO Nº 3830 DE 03 DE NOVEMBRO DE 2020,3830
+Estado,Alagoas,Sim,"LEI Nº 9.272, DE 11 DE JUNHO DE 2024",9.272
+Estado,Amazonas,Sim,-,-
+Estado,Tocantins,Sim,Decreto Estadual nº 6757 DE 05 de Março de 2024,6757
+Estado,Pernambuco,Sim,"DECRETO Nº 56.434, DE 15 DE ABRIL DE 2024.",56.434
+Estado,Acre,Sim,"DECRETO Nº 11.200, DE 15 DE MARÇO DE 2023",11.200
+Estado,Rio de Janeiro,Sim,DECRETO Nº 48.011 DE 04 DE ABRIL DE 2022,48.011
+Estado,Maranhão,Sim,"DECRETO Nº 40.154, DE 14 DE JULHO DE 2025.",40.154
+Estado,São Paulo,Sim,"DECRETO N° 67.799, DE 13 DE JULHO DE 2023",67.799
+Estado,Piauí,Sim,"DECRETO Nº 21.979, DE 13 DE ABRIL DE 2023",21.979
+Estado,Espírito Santo,Sim,"DECRETO Nº 5778-R, DE 24 DE JULHO DE 2024",5778
+Capital,Porto Velho (RO),Sim,"DECRETO Nº 19.173, DE 21 DE JULHO DE 2023.",19.173
+Capital,Rio Branco (AC),Sim,DECRETO Nº 1.714 DE 29 DE ABRIL DE 2025,1.714

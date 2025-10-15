@@ -1,64 +1,61 @@
-﻿Capital / Estado,Nome,Encontrou regulamentação da LAI?,"Se sim, número da regulamentação","Se sim, link da regulamentação"
-Capital,Rio Branco (AC),Sim,1.915,http://portalcgm.riobranco.ac.gov.br/lai/wp-content/uploads/images/ARQUIVOS/principal/LEI-1915_DISPOE_SOBRE_O_ACESSO_A_INF._LF_12.527-2011.pdf
-Capital,Macapá (AP),Sim,2.265,https://4fdfdc7ecc7eac3fcdc8af2e4ed6ae07.cdn.bubble.io/f1742907509678x375668694726590140/Lei-de-Acesso-a-Informacao-Municipal-LAI.pdf
-Capital,Maceió (AL),Sim,8.052,https://cdnpm.dhost.cloud/documentos/DECRETO-MUNICIPAL-8.052-2015-1.pdf
-Capital,Teresina (PI),Sim,14.605,https://esic.teresina.pi.gov.br/doc/Dec.%20M.%2014.605-2014%20Reg.%20LIA.pdf
-Capital,São Paulo (SP),Sim,53.623,https://legislacao.prefeitura.sp.gov.br/leis/decreto-53623-de-12-de-dezembro-de-2012
-Capital,Palmas (TO),Sim,462,https://legislativo.palmas.to.gov.br/media/leis/DECRETO%20N%C2%BA%20462-2013%20de%2016-05-2013%2015-22-39.pdf
-Capital,Natal (RN),Sim,10.087,https://leideacesso.natal.rn.gov.br//manual/decreto.php
-Capital,Manaus (AM),Sim,4157,https://leismunicipais.com.br/a/am/m/manaus/decreto/2018/415/4157/decreto-n-4157-2018-regulamenta-o-acesso-as-informacoes-no-ambito-do-poder-executivo-do-municipio-de-manaus-e-da-outras-providencias
-Capital,Salvador (BA),Sim,8460,https://leismunicipais.com.br/a/ba/s/salvador/lei-ordinaria/2013/846/8460/lei-ordinaria-n-8460-2013-regulamenta-o-acesso-a-informacao-previsto-no-inciso-xxxiii-do-art-5-inciso-ii-do-3-do-art-37-e-2-do-art-216-todos-da-constituicao-da-republica-de-acordo-com-o-determinado-no-art-45-da-lei-federal-n-12527-de-18-de-novembro-de-2011
-Capital,Curitiba (PR),Sim,1.370,https://mid.curitiba.pr.gov.br/2023/00405139.pdf
-Capital,Boa Vista (RR),Sim,204,https://publicacoes.boavista.rr.gov.br/ler/ato-normativo/43
-Capital,Porto Velho (RO),Sim,14.565,https://sapl.portovelho.ro.leg.br/norma/8889 
-Capital,Belém (PA),Sim,83857,https://sistemas.belem.pa.gov.br/leisedecretos/#/visualizacao/3019
-Capital,Vitória (ES),Sim,8.286,"https://sistemas.vitoria.es.gov.br/atosnormativos/arquivos/2012/L8286.PDF
-https://sistemas.vitoria.es.gov.br/atosnormativos/arquivos/2012/D15520.PDF"
-Capital,João Pessoa (PB),Sim,12.645,https://transparencia.joaopessoa.pb.gov.br:8080/leis-download?id=13
-Capital,Porto Alegre (RS),Sim,19.990,https://transparencia.portoalegre.rs.gov.br/sites/default/files/usu_doc/sobre-portal/Legisla%C3%A7%C3%B5es%20relacionadas/decreto_oficial_lei_de_acesso_19_990.pdf
-Capital,Recife (PE),Sim,866,"https://transparencia.recife.pe.gov.br/uploads/leis/Lei17866_2013.php
-https://transparencia.recife.pe.gov.br/codigos/web/lai/DecretoNo_28527_4_de_janeiro_de_2015_-_Regulamenta%20o%20Acesso.pdf"
-Capital,Cuiabá (MT),Sim,5715,https://www.cuiaba.mt.gov.br/storage/webdisco/2015/07/28/outros/f6efe5f8e686d95b7a7cf7bec1836277.pdf
-Capital,Goiania (GO),Sim,9.262,https://www.goiania.go.gov.br/html/gabinete_civil/sileg/dados/legis/2013/lo_20130522_000009262.html
-Capital,Florianópolis (SC),Sim,9988,https://www.pmf.sc.gov.br/transparencia/PDF/decreto.pdf
-Capital,Rio de Janeiro (RJ),Sim,35.606,"https://www.rio.rj.gov.br/dlstatic/10112/4179996/4100619/decreto_n_35606.pdf 
-https://transparencia.prefeitura.rio/wp-content/uploads/sites/100/2023/06/Decreto-44745-Lei-de-Acesso-a-Informacao.pdf  
-https://transparencia.prefeitura.rio/wp-content/uploads/sites/100/2023/07/Decreto-RIO-no-54.226-2024.pdf"
-Capital,São Luís (MA),Sim,47.272,https://www.saoluis.ma.gov.br/arquivos/decreto_que_municipal_que_regulamenta_a_lei_federal_12527_18035455.pdf
-Capital,Aracaju (SE),Sim,5.360,https://transparencia.aracaju.se.gov.br/archives/legislacao//decretos/decreto_5360_portal_transparencia.pdf
-Capital,Belo Horizonte (MG),Sim,14906,https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/decreto/14906/2012
-Estado,Rio Grande do Norte,Sim,9.963,"http://adcon.rn.gov.br/ACERVO/gac/DOC/DOC000000000083706.PDF 
-http://adcon.rn.gov.br/ACERVO/gac/DOC/DOC000000000084356.PDF"
-Estado,Rondônia,Sim,17.145,http://ditel.casacivil.ro.gov.br/COTEL/livros/Files/DEC17145%20-%20COMPILADO.pdf
-Estado,Amapá,Sim,2.149,"http://transparencia.ap.gov.br/relatorios/legislacao/2149.pdf 
-http://transparencia.ap.gov.br/relatorios/legislacao/D.1956.pdf"
-Estado,Mato Grosso do Sul,Sim,4.416,"https://aacpdappls.net.ms.gov.br/appls/legislacao/secoge/govato.nsf/448b683bce4ca84704256c0b00651e9d/4191b6556aa3302a04257c07006a930f?OpenDocument#:~:text=LEI%20N%C2%BA%204.416%20DE%2010%2F16%2F2013&text=LEI%20N%C2%BA%204.416%2C%20DE%2016,2013%2C%20p%C3%A1ginas%204%20a%207."
-Estado,Maranhão,Sim,10.217,https://app.stc.ma.gov.br/legisla/consulta/publicacao/3809
-Estado,Ceará,Sim,15.175,"https://belt.al.ce.gov.br/index.php/legislacao-do-ceara/organizacao-tematica/trabalho-administracao-e-servico-publico/item/1976-lei-n-15-175-de-28-06-12-d-o-11-07-12
+﻿Capital / Estado,Nome,Encontrou regulamentação da LAI?,"Se sim, número da regulamentação (original)","Se sim, número da regulamentação (número extraído)"
+Capital,Rio Branco (AC),Sim,LEI Nº 1.915 DE 25 DE JUNHO DE 2012,1.915
+Capital,Macapá (AP),Sim,LEI Nº 2.265/2017-PMM,2.265
+Capital,Maceió (AL),Sim,DECRETO 8.052 DE 9 DE ABRIL DE 2015,8.052
+Capital,Teresina (PI),Sim,"DECRETO N° 14.605, DE 12 DE DEZEMBRO DE 2014.",14.605
+Capital,São Paulo (SP),Sim,"DECRETO Nº 53.623, DE 12 DE DEZEMBRO DE 2012 - atualização: DECRETO Nº 54.779, DE 22 DE JANEIRO DE 2014",53.623
+Capital,Palmas (TO),Sim,"DECRETO N° 462, DE 16 DE MAIO DE 2013.",462
+Capital,Natal (RN),Sim,"DECRETO N.º 10.087, DE 11 DE OUTUBRO DE 2013",10.087
+Capital,Manaus (AM),Sim,"DECRETO Nº 4157, DE 20 DE SETEMBRO DE 2018",4157
+Capital,Salvador (BA),Sim,LEI Nº 8460/2013,8460
+Capital,Curitiba (PR),Sim,DECRETO N.º 1.370 de 23/ DE AGOSTO DE 2023,1.370
+Capital,Boa Vista (RR),Sim,"DECRETO Nº 204/E, DE 22 DE NOVEMBRO DE 2013.",204
+Capital,Porto Velho (RO),Sim,"Decreto nº 14.565, de 23 de junho de 2017",14.565
+Capital,Belém (PA),Sim,"Decreto Municipal nº 83857, DE 02 DE OUTUBRO DE 2015.",83857
+Capital,Vitória (ES),Sim,"LEI N 8.286
+DECRETO N° 15.520",8.286
+Capital,João Pessoa (PB),Sim,"LEI ORDINÁRIA Nº 12.645, DE 25 DE SETEMBRO DE 2013.
+",12.645
+Capital,Porto Alegre (RS),Sim,"DECRETO Nº 19.990, DE 23 DE MAIO DE 2018.
+",19.990
+Capital,Recife (PE),Sim,LEI Nº 17. 866 /2013 e DECRETO Nº 28.527 DE 16 DE JANEIRO DE 2015.,866
+Capital,Cuiabá (MT),Sim,Lei Municipal 5715 de 27/09/2013,5715
+Capital,Goiania (GO),Sim,"LEI Nº 9.262, DE 22 DE MAIO DE 2013",9.262
+Capital,Florianópolis (SC),Sim,"DECRETO Nº 9988, de 15 de maio de 2012.",9988
+Capital,Rio de Janeiro (RJ),Sim,"DECRETO Nº 35.606 DE 15 DE MAIO DE 2012, DECRETO RIO Nº 44745 DE 19 DE JULHO DE 2018 e DECRETO RIO Nº 54226 DE 3 DE ABRIL DE 2024",35.606
+Capital,São Luís (MA),Sim,"DECRETO Nº 47.272, DE 06 DE AGOSTO DE 2015",47.272
+Capital,Aracaju (SE),Sim,"Decreto n.º 5.360, de 22 de junho de 2016",5.360
+Capital,Belo Horizonte (MG),Sim,Decreto - 14906/2012,14906
+Estado,Rio Grande do Norte,Sim,"LEI Nº 9.963, DE 27 DE JULHO DE 2015.
+DECRETO Nº 25.399, DE 31 DE JULHO DE 2015.",9.963
+Estado,Rondônia,Sim,"DECRETO N° 17.145, DE 1/10/2012.",17.145
+Estado,Amapá,Sim,"LEI Nº 2.149, DE 14 DE MARÇO DE 2017
+DECRETO Nº 1956 DE 03 DE MAIO DE 20
+",2.149
+Estado,Mato Grosso do Sul,Sim,"LEI Nº 4.416, DE 16 DE OUTUBRO DE 2013.",4.416
+Estado,Maranhão,Sim,"LEI ORDINÁRIA Nº 10.217, DE 23 DE MARÇO DE 2015",10.217
+Estado,Ceará,Sim," LEI N.º 15.175, DE 28.06.12 (D.O. 11.07.12)",15.175
+Estado,Sergipe,Sim,DECRETO Nº 30.947 DE 28 DE DEZEMBRO DE 2017,30.947
+Estado,Acre,Sim,"DECRETO Nº 7.977, DE 10 DE JULHO DE 2014",7.977
+Estado,Pernambuco,Sim,"LEI Nº 14.804, DE 29 DE OUTUBRO DE 2012.
+DECRETO Nº 38.787, DE 30 DE OUTUBRO DE 2012.",14.804
+Estado,Goiás,Sim,"LEI No 18.025, DE 22 DE MAIO DE 2013.
+Regulamentada pelo Decreto no 10.306, de 21-8-2023.",18.025
+Estado,Paraíba,Sim,Decreto nº 33.050/2012	,33.050
+Estado,Alagoas,Sim,"LEI Nº 8.087, DE 11 DE JANEIRO DE 2019",8.087
+Estado,Tocantins,Sim,"Decreto Nº 4.839, de 19 de junho de 2013.",4.839
+Estado,Rio Grande do Sul,Sim,"DECRETO Nº 49.111, DE 16 DE MAIO DE 2012.",49.111
+Estado,Piauí,Sim,"DECRETO Nº 15.188, DE 22 DE MAIO DE 2013",15.188
+Estado,São Paulo,Sim,"DECRETO N° 68.155, DE 09 DE DEZEMBRO DE 2023",68.155
+Estado,Minas Gerais,Sim,"Decreto nº 45.969, de 24/05/2012",45.969
+Estado,Amazonas,Sim,"DECRETO N.º 48.999, DE 09 DE FEVEREIRO DE 2024",48.999
+Estado,Paraná,Sim,Decreto 10285 - 25 de Fevereiro de 2014,10285
+Estado,Santa Catarina,Sim," Decreto nº 1.524/2021
 
-http://www.ceara.gov.br/wp-content/uploads/2017/01/lei-de-acesso-a-informacao.pdf "
-Estado,Sergipe,Sim,30.947,https://gestao.se.gov.br/uploads/download/filename_midia/943/b0e8c0c108470c74bbf41c9d7cd1da85.pdf
-Estado,Acre,Sim,7.977,https://legis.ac.gov.br/detalhar/4622
-Estado,Pernambuco,Sim,14.804,"https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=1&numero=14804&complemento=0&ano=2012&tipo=&url= 
-https://legis.alepe.pe.gov.br/texto.aspx?tiponorma=6&numero=38787&complemento=0&ano=2012&tipo=&url= 
-"
-Estado,Goiás,Sim,18.025,"https://legisla.casacivil.go.gov.br/pesquisa_legislacao/90142/lei-18025 
-https://legisla.casacivil.go.gov.br/pesquisa_legislacao/107670/decreto-10306 "
-Estado,Paraíba,Sim,33.050,https://ouvidoria.pb.gov.br/legislacao/dec_33_050_regul_lei_12527_internet.pdf
-Estado,Alagoas,Sim,8.087,https://sapl.al.al.leg.br/media/sapl/public/normajuridica/2019/1547/lei_no_8.087_de_11.01.2019.pdf
-Estado,Tocantins,Sim,4.839,https://servicos.casacivil.to.gov.br/decretos/decreto/4839
-Estado,Rio Grande do Sul,Sim,49.111,https://sincage.sefaz.rs.gov.br/documento-completo/12280105-df98-4936-e38e-08dc4777fe63
-Estado,Piauí,Sim,15.188,https://www.al.pi.leg.br/servicos/ouvidoria/decreto-15-188-de-22-05-2013.pdf/view
-Estado,São Paulo,Sim,68.155,https://www.al.sp.gov.br/repositorio/legislacao/decreto/2023/decreto-68155-09.12.2023.html
-Estado,Minas Gerais,Sim,45.969,https://www.almg.gov.br/legislacao-mineira/texto/DEC/45969/2012/?cons=1
-Estado,Amazonas,Sim,48.999,https://www.ciama.am.gov.br/wp-content/uploads/2024/07/DECRETO-48.999-2024.pdf
-Estado,Paraná,Sim,10285,https://www.legislacao.pr.gov.br/legislacao/listarAtosAno.do?action=exibir&codAto=114209
-Estado,Santa Catarina,Sim,1.524,"https://www.legisweb.com.br/legislacao/?id=422026
-
-https://www.legisweb.com.br/legislacao/?id=243183"
-Estado,Bahia,Sim,12.618,https://www.portalseibahia.saeb.ba.gov.br/sites/default/files/documentos/2017-07/Lei%2012.618%20de%202012%20-%20Bahia%20-%20Lei%20de%20Acesso%20Estadual.pdf
-Estado,Rio de Janeiro,Sim,46.475,https://www.rj.gov.br/transparencia/sites/default/files/arquivos_paginas/Decreto%20Estadual%20n%C2%BA%2046.475%20Acesso%20%C3%A0%20Informa%C3%A7%C3%A3o%20DOERJ.pdf
-Estado,Pará,Sim,1.359,https://www.sistemas.pa.gov.br/sisleis/legislacao/2720
-Estado,Mato Grosso,Sim,1.973,https://www.transparencia.mt.gov.br/documents/363605/5252205/DECRETO_N%C2%BA_1.973__2013_-_Regulamenta_LAI.pdf/db76990e-12a8-44fb-9615-d880fcf67534
-Capital,Distrito Federal (DF),Sim,4.99,"https://dflegis.df.gov.br/ato.php?tipo=busca-exata&ds_titulo=Lei%20n%C2%BA%204.990,%20de%2012%20de%20dezembro%20de%202012 
-https://dflegis.df.gov.br/ato.php?p=decreto-34276-de-11-de-abril-de-2013"
+Decreto Nº 1048 DE 04/07/2012",1.524
+Estado,Bahia,Sim,LEI Nº 12.618 DE 28 DE DEZEMBRO DE 2012,12.618
+Estado,Rio de Janeiro,Sim,DECRETO Nº 46.475 DE 25 DE OUTUBRO DE 2018,46.475
+Estado,Pará,Sim,"DECRETO Nº 1.359, DE 31 DE AGOSTO DE 2015",1.359
+Estado,Mato Grosso,Sim,"DECRETO Nº 1.973, DE 25 DE OUTUBRO DE 2013.",1.973
+Capital,Distrito Federal (DF),Sim,"LEI Nº 4.990, DE 12 DE DEZEMBRO DE 2012
+DECRETO Nº 34.276, DE 11 DE ABRIL DE 2013",4.990
