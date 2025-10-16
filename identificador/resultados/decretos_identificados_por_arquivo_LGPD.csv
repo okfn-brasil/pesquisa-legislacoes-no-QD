@@ -1,9 +1,4 @@
 ﻿Arquivo TXT,Caminho TXT,Município (CSV),Decreto (original),Decreto (número extraído),Trecho Encontrado
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Rio Branco (AC),Decreto nº 1.196/2023,1.196,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Distrito Federal (DF),"Decreto nº 45.771, de 08 de maio de 2024",45.771,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Macapá (AP),Decreto 815/2022,815,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,São Paulo (SP),DECRETO Nº 59.767 de 15 de Setembro de 2020,59.767,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Manaus (AM),"Decreto nº 5.621, de 30 de junho de 2023",5.621,❌ Decreto não encontrado no texto
 TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Palmas (TO),"DECRETO Nº 2.213, DE 22 DE JUNHO DE 2022.",2.213,"nto: manifestação livre, informada e
 inequívoca pela qual o titular concorda com o tratamento de seus
 dados pessoais para uma finalidade determinada;
@@ -11,18 +6,6 @@ DECRETO Nº 2.213, DE 22 DE JUNHO DE 2022. i) controlador: pessoa natural ou jur
 ou privado, a quem compete as decisões referentes ao tratamento
 de dados pessoais;
 Reg"
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Teresina (PI),"DECRETO Nº 22.918, DE 14 DE SETEMBRO DE 2022.",22.918,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Natal (RN),DECRETO N.º 12.942 DE 08 DE NOVEMBRO DE 2023,12.942,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Maceió (AL),"DECRETO Nº. 9.803 MACEIÓ/AL, 13 DE JUNHO DE 2024.",9.803,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Salvador (BA),DECRETO Nº 35.299 de 28 de março de 2022,35.299,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Belo Horizonte (MG),"DECRETO Nº 18.608, DE 18 DE JANEIRO DE 2024",18.608,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Vitória (ES),DECRETO N° 20.628,20.628,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Rio de Janeiro (RJ),DECRETO RIO Nº 54984 DE 21 DE AGOSTO DE 2024,54984,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Florianópolis (SC),"DECRETO N. 25.497, DE 25 DE AGOSTO DE 2023",25.497,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Porto Alegre (RS),"DECRETO Nº 21.838, DE 09 DE JANEIRO DE 2023",21.838,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Cuiabá (MT),DECRETO Nº 8.617 DE 17 DE SETEMBRO DE 2021,8.617,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Goiania (GO),"DECRETO Nº 2.793, DE 2025",2.793,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Boa Vista (RR),Decreto Nº 29-E DE 04/04/2024,Decreto Nº 29-E DE 04/04/2024,❌ Decreto não encontrado no texto
 TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Curitiba (PR),"Decreto Municipal n.º 326, de 17 de fevereiro de 2021",326,"ituídos em função de editais e também
 por designação de pesquisadores.
 RESOLVE:
@@ -31,28 +14,3 @@ CAVALCANTE, matrícula nº 132671, da função de Coordenadora
 do Programa Municipal de Bolsas de Estudo e Pesquisa para
 a Educação pelo Trabalho – PET-Palmas, de acordo com a
 legisla"
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,São Luís (MA),"DECRETO N.º 60.935, DE 18 DE NOVEMBRO DE 2024",60.935,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Porto Velho (RO),"DECRETO Nº 18.310 , DE 1º DE AGOSTO DE 2022.",18.310,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Fortaleza (CE),"DECRETO Nº 14.987, DE 16 DE ABRIL DE 2021",14.987,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Aracaju (SE),Decreto 6894/2022,6894,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,João Pessoa (PB),Decreto nº 9.792/2021,9.792,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Recife (PE),DECRETO Nº 35.583 DE 25 DE ABRIL DE 2022,35.583,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Sergipe,DECRETO N° 41.006 DE 05 DE OUTUBRO DE 2021,41.006,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Rondônia,"DECRETO N° 26.451, DE 4 DE OUTUBRO DE 2021",26.451,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Mato Grosso,"DECRETO Nº 1.427, DE 30 DE ABRIL DE 2025",1.427,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Paraíba,Decreto nº 41.238/2021,41.238,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Alagoas,Decreto nº 91.229/2023,91.229,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Pernambuco,"DECRETO Nº 49.265, DE 6 DE AGOSTO DE 2020.",49.265,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Goiás,Decreto Nº 10092 DE 06/06/2022,10092,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Espírito Santo,"DECRETO Nº 4922-R, DE 09 DE JULHO DE 2021",4922,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Tocantins,"Decreto n° 6.547, de 13 de dezembro de 2022.",6.547,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Rio Grande do Sul,"DECRETO Nº 55.987, DE 7 DE JULHO DE 2021.",55.987,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Rio Grande do Norte,"DECRETO Nº 32.815, DE 12 DE JULHO DE 2023",32.815,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,São Paulo,"DECRETO Nº 65.347, DE 09 DE DEZEMBRO DE 2020",65.347,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Minas Gerais,"Decreto nº 48.237, de 22/07/2021",48.237,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Piauí,"DECRETO Nº 23.003, DE 21 DE MAIO DE 2024",23.003,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Paraná,Decreto 6474 - 14 de Dezembro de 2020,6474,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Mato Grosso do Sul,"DECRETO Nº 15.572, DE 28 DE DEZEMBRO DE 2020.",15.572,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Rio de Janeiro,DECRETO Nº 48.891 DE 10 DE JANEIRO DE 2024,48.891,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Santa Catarina,"DECRETO Nº 1.184, DE 1º DE MARÇO DE 2021",1.184,❌ Decreto não encontrado no texto
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Ceará,"LEI N.° 18.699, DE 07.03.24 (D.O. 07.03.24)",18.699,❌ Decreto não encontrado no texto
