@@ -1,0 +1,5973 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+
+<head>	
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="cache-control" content="max-age=0" />
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="expires" content="0" />
+	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<link href="css/publico/screen.css;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940" rel="stylesheet" type="text/css" />	
+	<link href="css/publico/default.css;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940" rel="stylesheet" type="text/css" />
+	<link href="css/print.css;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940" rel="stylesheet" type="text/css" media="print"/>
+	
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/data.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/hora.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/util.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/fone.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/windowopen.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/funcoes.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/email.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/validacao/verificador.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+	<script language="JavaScript" type="text/JavaScript" src="js/generic/numero.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>	
+	<script language="JavaScript" type="text/JavaScript" src="js/scriptaculous/prototype.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+</head>
+
+<body>
+<div id="info" style="msg_sucesso"></div>
+<div id="overlay" style="display: none;"></div><div id="aguarde" style="display: none;"></div>
+
+
+
+<div id="cabecalho">
+	<table cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td align="left" background="/legislacao/images/back_cabecalho_imagem_site.jpg">
+				<img src="/legislacao/images/logo_sistema_site.jpg" width="646" height="94" />
+			</td>
+		</tr>
+	</table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+<script type="text/javascript" >
+	/** 
+	 * Tratamento para mensagens de erro (AJAX e Framework).
+ 	 */
+	var globalMsgError     = '';
+	var globalAjaxMsgError = '';
+	var globalAjaxDivName  = '';
+</script>
+<div id="barra_acao_top">
+	<table align="right" cellspacing="0">
+		<tr>
+			<td><img src="/legislacao/images/back_barra_acao_top_esq.png"></td>
+			<td><a href="javascript:self.location='/legislacao/pesquisarAto.do?action=iniciarProcesso&retiraLista=true&site=1';">Pesquisa R&aacute;pida</a></td>
+			<td><img src="/legislacao/images/back_barra_acao_top_dir.png"></td>
+			<td><img src="/legislacao/images/back_barra_acao_top_esq.png"></td>
+			<td>
+				<a href="javascript:voltar();">voltar</a>				
+			</td>
+			<td>
+				<a href="javascript:voltar();">
+					<img src="/legislacao/images/icon_voltar.png" border="0">
+				</a>
+			</td>
+			<td>
+				<img src="/legislacao/images/back_barra_acao_top_dir.png">
+			</td>
+		</tr>
+	</table>
+</div>
+<div id="conteudo">
+	<div align="center">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Avisos -->
+
+
+<!-- Erros -->
+
+
+<!-- Sucesso -->
+
+
+<!-- Struts Validator -->
+
+
+<!-- Mensagens em Alert -->
+
+
+<div id="msg" style="display: none;" ></div>
+
+<script type="text/javascript">
+	if( (typeof globalMsgError) != "undefined" && globalMsgError != '' ) {
+		var divmsg = document.getElementById('msg');
+		divmsg.innerHTML = globalMsgError;
+		divmsg.style.display = 'block';
+	}
+</script>
+
+<!-- Mensagens do Verificador.js -->
+<div id="__msgVerificador"></div>
+<div id="__divTopoDirMsgFlutua" class="flutua"></div>
+		
+
+
+
+
+
+
+
+
+
+<script language="JavaScript" type="text/JavaScript" src="js/tooltip/wz_tooltip.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+<script language="JavaScript" type="text/JavaScript" src="js/generic/util.js;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940"></script>
+<style>
+.clLevel0border, .clLevel0{
+	display: none;
+{
+</style>
+<div id="conteudo2">
+	<div align="center">
+	<h1>exibir Ato</h1>
+		<div id="conteudo_corpo_inicial">
+			<div align="left">
+				<a href="listarAtosAno.do?action=exibirImpressao&codAto=114209" target="_blank" style="float: right; margin-top: -31px; text-decoration: none; font-size: 9px;">
+				<img alt="P&aacute;gina para impress&atilde;o" src="/legislacao/images/icon_print.png" style="border-width: 0px;">
+				P&aacute;gina para impress&atilde;o</a>
+				<span id="barraAtoCompilado" style="position: absolute; right: 5%; top: 32px;">
+					
+						
+						
+							
+							
+								
+								
+								
+									<b>Alterado</b> &nbsp;
+									<a href="javascript:exibir(1);">Compilado</a> &nbsp;
+									<a href="javascript:exibir(3);">Original</a> &nbsp;
+								
+							
+							<img src="/legislacao/images/icon_info.png;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940" onMouseOver="Tip('- Alterado: Mostra o texto juntamente com todas as altera&ccedil;&otilde;es que foram feitas. <br>- Compilado: Mostra o texto apenas com a &uacute;ltima altera&ccedil;&atilde;o publicada.<br>- Original: Mostra o texto em sua forma original - conforme a primeira publica&ccedil;&atilde;o.');" onMouseOut="UnTip();">
+						
+					
+				</span>
+				<form name="listarAtosAnoForm" id="listarAtosAnoForm" method="post" action="/legislacao/listarAtosAno.do;jsessionid=DxdcI_cjukswUBRuDFyOD2pgOAAnQMoYYXJaSyx6.sparana00940?action=iniciarProcesso">
+					<!-- Par�metros hidden que transitam de uma p�gina p/ outra (no mesmo uc) -->
+					<input type="hidden" name="pesquisou" value="">
+					<input type="hidden" name="codTipoAto" value="">
+					<input type="hidden" name="codOrgaoUnidade" value="">
+					<input type="hidden" name="codAto" value="114209">
+					<input type="hidden" name="anoSpan" value="" id="anoSpan">
+					<input type="hidden" name="anoSelecionado" value="" id="anoSelecionado">
+					<input type="hidden" name="anoAtoPesquisado" value="" id="anoAtoPesquisado">
+					<input type="hidden" name="isPaginado" value="" id="isPaginado">
+					<input type="hidden" name="paginaAtual" value="1" id="paginaAtual">
+					<input type="hidden" name="site" value="1" id="site">
+					<input type="hidden" name="totalRegistros" value="0" id="totalRegistros">
+					<input type="hidden" name="mesSelecionado" value="" id="mesSelecionado">
+					<input type="hidden" name="codImportacao" value="">
+					<input type="hidden" name="path" value="www.geradordeatosoficiais.pr.gov.br/geradordeatosoficiais">
+					
+					
+						
+						
+							
+						
+					
+								
+					<h3>Decreto 10285 - 25 de Fevereiro de 2014</h3>
+					<br/>
+					
+					Publicado no <a href='javascript:void(0);' onClick='window.open("https://www.documentos.dioe.pr.gov.br/dioe/consultaPublicaPDF.do?action=pgLocalizar&enviado=true&dataInicialEntrada=25/02/2014&dataFinalEntrada=25/02/2014&numero=9145&diarioCodigo=3&submit=Localizar", "_blank")'>Di&aacute;rio Oficial n&ordm;. 9145</a> de 25 de Fevereiro de 2014
+					<br/><br/>
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Súmula:</b>
+									
+										
+										
+											<a id='722116'>Dispõe sobre os procedimentos do Poder
+Executivo, que garante
+o acesso
+à
+informação, nos termos
+da
+legislação
+vigente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto"></b>
+									
+										
+										
+											<a id='722117'>O
+GOVERNADOR
+DO
+ESTADO
+DO
+PARANÁ,
+no
+uso
+das
+atribuições
+que
+lhe
+confere
+o
+inciso
+V
+do
+art.
+87,
+da
+Constituição
+do
+Estado,
+  tendo
+em
+vista
+o
+disposto
+na
+Lei
+Estadual
+n°
+16.595
+de
+26
+de
+outubro
+de
+2.010,
+bem
+como
+o
+inciso
+XXXIII
+do
+art.
+5º,
+e
+o
+inciso
+II
+do
+§
+3º
+do
+art.
+37,
+parágrafo
+2º,
+do
+art.
+216
+da
+Constituição
+da
+República
+e
+na
+Lei
+Federal
+nº
+12.527,
+de
+18
+de
+novembro
+de
+2.011,
+bem como o contido no protocolado nº 13.030.478-8 e ainda:<br/>
+<br /> considerando
+que a
+publicidade
+é
+princípio
+norteador
+de
+todos
+os
+atos
+da
+administração
+pública,
+e,
+as
+exceções
+ao
+princípio
+constitucional
+da
+publicidade
+somente
+se
+legitimam
+para
+tutelar
+a
+segurança
+da
+sociedade
+e
+do
+Estado,
+a
+intimidade
+ou
+o
+interesse
+social;<br/>
+<br /> considerando
+a
+necessidade
+de
+imediata
+adequação
+dos
+mecanismos
+internos
+às
+normas
+auto-aplicáveis
+da
+Lei
+Federal
+nº
+12.527/2.011
+e
+Lei
+Estadual
+n°
+16.595/2.010;
+e<br/>
+<br /> considerando
+que
+todo
+cidadão
+tem
+direito
+a
+receber
+informações
+sobre
+a
+Administração
+Pública,
+ressalvadas
+as
+hipóteses
+de
+sigilo
+previstas
+na
+Constituição
+e
+em
+legislação
+específica,<br /><br /> <br /> DECRETA:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722118'>DISPOSIÇÕES
+GERAIS<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 1º</b>
+									
+										
+										
+											<a id='722119'>Este
+Decreto
+dispõe
+sobre os
+procedimentos
+a serem
+observados
+pela
+Administração
+Direta do
+Poder
+Executivo,
+suas
+autarquias,
+fundações
+públicas,
+empresas
+públicas,
+sociedades
+de economia
+mista e
+suas
+subsidiárias
+e empresas
+controladas
+direta ou
+indiretamente,
+com vista
+a garantir
+o acesso
+à
+informação,
+nos termos
+da
+legislação
+vigente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 2º</b>
+									
+										
+										
+											<a id='722120'>Os
+órgãos e
+as
+entidades
+do Poder
+Executivo
+Estadual,
+assegurarão
+às pessoas
+naturais e
+jurídicas,
+o direito
+de acesso
+à
+informação, observados
+os
+princípios
+da
+Administração
+Pública e
+as
+diretrizes
+previstas
+na
+legislação
+vigente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722124'>Submetem-se,
+no que
+couber, à
+determinação
+prevista no
+caput,  as
+entidades
+privadas
+sem fins
+lucrativos
+que
+recebam,
+para
+realização
+de ações
+de
+interesse
+público,
+recursos
+públicos
+diretamente
+do
+orçamento
+ou mediante
+subvenção
+social,
+termo de
+parceria,
+convênio,
+acordo,
+contrato de
+gestão,
+ajuste ou
+outro
+instrumento
+congênere,
+no âmbito
+do Poder
+Executivo
+do Estado
+do Paraná.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722127'>A
+prestação
+da
+informação
+pelas
+entidades
+previstas
+no §
+1º
+refere-se à
+parcela e
+à
+destinação
+dos
+recursos
+públicos
+recebidos.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722128'>Somente
+se submetem
+aos prazos
+previstos
+neste
+Decreto os
+pedidos de
+informações
+abrangidos
+pela Lei
+nº 12.527,
+de 2011.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 3º</b>
+									
+										
+										
+											<a id='722135'>O
+acesso à
+informação
+nos termos
+deste
+Decreto
+orienta-se
+pelos
+princípios
+da
+Administração
+Pública,
+observadas
+as
+seguintes
+diretrizes:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722136'>respeito
+à
+publicidade
+como
+preceito
+geral e
+do sigilo
+como
+exceção;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722137'>divulgação
+de
+informação
+de
+interesse
+público,
+independente
+de
+solicitação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722138'>utilização
+de meios
+de
+comunicação
+oferecidos
+pela
+tecnologia
+da
+informação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722139'>promoção
+da cultura
+de
+transparência
+na
+Administração
+Pública; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722140'>incentivo
+ao controle
+social da
+Administração
+Pública.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 4º</b>
+									
+										
+										
+											<a id='722141'>Ficam
+assegurados
+ao cidadão,
+entre
+outros, os
+direitos de
+obter:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722142'>orientação
+sobre os
+procedimentos
+para a
+consecução
+de acesso,
+bem como
+sobre o
+local onde
+poderá ser
+encontrada
+ou obtida
+à
+informação
+almejada;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722143'>informação
+contida em
+registros
+ou
+documentos,
+produzidos
+ou
+acumulados,
+por seus
+órgãos ou
+entidades,
+recolhidos
+ou não
+a arquivos
+públicos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722144'>informação
+produzida
+ou
+custodiada
+por pessoa
+natural ou
+entidade
+privada
+decorrente
+de qualquer
+vínculo
+com seus
+órgãos ou
+entidades,
+mesmo que
+esse
+vínculo já
+tenha
+cessado;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722145'>informação
+primária,
+íntegra,
+autêntica
+e
+atualizada;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722146'>informação
+sobre
+atividades
+exercidas
+pelos
+órgãos e
+entidades,
+inclusive
+as
+relativas à
+sua
+política,
+organização
+e serviços;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VI -</b>
+									
+										
+										
+											<a id='722147'>informação
+pertinente
+à
+administração
+do
+patrimônio
+público,
+utilização
+de recursos
+públicos,
+licitação,
+contratos
+administrativos;
+e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VII -</b>
+									
+										
+										
+											<a id='722148'>informação
+relativa:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">a)</b>
+									
+										
+										
+											<a id='722149'>à
+implementação,
+acompanhamento
+e
+resultados
+dos
+programas,
+projetos e
+ações dos
+órgãos e
+entidades
+públicas,
+bem como
+metas e
+indicadores
+propostos;
+e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">b)</b>
+									
+										
+										
+											<a id='722150'>ao
+resultado
+de
+inspeções,
+auditorias,
+prestações
+e tomadas
+de contas
+realizadas
+pelos
+órgãos de
+controle
+interno e
+externo,
+incluindo
+prestações
+de contas
+relativas a
+exercícios
+anteriores.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722153'>O
+acesso à
+informação
+previsto no
+<em>caput</em> não
+compreende
+as
+informações
+referentes
+a projetos
+de pesquisa
+e
+desenvolvimento
+científicos
+ou
+tecnológicos
+cujo sigilo
+seja
+imprescindível
+à
+segurança
+da
+sociedade
+e/ou
+do Estado.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722154'>Quando
+não for
+autorizado
+acesso
+integral à
+informação
+por ser
+ela
+parcialmente
+sigilosa, é
+assegurado
+o acesso
+à parte
+não
+sigilosa
+por meio
+de
+certidão,
+extrato ou
+cópia com
+ocultação
+da parte
+sob sigilo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722155'>A
+negativa de
+acesso às
+informações
+objeto de
+pedido
+formulado
+aos órgãos
+e entidades
+referidas
+no art.
+1º, quando
+não
+fundamentada,
+sujeitará
+o
+responsável
+a medidas
+disciplinares,
+nos termos
+da lei.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 5º</b>
+									
+										
+										
+											<a id='722157'>Para
+os efeitos
+deste
+Decreto
+consideram-se
+as
+seguintes
+definições:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722158'>arquivos
+públicos:
+conjuntos
+de
+documentos
+produzidos,
+recebidos e
+acumulados
+por órgãos
+públicos,
+autarquias,
+fundações
+instituídas
+ou mantidas
+pelo Poder
+Público,
+empresas
+públicas,
+sociedades
+de economia
+mista,
+entidades
+privadas
+encarregadas
+da gestão
+de serviços
+públicos e
+organizações
+sociais, no
+exercício
+de suas
+funções e
+atividades;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722159'>autenticidade:
+qualidade
+da
+informação
+que tenha
+sido
+produzida,
+expedida,
+recebida ou
+modificada
+por
+determinado
+indivíduo,
+equipamento
+ou sistema;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722160'>classificação
+de sigilo:
+atribuição,
+pela
+autoridade
+competente,
+de grau
+de sigilo
+a
+documentos,
+dados e
+informações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722162'>credencial
+de
+segurança:
+autorização
+por escrito
+concedida
+por
+autoridade
+competente,
+que
+habilita o
+agente
+público
+estadual no
+efetivo
+exercício&nbsp; de
+cargo,
+função,
+emprego ou
+atividade
+pública a
+ter acesso
+a
+documentos,
+dados e
+informações
+sigilosas;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722164'>custódia:
+responsabilidade
+pela guarda
+de
+documentos,
+dados e
+informações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VI -</b>
+									
+										
+										
+											<a id='722167'>dado
+público:
+sequência
+de símbolos
+ou valores,
+representada
+em algum
+meio,
+produzida
+ou sob
+a guarda
+governamental,
+em
+decorrência
+de um
+processo
+natural ou
+artificial,
+que não
+tenha seu
+acesso
+restrito
+por
+legislação
+específica;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VII -</b>
+									
+										
+										
+											<a id='722169'>desclassificação:
+supressão
+da
+classificação
+de sigilo
+por ato
+da
+autoridade
+competente
+ou decurso
+de prazo,
+tornando
+irrestrito
+o acesso
+a
+documentos,
+dados e
+informações
+sigilosas;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VIII -</b>
+									
+										
+										
+											<a id='722170'>documentos
+de arquivo:
+todos os
+registros
+de
+informação,
+em qualquer
+suporte,
+inclusive o
+magnético
+ou óptico,
+produzidos,
+recebidos
+ou
+acumulados
+por órgãos
+e entidades
+da
+Administração
+Pública
+Estadual,
+no
+exercício
+de suas
+funções e
+atividades;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IX -</b>
+									
+										
+										
+											<a id='722172'>disponibilidade:
+qualidade
+da
+informação
+que pode
+ser
+conhecida e
+utilizada
+por
+indivíduos,
+equipamentos
+ou sistemas
+autorizados;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">X -</b>
+									
+										
+										
+											<a id='722178'>documento:
+unidade de
+registro de
+informações,
+qualquer
+que seja
+o suporte
+ou formato;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XI -</b>
+									
+										
+										
+											<a id='722180'>gestão
+de
+documentos:
+conjunto de
+procedimentos
+e operações
+técnicas
+referentes
+à sua
+produção,
+classificação,
+avaliação,
+tramitação,
+uso,
+arquivamento
+e
+reprodução,
+que
+assegura a
+racionalização
+e a
+eficiência
+dos
+arquivos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XII -</b>
+									
+										
+										
+											<a id='722181'>informação:
+dados,
+processados
+ou não,
+que podem
+ser
+utilizados
+para
+produção
+e
+transmissão
+de
+conhecimento,
+contidos em
+qualquer
+meio,
+suporte ou
+formato;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XIII -</b>
+									
+										
+										
+											<a id='722182'>informação
+pessoal:
+aquela
+relacionada
+à pessoa
+natural
+identificada
+ou
+identificável;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XIV -</b>
+									
+										
+										
+											<a id='722183'>informação
+sigilosa:
+aquela
+submetida
+temporariamente
+à
+restrição
+de acesso
+público em
+razão de
+sua
+imprescindibilidade
+para a
+segurança
+da
+sociedade e
+do Estado;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XV -</b>
+									
+										
+										
+											<a id='722184'>integridade:
+qualidade
+da
+informação
+não
+modificada,
+inclusive
+quanto à
+origem,
+trânsito e
+destino;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XVI -</b>
+									
+										
+										
+											<a id='722189'>marcação:
+aposição
+de marca
+assinalando
+o grau
+de sigilo
+de
+documentos,
+dados ou
+informações,
+ou sua
+condição
+de acesso
+irrestrito,
+após <br /> sua
+desclassificação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XVII -</b>
+									
+										
+										
+											<a id='722200'>primariedade:
+qualidade
+da
+informação
+coletada na
+fonte, com
+o máximo
+de
+detalhamento
+possível,
+sem
+modificações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XVIII -</b>
+									
+										
+										
+											<a id='722201'>reclassificação:
+alteração,
+pela
+autoridade
+competente,
+da
+classificação
+de sigilo
+de
+documentos,
+dados e
+informações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XIX -</b>
+									
+										
+										
+											<a id='722202'>rol
+de
+documentos,
+dados e
+informações
+sigilosas e
+pessoais:
+relação
+anual, a
+ser
+publicada
+pelas
+autoridades
+máximas de
+órgãos e
+entidades,
+de
+documentos,
+dados e
+informações
+classificadas,
+no período,
+como
+sigilosas
+ou
+pessoais,
+com
+identificação
+para
+referência
+futura;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XX -</b>
+									
+										
+										
+											<a id='722209'>serviço
+ou
+atendimento
+presencial:
+aquele
+prestado na
+presença
+física do
+cidadão;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XXI -</b>
+									
+										
+										
+											<a id='722210'>serviço
+ou
+atendimento
+eletrônico:
+aquele
+prestado
+remotamente
+ou à
+distância,
+utilizando
+meios
+eletrônicos
+de
+comunicação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XXII -</b>
+									
+										
+										
+											<a id='722211'>tabela
+de
+documentos,
+dados e
+informações
+sigilosas e
+pessoais:
+relação
+exaustiva
+de
+documentos,
+dados e
+informações
+com
+qualquer
+restrição
+de acesso,
+com a
+indicação
+do grau
+de sigilo,
+decorrente
+de estudos
+e pesquisas
+promovidos
+pela
+Comissão
+Mista de
+Reavaliação
+de
+Informação,e publicada
+pelas
+autoridades
+máximas
+dos órgãos
+e
+entidades;
+e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XIII -</b>
+									
+										
+										
+											<a id='722215'>produção,
+recepção,
+classificação,
+utilização,
+acesso,
+reprodução,
+transporte,
+transmissão,
+distribuição,
+arquivamento,
+armazenamento,
+eliminação,
+avaliação,
+destinação
+ou controle
+da
+informação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722216'>DO
+ACESSO A
+INFORMAÇÃO
+E SUA
+DIVULGAÇÃO<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 6º</b>
+									
+										
+										
+											<a id='722217'>É
+dever do
+órgão ou
+entidade
+promover,
+independentemente
+de
+requerimento,
+a
+divulgação,
+em local
+de fácil
+acesso, no
+âmbito de
+sua
+competência,
+de
+informação
+geral de
+interesse
+coletivo
+por ele
+produzida
+ou
+custodiada.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722218'>Quando
+uma unidade
+administrativa
+não
+oferecer
+estrutura
+de
+atendimento
+ao cidadão,
+este deverá
+ser
+orientado a
+procurar
+atendimento
+presencial
+ou qualquer
+dos meios
+de
+atendimento
+não
+presencial.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 7º</b>
+									
+										
+										
+											<a id='722219'>Os
+entes
+descritos
+no <em>caput</em> do art.
+1º
+deverão,
+ainda,
+gerir e manter
+uma página
+na rede
+mundial de
+computadores
+(<em>internet</em>),
+sob a
+denominação
+de Portal
+da
+Transparência,
+que poderá
+ser
+acessado
+por
+qualquer
+pessoa,
+mediante
+atalho
+eletrônico
+(<em>link</em>),
+representado
+por imagem
+(<em>banner</em>),
+na página
+inicial do
+respectivo
+sítio
+(<em>site</em>),
+contendo a
+nomenclatura
+do portal.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722220'>Deverão
+ser
+publicados
+integralmente
+nos Portais
+da
+Transparência
+a partir
+da vigência
+deste
+Decreto
+todos os
+atos
+administrativos
+realizados
+e contratos
+firmados,
+bem como
+seus
+aditivos,
+que
+importem em
+realização
+de despesas
+públicas.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722429'>Deverão ser publicados, ainda, todos os atos de ingresso, exoneração e aposentadoria de membros do Poder Executivo, inclusive os comissionados, contratação, demissão e aposentadoria de empregados públicos e contratação de prestadores de serviços. Resguardado o caráter sigiloso da informação, quando puder comprometer a segurança do servidor ou da ação administrativa, nas atividades de inteligência, investigação ou fiscalização, todas relacionadas com a prevenção e repressão de infrações bem como os contratos firmados para prestação de serviços por terceirizados.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722431'>Todos os atos realizados e contratos firmados deverão ser publicados com links de acesso aos editais que os antecederam, em especial os procedimentos licitatórios ou as justificativas para as contratações diretas.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722433'>Todos os atos realizados e contratos firmados deverão ser publicados em até 30 (trinta) dias da respectiva assinatura, respeitando-se os prazos estabelecidos na legislação vigente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 5º</b>
+									
+										
+										
+											<a id='722437'>Deverão ser publicados todos os extratos das contas e operações financeiras realizadas, assim como as faturas dos cartões corpor ativos, no mês subsequente ao pagamento.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 6º</b>
+									
+										
+										
+											<a id='722438'>Em se tratando de valores reembolsáveis despendidos pelos agentes estatais, deverão ser publicadas as notas fiscais e cópias da guia de depósito, transferências ou cheques utilizados no reembolso, discriminados pelo nome, cargo e lotação de cada agente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 8º</b>
+									
+										
+										
+											<a id='722442'>Deverão ser disponibilizadas no Portal da Transparência - www.portaldatransparencia.pr.gov.br e nos sítios eletrônicos oficiais dos respectivos órgãos que compõem o Poder Executivo Estadual, independentemente de solicitações, as seguintes informações de interesse público:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722443'>registro das competências, estrutura organizacional, endereço e telefones das unidades, horário de atendimento ao público;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722444'>relação de servidores, cargo e local de exercício, resguardado o caráter sigiloso da informação, quando puder comprometer a segurança do servidor ou da ação administrativa, nas atividades de inteligência, investigação ou fiscalização, todas relacionadas com a prevenção e repressão de infrações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722445'>relação de patrimônio móvel e imóvel do Estado;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722446'>programas, projetos, ações, metas e indicadores propostos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722447'>relação dos repasses ou transferências de recursos e despesas efetuados;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VI -</b>
+									
+										
+										
+											<a id='722448'>resoluções e portarias;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VII -</b>
+									
+										
+										
+											<a id='722449'>editais de licitações em andamento, especificando a fase de tramitação, bem como aqueles cujos procedimentos já foram encerrados e possuem contratação vigente, incluem-se também os editais e licitações que tenham sido anulados, tornados sem efeito, revogados e desertos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VIII -</b>
+									
+										
+										
+											<a id='722450'>decisões de dispensas de licitação, inclusive com a justificativa para a contratação direta;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IX -</b>
+									
+										
+										
+											<a id='722451'>íntegra dos contratos firmados e seus instrumentos afins, com a especificação das etapas de cumprimento das obrigações, pagamentos e sua quitação, por ano de celebração e por objeto, observadas as categorias &ldquo;aquisição de bens&rdquo;, &ldquo;serviços&rdquo;, &ldquo;obras&rdquo; e &ldquo;locação&rdquo;;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">X -</b>
+									
+										
+										
+											<a id='722452'>atos de instauração de procedimentos administrativos que visem apurar possíveis irregularidades no cumprimento das obrigações dos contratos, e respectivas decisões finais;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XI -</b>
+									
+										
+										
+											<a id='722454'>íntegra dos convênios, termos de parcerias e congêneres firmados, inclusive com o plano de aplicação, a especificação das etapas de cumprimento das obrigações, repasses e atingimento das metas estipuladas, listados por ano de celebração;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XII -</b>
+									
+										
+										
+											<a id='722455'>despesas relativas a viagens e adiantamentos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">XIII -</b>
+									
+										
+										
+											<a id='722456'>respostas a perguntas mais frequentes da sociedade.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722457'>Para cumprimento do disposto no caput, os órgãos e entidades públicas deverão utilizar todos os meios e instrumentos legítimos de que dispuserem, sendo obrigatória a divulgação em sítios oficiais da rede mundial de computadores (internet).<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722458'>Os sítios de que trata o § 2º deverão, na forma de regulamento, atender, entre outros, aos seguintes requisitos:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722459'>conter ferramenta de pesquisa de conteúdo que permita o acesso à informação de forma objetiva, transparente, clara e em linguagem de fácil compreensão;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722460'>possibilitar a gravação de relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, tais como planilhas e texto, de modo a facilitar a análise das informações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722461'>possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722462'>divulgar em detalhes os formatos utilizados para estruturação da informação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722463'>garantir a autenticidade e a integridade das informações disponíveis para acesso;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VI -</b>
+									
+										
+										
+											<a id='722464'>manter atualizadas as informações disponíveis para acesso;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VII -</b>
+									
+										
+										
+											<a id='722465'>indicar local e instruções que permitam ao interessado comunicarse, por via eletrônica ou telefônica, com o órgão ou entidade detentora do sítio;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VIII -</b>
+									
+										
+										
+											<a id='722480'>adotar as medidas necessárias para garantir a acessibilidade de conteúdo para pessoas com deficiência, nos termos da legislação vigente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IX -</b>
+									
+										
+										
+											<a id='722483'>os entes relacionados no Art. 1º são responsáveis pelas informações disponibilizadas nos sítios eletrônicos, devendo atualizá-las periodicamente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 9º</b>
+									
+										
+										
+											<a id='722486'>A Controladoria Geral do Estado coordenará a execução e desenvolverá, em conjunto com a Secretaria de Estado da Administração e da Previdência e Secretaria de Estado de Governo, e com o apoio da Secretaria de Estado da Comunicação Social, atividades visando:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722488'>promoção de campanha de abrangência estadual de fomento à cultura da transparência na administração pública e conscientização do direito fundamental de acesso à informação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722490'>treinamento de agentes públicos no que se refere ao desenvolvimento de práticas relacionadas à transparência na administração pública;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722491'>o monitoramento dos procedimentos de acesso à informação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722496'>elaboração e manutenção atualizada de manual para a consolidação da normatização e procedimentos de acesso à informação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722497'>DO PROCEDIMENTO DE ACESSO À INFORMAÇÃO<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722498'>DO PEDIDO DE ACESSO<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 10</b>
+									
+										
+										
+											<a id='722499'>Para fins do disposto no art. 9º da Lei Federal nº 12.527/2011, deverão ser propiciados em todos os órgãos, meios adequados para que o cidadão consulte documentos que, por sua natureza, não possam ser disponibilizados por meios virtuais.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722500'>Caberá ao gestor de cada órgão ou entidade citados no artigo 1º, manter a estrutura necessária para que as informações de interesse público sejam disponibilizadas em sítio eletrônico oficial respectivo, devendo zelar pela sua atualização periódica.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 11.</b>
+									
+										
+										
+											<a id='722602'>Cabe aos órgãos e entidades do poder público, observadas as normas e procedimentos específicos aplicáveis, assegurar a:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722603'>gestão transparente da informação, propiciando amplo acesso a ela e sua divulgação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722604'>proteção da informação, garantindo-se sua disponibilidade, autenticidade e integridade;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722605'>proteção da informação sigilosa e da informação pessoal, observada a sua disponibilidade, autenticidade, integridade e eventual restrição de acesso.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 12</b>
+									
+										
+										
+											<a id='722606'>Os dirigentes máximos de cada Secretaria, órgão ou entidade da administração direta e indireta do Poder Executivo, designarão servidores públicos que lhes sejam diretamente subordinados, para assegurar o cumprimento das normas relativas ao acesso à informação, de forma eficiente e adequada aos objetivos deste ato, devendo para tanto:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722607'>atender e orientar o público quanto ao acesso às informações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722608'>informar sobre a tramitação de documentos nas suas respectivas unidades;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722609'>protocolizar documentos e requerimentos de acesso à informações;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722610'>incentivar a participação popular estimulando o exercício do controle social.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 13.</b>
+									
+										
+										
+											<a id='722611'>Incumbe à Controladoria Geral do Estado zelar pelo estrito cumprimento dos deveres mencionados no artigo anterior, especialmente quanto ao atendimento dos prazos assinalados neste Decreto e a manutenção e gerenciamento dos Sistemas de Tecnologia da Informação relativos às atividades desenvolvidas.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 14.</b>
+									
+										
+										
+											<a id='722612'>Nas hipóteses em que a solicitação de acesso a informações relativas a outros órgãos ou entidades lhe for endereçadas diretamente, a Controladoria Geral do Estado encaminhará o pedido ao servidor designado na forma do &ldquo;caput&rdquo; do artigo 12.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 15.</b>
+									
+										
+										
+											<a id='722613'>A fim de dar cumprimento aos objetivos deste Decreto, a Controladoria Geral do Estado, obedecido o disposto nos incisos I a IV do artigo 4º, deverá:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722614'>disponibilizar ao público atendimento telefônico, postal, eletrônico ou presencial;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722615'>receber pedidos de acesso a informações e orientar o interessado quanto ao seu respectivo trâmite.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722616'>divulgar relatório mensal das consultas formuladas e sua tramitação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 16.</b>
+									
+										
+										
+											<a id='722617'>Qualquer interessado, devidamente identificado, poderá apresentar pedido de acesso a informações aos órgãos ou entidades aludidas no artigo 1º deste Decreto.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722618'>A identificação referida no caput deste artigo consiste em nome completo, número de documento de identidade com valor legal e o endereço físico ou eletrônico do requerente, para recebimento de comunicações ou da informação requerida para aviso da disponibilização da resposta.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722619'>A pessoa jurídica deverá apresentar os documentos comprobatórios da sua existência e também do representante legal que apresentou o pedido, comprovando os seus respectivos poderes.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722620'>O pedido de acesso deverá conter especificação, de forma clara e precisa, da informação requerida.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722621'>O pedido a que se refere o caput será apresentado por formulário padrão disponibilizado por meio eletrônico e no sitio eletrônico do Portal da Transparência, através dos Sistemas de Tecnologia da Informação disponibilizados.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 5º</b>
+									
+										
+										
+											<a id='722623'>Na impossibilidade da utilização dos sítios eletrônicos oficiais, o requerimento deverá ser entregue em qualquer serviço de protocolo da administração pública estadual, contendo a especificação da informação pleiteada.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 6º</b>
+									
+										
+										
+											<a id='722624'>O atendimento presencial será oportunizado nos &ldquo;Espaços Cidadão&rdquo; e nos Serviços de Informação ao Cidadão - SIC, definido pelo gestor de cada órgão.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 7º</b>
+									
+										
+										
+											<a id='722625'>Se a informação ou documento for disponibilizado por cópia, esta ficará disponível para consulta pelo requerente pelo prazo de até 30 (trinta) dias, após o que será encaminhado para o arquivo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 17.</b>
+									
+										
+										
+											<a id='722626'>O serviço de busca e fornecimento da informação é gratuito, salvo nas hipóteses de reprodução de documentos pelo órgão ou entidade pública consultada, situação em que poderá ser cobrado exclusivamente o valor necessário ao ressarcimento do custo dos serviços e dos materiais utilizados.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722627'>Estará isento de ressarcir os custos previstos no caput todo aquele cuja situação econômica não lhe permita fazê-lo sem prejuízo do sustento próprio ou da família, declarada nos termos da Lei Federal nº 7.115, de 29 de agosto de 1983.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 18.</b>
+									
+										
+										
+											<a id='722628'>Cabe ao órgão ou entidade competente para tratamento da matéria conceder o acesso à informação disponível.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722629'>Não estando disponível a informação, o órgão ou entidade, deverá, em prazo não superior a 20 (vinte) dias, informar ao requerente:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722630'>a data, local e modo para se realizar a consulta, efetuar a reprodução ou obter a certidão; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722631'>as razões de fato ou de direito da recusa, total ou parcial, ao acesso requerido;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722632'>que não possui a informação, indicando, se for do seu conhecimento, o órgão ou a entidade que a detém, ou, ainda, remetendo o pedido a esse&nbsp; órgão ou entidade, cientificando o interessado da remessa de seu pedido de informação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722633'>No caso de que trata o § 1º, o prazo de 20 (vinte) dias será contado a partir do recebimento do requerimento pelo órgão ou entidade responsável pela informação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722634'>O prazo de 20 (vinte) dias poderá ser prorrogado por mais 10 (dez) dias, mediante justificativa expressa, que será comunicada ao interessado.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722635'>Caso a informação solicitada esteja disponível ao público em formato impresso, eletrônico ou em qualquer outro meio de acesso universal, serão informados ao requerente, por escrito, o lugar e a forma pela qual se poderá consultar, obter ou reproduzir a referida informação, procedimento esse que desonerará o órgão ou entidade pública da obrigação de seu fornecimento direto, salvo se o requerente declarar não dispor de meios para realizar por si mesmo tais procedimentos.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 5º</b>
+									
+										
+										
+											<a id='722636'>Sem prejuízo da segurança e da proteção das informações e do cumprimento da legislação aplicável, o órgão ou entidade poderá oferecer meios para que o próprio requerente possa pesquisar a informação de que necessitar.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 6º</b>
+									
+										
+										
+											<a id='722637'>Quando não for autorizado o acesso por se tratar de informação total ou parcialmente sigilosa, o requerente deverá ser informado sobre a possibilidade de recurso, prazos e condições para sua interposição, devendo, ainda, ser-lhe indicada a autoridade competente para sua apreciação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 7º</b>
+									
+										
+										
+											<a id='722638'>Se o pedido de acesso à informação for reconhecido, incidentalmente, como informação sigilosa, o requerimento deverá ser encaminhado ao órgão ou autoridade competente para, no prazo legal, confirmar o caráter sigiloso da informação, classificando-o.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 19.</b>
+									
+										
+										
+											<a id='722639'>Não serão atendidos pedidos de acesso à informação:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722640'>genéricos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722641'>desproporcionais ou desarrazoados; ou<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722642'>que exijam trabalhos adicionais de análise, interpretação ou consolidação de dados e informações, ou serviço de produção ou tratamento de dados que não seja de competência do órgão ou entidade.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722643'>Na hipótese do inciso III o órgão ou entidade deverá, caso tenha conhecimento, indicar o local onde se encontram as informações a partir das quais o requerente poderá realizar a interpretação, consolidação ou tratamento de dados.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722644'>As informações que estejam contidas em processos deverão ser requeridas junto à unidade do órgão competente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722645'>São vedadas quaisquer exigências relativas aos motivos determinantes da solicitação de informação de interesse público.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722646'>As cópias de documentos somente serão autenticadas, recebendo o carimbo de &ldquo;confere com o original&rdquo;, caso haja pedido expresso do requerente neste sentido, no momento do requerimento inicial.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II</b>
+									
+										
+										
+											<a id='722647'>DOS RECURSOS<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 20.</b>
+									
+										
+										
+											<a id='722648'>Negado o pedido de acesso à informação, será enviada ao requerente, no prazo de resposta, comunicação indicando:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722649'>razões de negativa de acesso e seu fundamento legal;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722650'>recursos cabíveis e autoridades competentes.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 21.</b>
+									
+										
+										
+											<a id='722651'>No caso de negativa de acesso à informação ou de não fornecimento das razões da negativa do acesso, poderá o requerente apresentar recurso no prazo de 10 (dez) dias, contado da ciência da decisão, à autoridade máxima do Órgão que adotou a decisão, que deverá apreciá-lo no mesmo prazo, contado da sua apresentação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 22</b>
+									
+										
+										
+											<a id='722652'>No caso de omissão de resposta ao pedido de acesso à informação, nos termos do artigo 18 e seus parágrafos, o requerente poderá apresentar reclamação, no prazo de 20 (vinte) dias, à autoridade máxima do órgão ou entidade, que deverá manifestar-se no mesmo prazo, contado do recebimento da reclamação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722653'>A autoridade máxima do órgão ou entidade poderá designar outra autoridade que lhe seja diretamente subordinada como responsável pelo recebimento e apreciação da reclamação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 23.</b>
+									
+										
+										
+											<a id='722654'>Desprovido o recurso de que trata o art. 21, ou infrutífera a reclamação de que trata o art. 22, poderá o requerente apresentar recurso no prazo de 10 (dez) dias, contado da ciência da decisão, à Comissão Mista de Reavaliação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722655'>A Comissão Mista de Reavaliação de Informações poderá determinar que o órgão ou entidade preste esclarecimentos, visando o melhor entendimento sobre os argumentos que embasaram a negativa do pedido.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722656'>Provido o recurso, a Comissão Mista de Reavaliação fixará prazo para o cumprimento da sua decisão pelo órgão ou entidade.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 24.</b>
+									
+										
+										
+											<a id='722657'>O pedido de desclassificação ou de reavaliação da classificação poderá ser apresentado aos órgãos e entidades independentemente de existir prévio pedido de acesso à informação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722658'>O pedido de que trata o caput será endereçado à autoridade classificadora, que decidirá no prazo de trinta dias.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 25.</b>
+									
+										
+										
+											<a id='722659'>Negado o pedido de desclassificação ou de reavaliação pela autoridade classificadora, o requerente poderá apresentar recurso no prazo de dez dias, contado da ciência da negativa, à autoridade máxima do órgão ou entidade, que decidirá no prazo de trinta dias.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722660'>Desprovido o recurso de que trata o caput poderá o requerente apresentar recurso à Comissão Mista de Reavaliação de Informações, no prazo de dez dias, contado da ciência da decisão.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722661'>DAS RESTRIÇÕES DE ACESSO À INFORMAÇÃO<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722662'>DISPOSIÇÕES GERAIS<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 26.</b>
+									
+										
+										
+											<a id='722663'>Não poderá ser negado acesso às informações necessárias à tutela judicial ou administrativa de direitos fundamentais.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722664'>O requerente deverá apresentar razões que demonstrem a existência de nexo entre as informações requeridas e o direito que se pretende proteger.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 27.</b>
+									
+										
+										
+											<a id='722665'>O disposto neste Decreto não exclui as demais hipóteses legais de sigilo e de segredo de justiça nem as hipóteses de segredo industrial decorrentes da exploração direta de atividade econômica pelo Estado ou por pessoa física ou jurídica que tenha qualquer vínculo com o poder público.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II</b>
+									
+										
+										
+											<a id='722666'>DOS PROCEDIMENTOS DE CLASSIFICAÇÃO, RECLASSIFICAÇÃO E DESCLASSIFICAÇÃO.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 28.</b>
+									
+										
+										
+											<a id='722667'>A informação em poder dos órgãos e entidades, observado o seu teor e em razão de sua imprescindibilidade à segurança da sociedade ou do Estado, poderá ser classificada no grau ultrassecreto, secreto ou reservado.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 29.</b>
+									
+										
+										
+											<a id='722668'>Para a classificação da informação em grau de sigilo, deverá ser observado o interesse público da informação e utilizado o critério menos restritivo possível, considerados:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722669'>a gravidade do risco ou dano à segurança da sociedade e do Estado; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722670'>o prazo máximo de classificação em grau de sigilo ou o evento que defina seu termo final.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 30.</b>
+									
+										
+										
+											<a id='722671'>Os prazos máximos de classificação são os seguintes:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722672'>grau ultrassecreto: vinte e cinco anos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722673'>grau secreto: quinze anos; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722674'>grau reservado: cinco anos.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722675'>Poderá ser estabelecida como termo final de restrição de acesso a ocorrência de determinado evento, observados os prazos máximos de classificação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 31.</b>
+									
+										
+										
+											<a id='722676'>As informações que puderem colocar em risco a segurança do Governador do Estado, Vice-Governador e seus cônjuges, filhos e ascendentes serão classificadas no grau reservado e ficarão sob sigilo até o término do mandato em exercício ou do último mandato, em caso de reeleição.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 32.</b>
+									
+										
+										
+											<a id='722677'>A classificação do sigilo da informação é de competência:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722678'>no grau ultrassecreto, das seguintes autoridades:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">a)</b>
+									
+										
+										
+											<a id='722679'>Governador do Estado;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">b)</b>
+									
+										
+										
+											<a id='722680'>Vice-Governador do Estado;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">c)</b>
+									
+										
+										
+											<a id='722681'>Secretários de Estado e autoridades com as mesmas prerrogativas; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">d)</b>
+									
+										
+										
+											<a id='722682'>Delegado Geral da Polícia Civil, Comandante da Polícia Militar e Comandante do Corpo de Bombeiros;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722687'>no grau secreto, das autoridades referidas no inciso I, dos dirigentes de autarquias, fundações, empresas públicas e sociedades de economia mista; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722690'>no grau reservado, das autoridades referidas nos incisos I e II e das que exerçam funções de direção, comando ou chefia.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722699'>É vedada a delegação da competência prevista nos incisos I e II.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722700'>O dirigente do órgão ou entidade poderá delegar a competência para classificação no grau reservado a agente público que exerça função de direção, comando ou chefia, vedada a subdelegação, ou constituir Comissão de Classificação de Informações, composta por 03 (três) servidores de alta hierarquia funcional.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722704'>No caso de constituição de Comissão de Classificação de Informações:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722705'>No ato de designação deverá constar o membro que irá presidi-la;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722707'>Poderá ser indicado servidor efetivo para secretariar os trabalhos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722710'>Os membros e secretário deverão prestar compromisso de sigilo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722712'>Os agentes ou a comissão referidos no § 2º darão ciência do ato de classificação à autoridade delegante, no prazo de 72 (setenta e duas) horas.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 33.</b>
+									
+										
+										
+											<a id='722713'>A autoridade que classificar informação no grau ultrassecreto ou secreto deverá oficiar à Comissão Mista de Reavaliação de Informações no prazo de trinta dias, contado da decisão da classificação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 34.</b>
+									
+										
+										
+											<a id='722715'>Na hipótese de documento que contenha informações classificadas em diferentes graus de sigilo, será atribuído ao documento tratamento do grau de sigilo mais elevado, ficando assegurado o acesso às partes não classificadas por meio de certidão, extrato ou cópia, com ocultação da parte sob sigilo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 35.</b>
+									
+										
+										
+											<a id='722716'>As Secretarias de Estado da Fazenda, e do Planejamento e Coordenação Geral, classificarão os documentos que embasarem decisões de política econômica, fiscal, tributária e regulatória.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722717'>Na hipótese de regulação que se insira no âmbito de competência especifica de órgão ou de entidade vinculada, não referida no caput, caberá à respectiva Secretaria de Estado a classificação dos documentos que embasarem as decisões.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 36.</b>
+									
+										
+										
+											<a id='722721'>A Controladoria Geral do Estado coordenará a atuação os órgãos responsáveis por informações, para compatibilização dos procedimentos internos e exercício das competências específicas.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722725'>Em cada órgão ou entidade da administração pública direta e indireta, será designado responsável ocupante de cargo de nível estratégico, subordinado diretamente ao titular, para receber solicitações feitas pela Controladoria Geral do Estado, e por tramitar e encaminhar resposta no prazo de 20 (vinte) dias pelo Sistema de Tecnologia da Informação respectivo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 37.</b>
+									
+										
+										
+											<a id='722727'>A classificação das informações será reavaliada pela autoridade classificadora ou por autoridade hierarquicamente superior, mediante provocação ou de ofício, para desclassificação ou redução do prazo de sigilo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722728'>Para o cumprimento do disposto no caput, além do disposto no art. 30 deverá ser observado:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722729'>o prazo máximo de restrição de acesso à informação, previsto no art. 30;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722730'>o prazo máximo de quatro anos para revisão de ofício das informações classificadas no grau ultrassecreto ou secreto, previsto no inciso I do art. 30;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722731'>a permanência das razões da classificação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722732'>a possibilidade de danos ou riscos decorrentes da divulgação ou acesso irrestrito da informação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 38.</b>
+									
+										
+										
+											<a id='722733'>A publicação de atos administrativos referentes a documentos, dados e informações sigilosos poderá ser efetuada mediante extratos, com autorização da autoridade classificadora ou hierarquicamente superior.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722734'>Os extratos referidos no caput limitar-se-ão ao seu respectivo número, ao ano de edição e à sua ementa, redigidos por agente público credenciado, de modo a não comprometer o sigilo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722735'>A publicação de atos administrativos que trate de documentos, dados e informações sigilosos para sua divulgação ou execução dependerá de autorização da autoridade classificadora ou autoridade competente hierarquicamente superior.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 39.</b>
+									
+										
+										
+											<a id='722736'>A autoridade máxima de cada órgão ou entidade publicará anualmente, observado o disposto no art. 39 da Lei Federal nº 12.527 de 2011, até o dia 1º de junho de cada ano, em sítio na internet:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722737'>rol das informações desclassificadas nos últimos doze meses;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722738'>rol das informações classificadas em cada grau de sigilo, que deverá conter:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">a)</b>
+									
+										
+										
+											<a id='722739'>código de indexação de documento;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">b)</b>
+									
+										
+										
+											<a id='722740'>categoria na qual se enquadra a informação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">c)</b>
+									
+										
+										
+											<a id='722741'>indicação de dispositivo legal que fundamenta a classificação; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">d)</b>
+									
+										
+										
+											<a id='722742'>data da produção, data da classificação e prazo da classificação;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722743'>relatório estatístico com a quantidade de pedidos de acesso à informação recebidos, atendidos e indeferidos; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722744'>informações estatísticas agregadas dos requerentes.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722745'>A autoridade deverá encaminhar à Comissão Mista de Reavaliação de Informações, a cada 02 (dois) meses, o rol de informações classificadas como sigilosas, como previsto no inciso II deste artigo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722746'>Os órgãos e entidades deverão manter em meio físico as informações previstas no caput, para consulta pública em suas sedes.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III</b>
+									
+										
+										
+											<a id='722747'>DA PROTEÇÃO E CONTROLE DE INFORMAÇÕES SIGILOSAS<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 40.</b>
+									
+										
+										
+											<a id='722748'>O acesso, a divulgação e o tratamento de informação classificada em qualquer grau de sigilo ficarão restritos a pessoas que tenham necessidade de conhecê-la e que sejam credenciadas, sem prejuízo das atribuições de agentes públicos autorizados por lei.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722749'>O Agente público que tenha acesso às informações classificadas no Art. 31 deste Decreto deverá manter o sigilo, constituindo falta grave a sua divulgação, no termos do Art. 293, inciso V alínea &ldquo;g&rdquo; da Lei nº 6.174/1970.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 41.</b>
+									
+										
+										
+											<a id='722750'>As autoridades do Poder Executivo estadual adotarão as providências necessárias para que o pessoal a elas subordinados conheçam as normas e observem as medidas e procedimentos de segurança para tratamento de informações classificadas em qualquer grau de sigilo.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722751'>A pessoa natural ou jurídica que, em razão de qualquer vínculo com o Poder Público, executar atividades de tratamento de informações classificadas, adotará as providências necessárias para que seus empregados, prepostos ou representantes observem as medidas e procedimentos de segurança das informações, inclusive mediante a assinatura de termo de ciência de obrigação de manutenção de sigilo, sob pena de responsabilização civil e criminal, além de estar sujeita as seguintes sanções administrativas:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722752'>Advertência;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722753'>multa;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722754'>rescisão do vínculo com o Poder Público;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722755'>suspensão temporária de participação em licitação e impedimento de contratar com a Administração Pública por prazo não superior a 2 (dois) anos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722756'>declaração de inidoneidade para licitar ou contratar com a Administração Pública, até que seja promovida a reabilitação perante a própria autoridade que aplicou a penalidade.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722757'>As sanções previstas nos incisos I, III e IV poderão ser aplicadas juntamente com a do inciso II, assegurado o direito de defesa do interessado, no respectivo processo, no prazo de 10 (dez) dias.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722758'>A reabilitação referida no inciso V será autorizada somente quando o interessado efetivar o ressarcimento do órgão ou entidade dos prejuízos resultantes e após decorrido o prazo da sanção aplicada com base no inciso IV.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722759'>A aplicação da sanção prevista no inciso V é de competência exclusiva do Governador do Estado, facultada a defesa do interessado, no respectivo processo, no prazo de 10 (dez) dias da abertura de vista.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV</b>
+									
+										
+										
+											<a id='722760'>DAS INFORMAÇÕES PESSOAIS<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 42.</b>
+									
+										
+										
+											<a id='722761'>O tratamento da informação pessoal será feito de forma transparente e com respeito às liberdades e garantias individuais, à intimidade, vida privada, honra e imagem da pessoa.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722762'>No tratamento da informação pessoal relativa à intimidade, vida privada, honra e imagem, serão observados os seguintes preceitos:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722763'>acesso restrito à autoridade ou agente público legalmente autorizado e à pessoa a que se referir, independentemente de classificação de sigilo e pelo prazo máximo de 100 (cem) anos a contar da data de sua produção; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722764'>autorização de divulgação ou acesso por terceiro mediante previsão legal ou consentimento expresso da pessoa a que se referir.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722765'>O interessado que obtiver acesso à informação de que trata este artigo será responsabilizado por seu uso indevido.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722766'>O consentimento previsto no inciso II do § 1º não será exigido quando a informação for necessária:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722767'>à prevenção e diagnóstico médico, da pessoa que estiver física ou legalmente incapaz, e para utilização exclusiva a tratamento médico;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722768'>à realização de estatística e pesquisa científica de interesse público ou geral, prevista em lei, vedada a identificação da pessoa a que a informação se referir;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722769'>ao cumprimento de ordem judicial;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722770'>à defesa de direito humano; ou<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722771'>à proteção do interesse público e geral preponderante.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722773'>A restrição de acesso à informação relativa à vida privada, honra e imagem de pessoa não poderá ser invocada com o intuito de prejudicar processo de apuração de irregularidades em que o detentor da informação estiver envolvido, e em ações voltadas para a recuperação de fatos históricos de relevância reconhecida.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 43.</b>
+									
+										
+										
+											<a id='722774'>O pedido de acesso às informações pessoais observará os procedimentos previstos no CAPÍTULO III e estará condicionado à comprovação da identidade do requerente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722775'>O pedido de acesso a informações pessoais por terceiros deverá ainda estar acompanhado alternativamente de:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722776'>comprovação do consentimento expresso da pessoa a que se referirem, por meio de procuração;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722777'>comprovação de que se trata de processo de apuração de irregularidades conduzido pelo Poder Público em que o titular das informações é parte ou interessado;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722778'>comprovação de que as informações pessoais não classificadas estão contidas em conjuntos de documentos necessários à recuperação de fatos históricos de relevância reconhecida;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722779'>demonstração do interesse pela recuperação de fatos históricos de relevância reconhecida, observados os procedimentos previstos no art. 45; ou<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722780'>demonstração da necessidade do acesso à informação requerida para a defesa dos direitos humanos ou para a proteção do interesse público e geral preponderante.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 44.</b>
+									
+										
+										
+											<a id='722781'>A restrição de acesso às informações pessoais não poderá ser invocada quando, não classificadas, estejam contidas em conjuntos de documentos necessários à recuperação de fato histórico relevante e reconhecido.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722782'>O dirigente máximo do órgão ou entidade poderá, de ofício ou mediante provocação, reconhecer a incidência da hipótese do caput, de forma fundamentada, sobre documentos que tenham produzido ou acumulado, e que estejam sob sua guarda.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722783'>A decisão de reconhecimento de que trata o § 1º será precedida de publicação de extrato da informação, com descrição resumida do assunto, origem e período do conjunto de documentos a serem considerados de acesso irrestrito, com antecedência de no mínimo trinta dias.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722784'>Após a decisão de reconhecimento de que trata o § 1º, os documentos serão considerados de acesso irrestrito ao público.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722785'>Na hipótese de documentos de elevado valor histórico, destinados à guarda permanente, caberá ao dirigente máximo do Arquivo Público, ou à autoridade responsável pelo arquivo do órgão ou entidade pública que os receber, decidir, após seu recolhimento, sobre o reconhecimento, observado o procedimento previsto neste artigo, sem prejuízo da legislação específica.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 45.</b>
+									
+										
+										
+											<a id='722786'>O acesso à informação pessoal por terceiros será condicionado à assinatura de um termo de responsabilidade, que disporá sobre a finalidade e a destinação que fundamentaram sua autorização, sobre as obrigações a que se submeterá o requerente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722787'>A utilização de informação pessoal por terceiros vincula-se à finalidade e à destinação que fundamentaram a autorização do acesso, vedada sua utilização de maneira diversa.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722788'>Aquele que obtiver acesso às informações pessoais de terceiros será responsabilizado por seu uso indevido, na forma da lei.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VI</b>
+									
+										
+										
+											<a id='722789'>DA COMISSÃO<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 46.</b>
+									
+										
+										
+											<a id='722790'>Fica instituída a Comissão Mista de Reavaliação de Informações, que decidirá, no âmbito do Poder Executivo, sobre o tratamento e a classificação de informações sigilosas e terá competência para:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722791'>requisitar da autoridade que classificar informação como ultrassecreta, secreta e reservada, esclarecimentos ou acesso ao conteúdo, parcial ou integral da informação; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722792'>rever a classificação de informações ultrassecretas ou secretas, de ofício ou mediante provocação de pessoa interessada nos termos deste Decreto.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722793'>estabelecer orientações normativas de caráter geral a fim de suprir eventuais lacunas na aplicação da Lei Federal nº 12.527, de 2011, no âmbito do Poder Executivo Estadual.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722794'>elaborar, aprovar e alterar o seu Regimento Interno.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722796'>manter registro atualizado dos servidores indicados pelo dirigente máximo de cada órgão ou entidade da administração direta e indireta do Poder Executivo para acesso aos dados sigilosos de cada Pasta.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 47.</b>
+									
+										
+										
+											<a id='722800'>A Comissão Mista de Reavaliação de Informações deste Decreto será integrada pelos representantes dos seguintes órgãos:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722801'>Controladoria Geral do Estado<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722802'>Procuradoria Geral do Estado;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722804'>Secretaria de Estado da Administração e da Previdência;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722806'>Secretaria de Estado de Governo;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722809'>Secretaria de Estado da Fazenda<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722814'>A designação para a função de membro da Comissão Mista de Reavaliação de Informações far-se-á por Decreto e recairá sobre servidor público efetivo de alta hierarquia, com indicação do respectivo suplente.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722817'>Será de 2 (dois) anos a duração do mandato dos membros da Comissão Mista de Reavaliação de Informações, permitida a 1 (uma) recondução.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722826'>O membro da Comissão Mista de Reavaliação de Informações poderá ser exonerado da função nos seguintes casos:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722830'>morte;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722831'>renúncia;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722832'>falta injustificada a três reuniões consecutivas, ou cinco alternadas;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722833'>demissão do serviço público.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722834'>realocação.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722835'>A Comissão Mista de Reavaliação de Informações, ora instituída, será presidida por um de seus integrantes, com mandato de (01) um ano, coincidente com o ano civil, podendo ser reconduzido.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 5º</b>
+									
+										
+										
+											<a id='722836'>A escolha do presidente será por voto direto dos membros da Comissão, na primeira reunião do ano e no caso de empate será declarado Presidente o que fizer parte da Comissão há mais tempo, e, persistindo o empate, será declarado presidente o que tiver maior tempo de serviço ao Estado.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 6º</b>
+									
+										
+										
+											<a id='722837'>Comissão Mista de Reavaliação de Informações reunir-se-á ordinariamente a cada dois meses e extraordinariamente sempre que convocada.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 48.</b>
+									
+										
+										
+											<a id='722838'>Caberá ao Presidente da Comissão Mista de Reavaliação de Informações:<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">I -</b>
+									
+										
+										
+											<a id='722839'>presidir os trabalhos da Comissão;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">II -</b>
+									
+										
+										
+											<a id='722840'>aprovar a pauta das reuniões ordinárias e as ordens do dia das respectivas sessões;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">III -</b>
+									
+										
+										
+											<a id='722841'>dirigir as discussões concedendo a palavra aos demais membros, coordenando os debates e nele interferindo para esclarecimentos;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">IV -</b>
+									
+										
+										
+											<a id='722842'>designar o membro secretário para lavratura das atas de reunião, o qual irá substituí-lo nas reuniões, em caso de ausência justificada;<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">V -</b>
+									
+										
+										
+											<a id='722843'>convocar reuniões extraordinárias e as respectivas sessões; e<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VI -</b>
+									
+										
+										
+											<a id='722844'>remeter ao Controlador-Geral do Estado a Ata com as decisões tomadas na reunião.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722845'>A Comissão Mista de Reavaliação de Informações contará com um servidor designado pela Controladoria Geral do Estado para auxiliar o trabalho do Secretário.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722846'>A Controladoria Geral do Estado oferecerá apoio material, técnico, operacional e financeiro necessários aos trabalhos da Comissão.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 49.</b>
+									
+										
+										
+											<a id='722847'>Os órgãos e entidades adequarão suas políticas de gestão da informação, promovendo os ajustes necessários aos processos de registro, processamento, trâmite e arquivamento de documentos e informações.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 50.</b>
+									
+										
+										
+											<a id='722848'>O credenciamento e a necessidade da informação são condições indispensáveis para que o agente público no efetivo exercício de cargo, função, emprego ou atividade tenha acesso a documentos, dados e informações, classificados como sigilosos em nível equivalente ou superior ao de sua credencial de segurança.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Parágrafo único.</b>
+									
+										
+										
+											<a id='722849'>O credenciamento a que se refere o caput será efetuado no âmbito da Casa Militar.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 51.</b>
+									
+										
+										
+											<a id='722850'>As credenciais de segurança referentes aos graus de sigilo previstos neste Decreto serão classificadas nos graus de sigilo ultrassecreto, secreto<br />ou reservado.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 52.</b>
+									
+										
+										
+											<a id='722851'>A credencial de segurança referente à informação pessoal, prevista neste Decreto, será identificada como personalíssima.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 53.</b>
+									
+										
+										
+											<a id='722852'>A emissão da credencial de segurança compete às autoridades máximas de órgãos e entidades da Administração Pública Estadual, podendo ser objeto de delegação, desde que específica, expressa e formal.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 1º</b>
+									
+										
+										
+											<a id='722853'>A credencial de segurança será concedida mediante termo de compromisso de preservação de sigilo, pelo qual os agentes públicos responsabilizam-se por não revelarem ou divulgarem documentos, dados ou informações sigilosos, dos quais tiverem conhecimento direta ou indiretamente no exercício de cargo, função ou emprego público.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 2º</b>
+									
+										
+										
+											<a id='722854'>Para a concessão de credencial de segurança serão avaliados, por meio de investigação, os requisitos profissionais, funcionai s e pessoais dos indicados.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 3º</b>
+									
+										
+										
+											<a id='722855'>A validade da credencial de segurança deverá ser limitada no tempo e no objeto.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">§ 4º</b>
+									
+										
+										
+											<a id='722856'>O compromisso referido no caput persistirá enquanto durar o sigilo dos documentos a que tiveram acesso.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">VII</b>
+									
+										
+										
+											<a id='722858'>DISPOSIÇÕES FINAIS<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 54.</b>
+									
+										
+										
+											<a id='722859'>Os órgãos e entidades deverão reavaliar as informações classificadas no grau ultrassecreto e secreto no prazo máximo de 2 (dois) anos, contado do termo inicial de vigência deste Decreto.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 55.</b>
+									
+										
+										
+											<a id='722860'>A Controladoria Geral do Estado orientará os órgãos e entidades mencionados no &ldquo;caput&rdquo; do art. 1º quanto às modificações a serem realizadas nos sítios institucionais e coordenará a política de transparência pública prevista neste Decreto.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 56.</b>
+									
+										
+										
+											<a id='722861'>Os Gestores dos órgãos citados no art. 1º deverão, no prazo de 30 (trinta) dias da publicação deste Decreto, encaminhar à Comissão Mista de Reavaliação de Informações, a relação de documentos classificados como sigilosos, de qualquer grau conforme os critérios legalmente descritos.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 57.</b>
+									
+										
+										
+											<a id='722862'>O Poder Executivo promoverá a capacitação de servidores para atender aos objetivos deste Decreto.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto">Art. 58.</b>
+									
+										
+										
+											<a id='722863'><a id="722863">Este Decreto entra em vigor na data de sua publicação, revogando-se o Decreto Estadual nº 4.531, de 15 de maio de 2012, </a><a href="listarAtosAno.do?action=exibir&amp;codAto=87757&amp;codItemAto=601615#601615">Decreto Estadual nº 7.351, de 21 de fevereiro de 2013</a> e o<a href='listarAtosAno.do?action=exibir&codAto=93284&codItemAto=626627#626627'> Decreto Estadual nº 8.020, de 16 de abril de 2013</a>.<br/></a>
+										
+									
+								</p>
+							
+						
+					
+						
+							
+							
+								<p>
+									<b class="labelAto"></b>
+									
+										
+										
+											<a id='722864'>Curitiba, em 25 de fevereiro 2014, 193º da Independência e 126º da República<br/></a>
+										
+									
+								</p>
+							
+						
+					
+					<p>&nbsp;</p>
+					
+						
+							<p><i>Carlos Alberto Richa
+							<br/>Governador do Estado</i></p>
+						
+							<p><i>Cezar Silvestri
+							<br/>Secretário de Estado de Governo</i></p>
+						
+							<p><i>Dinorah Botto Portugal Nogara
+							<br/>Secretária de Estado da Administração e da Previdência</i></p>
+						
+							<p><i>Jozélia Nogueira
+							<br/>Secretária de Estado da Fazenda</i></p>
+						
+							<p><i>MARISA ZANDONAI
+							<br/>Procuradora Geral do Estado</i></p>
+						
+							<p><i>Carlos Eduardo de Moura
+							<br/>Controlador-Geral do Estado</i></p>
+						
+					
+					
+					
+					<p>&nbsp;</p>
+					<p style="font-weight: bold; background-color: #d3d3d3"></p>
+					
+					
+			 		<hr/>
+					
+					<p style="color:red; font-style:italic">Este texto n&atilde;o substitui o publicado no Di&aacute;rio Oficial do Estado</p>
+					
+					
+					<div id="divVoltar" align="center">
+						<input type="button" name="" value="Voltar" onclick="javascript:voltar();" class="form_botao">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+	
+		<script language="JavaScript" type="text/JavaScript">
+			function voltar() {
+				//if(form.mesSelecionado.value != null && form.mesSelecionado.value != 0){
+					////form.action = "listarAtosAno.do?action=voltar&tipoAto="+form.codTipoAto.value+"&anoSpan="+form.anoSpan.value+"&anoSelecionado="+form.anoSelecionado.value+"&mesSelecionado="+form.mesSelecionado.value+"&isPaginado="+form.isPaginado.value+"&paginaAtual="+form.paginaAtual.value+"&orgaoUnidade="+form.codOrgaoUnidade.value+"&indice="+form.paginaAtual.value+"&totalRegistros="+form.totalRegistros.value;
+				//}
+				//else{
+				//	form.action = "listarAtosAno.do?action=voltar&tipoAto="+form.codTipoAto.value+"&anoSpan="+form.anoSpan.value+"&anoSelecionado="+form.anoSelecionado.value+"&isPaginado="+form.isPaginado.value+"&paginaAtual="+form.paginaAtual.value+"&orgaoUnidade="+form.codOrgaoUnidade.value+"&indice="+form.paginaAtual.value+"&totalRegistros="+form.totalRegistros.value;
+				//}				
+				////form.submit();		
+				window.history.back();		
+			}
+		</script>
+	
+
+
+
+	
+	
+<script language="JavaScript" type="text/JavaScript">
+	function exibirAnexo(codAnexo) {
+		form.action = "listarAtosAno.do?action=abrirAnexo&codArquivoAnexado=" + codAnexo;
+		form.submit();
+	}
+
+	function exibirAnexoGerador(nomeArquivoAnexado) {
+		var indexIni = nomeArquivoAnexado.indexOf("_");
+		var indexFim = nomeArquivoAnexado.indexOf(".");	
+		var codAnexo = nomeArquivoAnexado.substring(indexIni+1,indexFim);
+		var url = 'http://' + form.path.value + '/listarAtosAno.do?action=abrirAnexo&codArquivoAnexado=' + codAnexo;
+		alert(url);
+		window.location.href = url;
+	}
+	
+	function exibir(opt) {
+		if (eval(opt==1)) {
+			form.action = "listarAtosAno.do?action=exibir&codAto="+form.codAto.value+"&codTipoAto="+form.codTipoAto.value+"&tipoVisualizacao=compilado";
+			form.submit();
+		} else if (eval(opt==2)){
+			form.action = "listarAtosAno.do?action=exibir&codAto="+form.codAto.value+"&codTipoAto="+form.codTipoAto.value+"&tipoVisualizacao=alterado"; 
+			form.submit();
+		} else {
+			form.action = "listarAtosAno.do?action=exibir&codAto="+form.codAto.value+"&codTipoAto="+form.codTipoAto.value+"&tipoVisualizacao=original"; 
+			form.submit();
+		}
+	}
+</script>
+		<script language="JavaScript" type="text/JavaScript">
+			var form = document.forms[0];
+		</script>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<style>
+#rodape {	
+	width:99%;	
+}
+
+#rodape table {
+	font-family: Verdana,Helvetica, sans-serif;
+	font-size:12px;
+	color: #666666;
+	border-top: solid;
+	border-top-color: gray;
+	border-top-width: 1px;	
+	
+}
+</style>
+
+<div id='barra_acao_bottom'>
+
+<table align='right' cellspacing='0' cellpadding='0' style="margin-top:35px">
+
+
+	<tr>
+
+		<td><img src="/legislacao/images/back_barra_acao_bot_esq.png"></td>
+		<td><a href='javascript: window.scrollTo(0, 0); void 0'>topo</a></td>
+		<td><a href='javascript: window.scrollTo(0, 0); void 0'><img src='/legislacao/images/icon_topo.png' border='0'></a></td>
+
+		<td><img src="/legislacao/images/back_barra_acao_bot_dir.png"></td>
+	</tr>
+</table>
+</div>
+
+<div id="rodape">
+	
+		<table width="99%" align="left" cellpadding="0" cellspacing="0">
+	
+			
+		<tr>
+			<td>
+				<strong>&copy; Casa Civil do Governo do Estado do Paran&aacute;</strong>
+				<br />
+				Pal&aacute;cio Igua&ccedil;u - Pra&ccedil;a Nossa Senhora de Salette, s/n
+				<br />
+				80530-909 - Centro C&iacute;vico - Curitiba - Paran&aacute;
+			</td>
+		    <td width="70">
+		    	<a title="Celepar Inform&aacute;tica do Paran&aacute;" target="_blank" href="http://www.celepar.pr.gov.br/"><img src="https://www.pr.gov.br/logos/celepar/logo-celepar-v.png" border="0" /></a>
+		    </td>
+		    <td width="88" >		    	
+		    	<a title="Casa Civil" target="_blank" href="http://www.casacivil.pr.gov.br/"><img src="/legislacao/images/logo_casacivil_88x45px.gif" border="0" /></a>		    	
+		    </td>
+			<td>
+				<a title="Governo do Paran&aacute;" href="http://www.pr.gov.br/" target="_blank"><img src="http://www.pr.gov.br/logos/logo_gov_60x45px.gif" border="0" /></a>
+			</td> 
+		</tr>
+	</table>
+</div>
+
+
+		<script language="JavaScript" type="text/JavaScript">
+				verificador.verificar();
+				verificador.setarEventos();
+				var _formularioZero = document.forms[0];
+				if(_formularioZero) focoNoPrimeiroCampo(_formularioZero);
+		</script>
+</body>
+
+<script type="text/javascript">
+	document.getElementById('overlay').className = 'escondido';
+	document.getElementById('aguarde').className = 'escondido';
+</script>
+
+</html>

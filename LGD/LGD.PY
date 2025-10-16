@@ -50,7 +50,7 @@ def verifica_regulamentacao(cidade_id, query_lei):
     params = {
         "querystring": query_lei,
         "territory_ids": cidade_id,
-        "published_since": '2021-07-20',
+        "published_since": '2021-07-20', #
         "excerpt_size": 2000
     }
 

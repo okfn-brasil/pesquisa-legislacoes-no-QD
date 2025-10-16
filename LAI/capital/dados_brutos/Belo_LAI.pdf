@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<!--<html lang="pt-br" dir="ltr"
+  xmlns:og="http://ogp.me/ns#">-->
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.cmbh.mg.gov.br/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+<link rel="canonical" href="https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/decreto/14906/2012" />
+<link rel="shortlink" href="https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/decreto/14906/2012" />
+<meta property="og:site_name" content="Portal CMBH" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/decreto/14906/2012" />
+<meta property="og:title" content="Pesquisar Legislação" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://www.cmbh.mg.gov.br/atividade-legislativa/pesquisar-legislacao/decreto/14906/2012" />
+<meta name="twitter:title" content="Pesquisar Legislação" />
+  <title>Pesquisar Legislação | Portal CMBH  </title>
+  <style>
+@import url("https://www.cmbh.mg.gov.br/modules/system/system.base.css?t3u4kx");
+</style>
+<style>
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.menu.min.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/themes/base/minified/jquery.ui.autocomplete.min.css?t3u4kx");
+</style>
+<style>
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/ldap/ldap_user/ldap_user.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/calendar/css/calendar_multiday.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/date/date_api/date.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/modules/field/theme/field.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/logintoboggan/logintoboggan.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/modules/node/node.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/picture/picture_wysiwyg.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/views/css/views.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/autofloat/css/autofloat.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/ckeditor/css/ckeditor.css?t3u4kx");
+</style>
+<style>
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/ctools/css/ctools.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/ldap/ldap_servers/ldap_servers.admin.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/lightbox2/css/lightbox.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/tagclouds/tagclouds.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/compact_forms/compact_forms.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/custom_search/custom_search.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/modules/addtoany/addtoany.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/default/files/ctools/css/8695a9d3e23511e74e4cde79b7ae1666.css?t3u4kx");
+</style>
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/css/bootstrap.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unicorn-fail/drupal-bootstrap-styles@0.0.2/dist/3.3.1/7.x-3.x/drupal-bootstrap.css" media="all" />
+<style>
+@import url("https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap_cmbh/css/style.css?t3u4kx");
+@import url("https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap_cmbh/css/cmbh.css?t3u4kx");
+</style>
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--<link rel="stylesheet" media="print" href="/sites/all/themes/bootstrap_cmbh/css/print.css">-->
+
+  <link type="text/css" rel="stylesheet" media="all" href="#" class="trocarContraste" />
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700,400italic,700italic,300italic,300' rel='stylesheet' type='text/css' />
+  <link type="text/css" rel="stylesheet" media="screen and (max-width: 768px)" href="/sites/all/themes/bootstrap_cmbh/css/cmbh_menu_celular.css" />
+
+
+
+
+  <script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/jquery/1.12/jquery.min.js?v=1.12.4"></script>
+<script>jQuery.migrateMute=true;jQuery.migrateTrace=false;</script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/jquery-migrate/1/jquery-migrate.min.js?v=1"></script>
+<script src="https://www.cmbh.mg.gov.br/misc/jquery-extend-3.4.0.js?v=1.12.4"></script>
+<script src="https://www.cmbh.mg.gov.br/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.12.4"></script>
+<script src="https://www.cmbh.mg.gov.br/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.cmbh.mg.gov.br/misc/drupal.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/js/jquery_browser.js?v=0.0.1"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-1.4.1.min.js?v=1.4.1"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.position.min.js?v=1.10.2"></script>
+<script src="https://www.cmbh.mg.gov.br/misc/ui/jquery.ui.position-1.13.0-backport.js?v=1.10.2"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.menu.min.js?v=1.10.2"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/jquery_update/replace/ui/ui/minified/jquery.ui.autocomplete.min.js?v=1.10.2"></script>
+<script src="https://www.cmbh.mg.gov.br/misc/form.js?v=7.98"></script>
+<script src="https://www.cmbh.mg.gov.br/misc/form-single-submit.js?v=7.98"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.6/dist/js/bootstrap.js"></script>
+<script>document.createElement( "picture" );</script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/entityreference/js/entityreference.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/default/files/languages/pt-br_vN6JkfVIX-PVKdn0eozMyCHbxzaZfM7R8Eq_SrPjpwk.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/lightbox2/js/auto_image_handling.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/lightbox2/js/lightbox.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/custom_search/js/custom_search.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/compact_forms/compact_forms.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/googleanalytics/googleanalytics.js?t3u4kx"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-QLR0MR55HQ"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "G-QLR0MR55HQ", {"":"bootstrap_cmbh","groups":"default","cookie_domain":".www.cmbh.mg.gov.br","page_path":location.pathname + location.search + location.hash});</script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap/js/misc/_collapse.js?v=7.98"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap_cmbh/js/jquery.smartmenus.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap_cmbh/addons/bootstrap/jquery.smartmenus.bootstrap.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap_cmbh/js/ajusteMenu.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap_cmbh/js/jquery.maskedinput.min.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap_cmbh/js/ajusteLai.js?t3u4kx"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"bootstrap_cmbh","theme_token":"tUpsWcszxHOPQQt-ybNvVCdke8iHWTewAIXjJ-MpQOw","js":{"sites\/all\/modules\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/picture\/picture.min.js":1,"0":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.12\/jquery.min.js":1,"1":1,"sites\/all\/modules\/jquery_update\/replace\/jquery-migrate\/1\/jquery-migrate.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"misc\/ui\/jquery.ui.position-1.13.0-backport.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.menu.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.autocomplete.min.js":1,"misc\/form.js":1,"misc\/form-single-submit.js":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.6\/dist\/js\/bootstrap.js":1,"2":1,"sites\/all\/modules\/entityreference\/js\/entityreference.js":1,"public:\/\/languages\/pt-br_vN6JkfVIX-PVKdn0eozMyCHbxzaZfM7R8Eq_SrPjpwk.js":1,"sites\/all\/modules\/lightbox2\/js\/auto_image_handling.js":1,"sites\/all\/modules\/lightbox2\/js\/lightbox.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"sites\/all\/modules\/compact_forms\/compact_forms.js":1,"sites\/all\/modules\/googleanalytics\/googleanalytics.js":1,"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-QLR0MR55HQ":1,"3":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/themes\/bootstrap_cmbh\/js\/jquery.smartmenus.js":1,"sites\/all\/themes\/bootstrap_cmbh\/addons\/bootstrap\/jquery.smartmenus.bootstrap.js":1,"sites\/all\/themes\/bootstrap_cmbh\/js\/ajusteMenu.js":1,"sites\/all\/themes\/bootstrap_cmbh\/js\/jquery.maskedinput.min.js":1,"sites\/all\/themes\/bootstrap_cmbh\/js\/ajusteLai.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"sites\/all\/modules\/ldap\/ldap_user\/ldap_user.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/autofloat\/css\/autofloat.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/ldap\/ldap_servers\/ldap_servers.admin.css":1,"sites\/all\/modules\/lightbox2\/css\/lightbox.css":1,"sites\/all\/modules\/tagclouds\/tagclouds.css":1,"sites\/all\/modules\/compact_forms\/compact_forms.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/all\/modules\/addtoany\/addtoany.css":1,"public:\/\/ctools\/css\/8695a9d3e23511e74e4cde79b7ae1666.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/bootstrap@3.3.6\/dist\/css\/bootstrap.css":1,"https:\/\/cdn.jsdelivr.net\/npm\/@unicorn-fail\/drupal-bootstrap-styles@0.0.2\/dist\/3.3.1\/7.x-3.x\/drupal-bootstrap.css":1,"sites\/all\/themes\/bootstrap_cmbh\/css\/style.css":1,"sites\/all\/themes\/bootstrap_cmbh\/css\/cmbh.css":1}},"lightbox2":{"rtl":"0","file_path":"\/(\\w\\w\/)public:\/","default_image":"\/sites\/all\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003Ca href=\u0022#\u0022 onclick=\u0022hideLightbox(); return FALSE;\u0022\u003E\u003Ckbd\u003Ex\u003C\/kbd\u003E\u003C\/a\u003E to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":"lightbox_ungrouped","custom_trigger_classes":"img.big","disable_for_gallery_lists":1,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false,"useragent":"python-requests\/2.32.4"},"custom_search":{"form_target":"_self","solr":0},"compactForms":{"forms":["user-login-form","views-exposed-form-vereadores-vereadores-page","views-exposed-form-vereadores-lista-contatos"],"stars":2},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EUtilizamos cookies para melhorar sua experi\u00eancia de navega\u00e7\u00e3o.\n\u003Cul\u003E\n\u003Cli\u003EAo utilizar o portal cmbh.mg.gov.br, voc\u00ea concorda com a pol\u00edtica de monitoramento de cookies.\u003C\/li\u003E\n\u003C\/ul\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EClique aqui para ver a pol\u00edtica de cookies\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EACEITO\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003EN\u00e3o, obrigado.\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies on this site to enhance your user experienceBy tapping the Accept button, you agree to us doing so.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003EClique aqui para ver a pol\u00edtica de cookies\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EACEITO\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003EN\u00e3o, obrigado.\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EThank you for accepting cookiesYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"https:\/\/www.cmbh.mg.gov.br\/termos-de-uso","popup_link_new_window":1,"popup_position":null,"fixed_top_position":1,"popup_language":"pt-br","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","domain_all_sites":0,"popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"opt_in","allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies on this site to enhance your user experienceYou have given your consent for us to set cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false,"withdraw_button_on_info_popup":0,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":1,"cookie_name":"","containing_element":"body","automatic_cookies_removal":1},"googleanalytics":{"account":["G-QLR0MR55HQ"],"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":1,"trackUrlFragments":1},"urlIsAjaxTrusted":{"\/atividade-legislativa\/pesquisar-legislacao\/decreto\/14906\/2012":true},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+
+  <script type="application/javascript">
+    (function(h, e, a, t, m, p) {
+      m = e.createElement(a);
+      m.async = !0;
+      m.src = t;
+      p = e.getElementsByTagName(a)[0];
+      p.parentNode.insertBefore(m, p);
+    })(window, document, 'script', 'https://u.heatmap.it/log.js');
+  </script>
+  <!-- Hotjar Tracking Code for Câmara Municipal de BH -->
+  <script>
+    (function(h, o, t, j, a, r) {
+      h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 5359040,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+  <!-- Datadog real user monitoring -->
+  <script>
+    (function(h, o, u, n, d) {
+      h = h[d] = h[d] || {
+        q: [],
+        onReady: function(c) {
+          h.q.push(c)
+        }
+      }
+      d = o.createElement(u);
+      d.async = 1;
+      d.src = n
+      n = o.getElementsByTagName(u)[0];
+      n.parentNode.insertBefore(d, n)
+    })(window, document, 'script', 'https://www.datadoghq-browser-agent.com/us1/v6/datadog-rum.js', 'DD_RUM')
+    window.DD_RUM.onReady(function() {
+      window.DD_RUM.init({
+        clientToken: 'pub66b4e582c38acaa7092cbf62caac5b5d',
+        applicationId: '54dd0b62-0920-402d-8e57-d522592288e3',
+        // `site` refers to the Datadog site parameter of your organization
+        // see https://docs.datadoghq.com/getting_started/site/
+        site: 'datadoghq.com',
+        service: 'portal---cmbh',
+        env: '<ENV_NAME>',
+        // Specify a version number to identify the deployed version of your application in Datadog
+        // version: '1.0.0',
+        sessionSampleRate: 100,
+        sessionReplaySampleRate: 20,
+        trackBfcacheViews: true,
+        defaultPrivacyLevel: 'mask-user-input',
+      });
+    })
+  </script>
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-atividade-legislativa page-atividade-legislativa-pesquisar-legislacao page-atividade-legislativa-pesquisar-legislacao-decreto page-atividade-legislativa-pesquisar-legislacao-decreto- page-atividade-legislativa-pesquisar-legislacao-decreto-14906 page-atividade-legislativa-pesquisar-legislacao-decreto- page-atividade-legislativa-pesquisar-legislacao-decreto-2012" >
+
+  <!-- VLIBRAS vlibras.gov.br  - INICIO  
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+-->
+  <!-- VLIBRAS FIM -->
+
+
+
+  <!-- INICIO - C�DIGO FORNECIDO PELO FACEBOOK - TRECHO ADICIONADO PARA ADICIONAR PLUGIN DO FACEBOOK DA P�GINA CMBH - EXIBIDO NA HOME -->
+  <div id="fb-root"></div>
+  <script type="application/javascript">
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    // C�digo de update de browsers obtido em browser-update.org
+    var $buoop = {
+      vs: {
+        i: 8,
+        f: -8,
+        o: -4,
+        s: 7,
+        c: -8
+      },
+      mobile: false,
+      api: 4
+    };
+
+    function $buo_f() {
+      var e = document.createElement("script");
+      e.src = "//browser-update.org/update.min.js";
+      document.body.appendChild(e);
+    };
+    try {
+      document.addEventListener("DOMContentLoaded", $buo_f, false)
+    } catch (e) {
+      window.attachEvent("onload", $buo_f)
+    }
+  </script>
+  <!-- FIM - C�DIGO FORNECIDO PELO FACEBOOK -->
+      <!--acessibilidade-->
+           
+    <div class="container hidden-xs">
+				
+				<div id="acessibilidade" >  
+					<ul id="atalhos">  
+						<li><a href="#iniciodoconteudo" accesskey="1"><small>Ir para o conteúdo <span>1</span></small></a></li>  
+						<li><a href="#iniciodomenu" accesskey="2"><small>Ir para o menu <span>2</span></small></a></li>  
+						<li><a href="#search_block_form" ><small>Ir para a busca <span>3</span></small></a></li>  
+						<li><a href="#rodape" accesskey="4"><small>Ir para o rodapé <span>4</span></small></a></li>  
+					</ul> 
+				</div>
+				<div id="acess-tools" >
+					<ul id="botoes">  
+						<li><a href="/acessibilidade"> Acessibilidade </a></li>         
+						<li><a href="#" class="trocar" id="alto">Alto contraste</a></li>  
+						<li><a href="#rodape"> Mapa do site </a></li>  
+					</ul>     
+                </div>
+				<div id="login_site">
+					  <div class="region region-login">
+    <section id="block-block-15" class="block block-block block-logintoboggan  block-logintoboggan clearfix">
+
+      
+  <a href="#" data-toggle="modal" data-target="#login-modal">Entrar</a>
+
+</section> <!-- /.block -->
+  </div>
+				</div>
+				
+    </div>
+<!--cabecalho-->
+         
+<header class="cabecalho" >
+<!-- logo do site apenas celular -->
+    <!--<div class="navbar-header hidden-md hidden-lg hidden-sm .visible-xs-* ">
+                    <div class="logo">
+					<a  href="/">
+                    <img src="/sites/all/themes/bootstrap_cmbh/images/logo_cmbh.png" alt="Câmara Municipal de Belo Horizonte"/>
+                    </a>
+                    </div>
+            
+    </div>-->
+ <!-- FIM logo do site apenas celular -->          
+   
+	<div class="container ">
+                    <div class="navbar-header">
+                    <a class="navbar-brand" href="/">
+                    <img src="/sites/all/themes/bootstrap_cmbh/images/logo_cmbh.png" alt="Câmara Municipal de Belo Horizonte"/>
+                    </a>
+                    </div>
+                    <div class="navbar-right hidden-xs ocultar" role="complementary" >
+						
+						<div class="cab-blocks">
+                        <a id="iniciodabusca" name="iniciodabusca" ></a>
+				                                  <div class="region region-navbar-second">
+    <section id="block-search-form" class="block block-search input-group buscar_site  input-group buscar_site clearfix">
+
+      
+  <form class="search-form form-search content-search" role="search" action="/atividade-legislativa/pesquisar-legislacao/decreto/14906/2012" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Formulário de busca</h2>
+    <div class="input-group"><input title="Digite os termos que você deseja procurar." class="custom-search-box form-control form-text" placeholder="Pesquisar no site" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><fieldset  class="custom_search-popup panel panel-default form-wrapper" id="edit-popup">
+    <div class="panel-body" id="edit-popup-body">
+        <div class="form-item form-item-custom-search-types form-type-select form-group"> <label class="control-label" for="edit-custom-search-types">Pesquisar em</label>
+<select class="custom-search-selector custom-search-types form-control form-select" id="edit-custom-search-types" name="custom_search_types"><option value="c-all" selected="selected">-Todos-</option><option value="c-agenda">Agenda</option><option value="c-comissoes">Comissões</option><option value="c-page">Conteúdo Geral</option><option value="c-eventos">Eventos</option><option value="c-licitacao">Licitação</option><option value="c-noticias">Notícias</option><option value="c-faq">Perguntas Frequentes</option><option value="c-vereador">Vereador</option></select></div>  </div>
+</fieldset>
+<div class="form-actions form-wrapper form-group" id="edit-actions"><input alt="Pesquisar" class="custom-search-button element-invisible form-submit" type="image" id="edit-submit" name="op" src="/sites/all/themes/bootstrap_cmbh_mobile/images/icones/ic_search_black_24px.svg" /></div><input type="hidden" name="form_build_id" value="form-pAtrexkc-k35DZNjg7iLC9gh6RyZH7LxiiXcOlOGYgM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section> <!-- /.block -->
+<section id="block-block-3" class="block block-block redes-sociais  redes-sociais clearfix">
+
+      
+  <div class="">
+<ul >
+	<li><a class="nav navbar-nav twitter" href="http://twitter.com/camaradebh" target="_blank"><img alt="Siga a Câmara BH no Twitter" src="/sites/all/themes/bootstrap_cmbh_mobile/images/twitter.png" /></a></li>
+	<li><a class="nav navbar-nav facebook" href="http://www.facebook.com/camaradebh" target="_blank"><img alt="Curta a Câmara BH no Facebook" src="/sites/all/themes/bootstrap_cmbh_mobile/images/facebook.png" /> </a></li>
+	<li><a class="nav navbar-nav youtube" href="https://www.youtube.com/camaramunicipaldebelohorizonte" target="_blank"><img alt="Assista a Câmara BH no YouTube" src="/sites/all/themes/bootstrap_cmbh_mobile/images/youtube.png" /> </a></li>
+	<li><a class="nav navbar-nav flickr" href="https://www.flickr.com/photos/camarabh/albums" target="_blank"><img alt="Veja a Câmara BH no Flickr" src="/sites/all/themes/bootstrap_cmbh_mobile/images/flickr.png" /></a></li>
+	<li><a class="nav navbar-nav flickr" href="https://www.instagram.com/camarabh/" target="_blank"><img alt="Veja a Câmara BH no Instagram" src="/sites/all/themes/bootstrap_cmbh_mobile/images/instagram.png" /></a></li>
+</ul>
+</div>
+</section> <!-- /.block -->
+<section id="block-block-4" class="block block-block participe  participe clearfix">
+
+      
+  <span class="eventos oculta-xss"><a href="/eventos"  data-toggle="tooltip" data-placement="bottom" title="Eventos" >Eventos</a></span>
+<span class="agenda oculta-xxs"><a href="/agenda" data-toggle="tooltip" data-placement="bottom" title="Agenda" >Agenda</a></span>
+<span class="fale_camara oculta-xxs"><a href="/participe/fale-com-a-camara" data-toggle="tooltip" data-placement="bottom" title="Ouvidoria - Lei de Acesso à Informação" >Fale com a Câmara</a></span>
+<span class="participe_link"><a href="/participe" data-toggle="tooltip"  data-placement="bottom" title="Todas as formas de participação" >Participe</a></span>
+</section> <!-- /.block -->
+  </div>
+                                                </div>
+                    </div>
+	</div>
+  
+
+
+
+</header>      
+<!--FIM - cabecalho-->
+
+<nav class="navbar navbar-default">
+  <div class="container">
+        <!--menu celular-->
+        <div class=" hidden-sm hidden-md hidden-lg navbar-header " > 
+			<!-- Busca cell -->
+							
+			<button type="button" class="busca-toggle collapsed btn btn-primary" data-toggle="collapse" data-target="#expand-busca" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="glyphicon glyphicon-search"></span>
+			</button>
+			
+			<!-- Menu Hamburger -->
+				
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#expand-menu" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			</button>
+			    
+			<!-- Participe -->	
+			<div class="center ">
+				<div class="participe-cel">
+					<span ><a class="participe_link" href="/participe">Participe</a></span>
+					<span ><a class="agenda" href="/agenda">Agenda</a></span>
+					<span ><a class="eventos" href="/eventos">Eventos</a></span>
+				
+				</div>
+			</div>
+
+
+
+        <!-- FIM menu celular-->           
+		</div>
+        <div id="expand-menu" class="collapse navbar-collapse">
+		<a id="iniciodomenu" name="iniciodomenu" ></a>
+			
+				  					<ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a accesskey="2" data-target="#" class="dropdown-toggle nolink">A Câmara <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/A-C%C3%A2mara/entenda-a-camara" title="Informações sobre a Câmara: Como chegar, horário de funcionamento, papel da Câmara, etc.">Entenda a Câmara</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/mesa-diretora" title="Composição da Mesa diretora">Mesa Diretora</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/como-chegar" title="Como chegar à Câmara">Como chegar</a></li>
+<li class="leaf"><a href="/banco-de-ideias" accesskey="2">Banco de Ideias</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/cultural" accesskey="2">Câmara Cultural</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/memoria" title="Histórico da Câmara e da nossa cidade">Memória</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/estrutura-administrativa" title="Lista com todos os setores da CMBH">Estrutura Administrativa</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/publicacoes" accesskey="2">Publicações</a></li>
+<li class="last leaf"><a href="/A-C%C3%A2mara/procuradoria-mulher" accesskey="2">Procuradoria da Mulher</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/vereadores" data-target="#" class="dropdown-toggle">Vereadores <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/vereadores" title="Acesso à lista de vereadores">Conheça os Vereadores</a></li>
+<li class="leaf"><a href="/vereadores/bancadasblocos" title="Lista de vereadores por partido">Bancadas e Blocos</a></li>
+<li class="last leaf"><a href="/vereadores/participacao-em-conselhos" title="Participação de vereadores em conselhos">Conselhos</a></li>
+</ul></li>
+<li class="expanded dropdown"><a class="atividade-legislativa-menu dropdown-toggle nolink" data-target="#">Atividade Legislativa <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/atividade-legislativa/pesquisar-legislacao" title="Pesquisar por legislação">Legislação</a></li>
+<li class="leaf"><a href="/atividade-legislativa/pesquisar-proposicoes" title="Pesquisar por projetos de lei e outras proposições">Proposições</a></li>
+<li class="leaf"><a href="/atividade-legislativa/pesquisar-reunioes" title="Pesquisar por reuniões">Reuniões</a></li>
+<li class="leaf"><a href="/atividade-legislativa/comissoes" title="Comissões permanentes e temporárias">Comissões</a></li>
+<li class="leaf"><a href="/atividade-legislativa/orcamentos" title="Acompanhe e entenda a tramitação do orçamento">Ciclo Orçamentário</a></li>
+<li class="leaf"><a href="/atividade-legislativa/homenagens" title="Lista de homenageados pela Câmara">Homenagens</a></li>
+<li class="leaf"><a href="/atividade-legislativa/audiencias-publicas-visitas-tecnicas-seminarios" title="Audiências Públicas, Visitas Técnicas e Seminários">Audiências, Visitas e Seminários</a></li>
+<li class="leaf"><a href="/atividade-legislativa/guia-de-reda%C3%A7%C3%A3o" title="Guia de Redação">Guia de Redação</a></li>
+<li class="last leaf"><a href="/atividade-legislativa/distribui%C3%A7%C3%A3o-do-dia" title="Documentos distribuídos hoje">Distribuição do dia</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/servicos" data-target="#" class="dropdown-toggle">Serviços <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/servicos/sine" title="Sistema Nacional de Emprego" accesskey="0">Sine</a></li>
+<li class="leaf"><a href="/servicos/refeitorio-popular" title="Refeitório Popular" accesskey="2">Refeitório Popular</a></li>
+<li class="leaf"><a href="/servicos/conciliacao" title="Juizado de Conciliação">Conciliação</a></li>
+<li class="leaf"><a href="/servicos/posto-de-identificacao" title="Posto de Identificação">Posto de Identificação</a></li>
+<li class="leaf"><a href="/servicos/procon" title="Programa de Proteção e Defesa do Consumidor">Procon</a></li>
+<li class="leaf"><a href="/servicos/internet-popular" title="Internet Popular">Internet Popular</a></li>
+<li class="leaf"><a href="/servicos/ponto-de-acolhimento-e-orienta%C3%A7%C3%A3o-%C3%A0-mulher-em-situa%C3%A7%C3%A3o-de-viol%C3%AAncia" accesskey="2">Ponto de Atendimento à Mulher</a></li>
+<li class="last leaf"><a href="/servicos/tre" accesskey="2">Tribunal Regional Eleitoral (TRE)</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/transparencia-principal" accesskey="5" data-target="#" class="dropdown-toggle">Transparência <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/transparencia/licitacoes" title="Licitações em andamento e encerradas">Licitações</a></li>
+<li class="leaf"><a href="/transparencia/vereadores" title="Relatórios da atuação dos vereadores">Vereadores</a></li>
+<li class="leaf"><a href="/transparencia/execu%C3%A7%C3%A3o-or%C3%A7ament%C3%A1ria/elemento-despesa" title="Dados sobre a execução orçamentária da câmara">Execução Orçamentária</a></li>
+<li class="leaf"><a href="/transparencia/pessoal/quantidade/vereador" title="Relação de pessoal, remuneração e avaliação">Pessoal</a></li>
+<li class="leaf"><a href="https://www.cmbh.mg.gov.br/transparencia/contratos_convenios_vigentes_finalizados" title="Lista de contratos e convênios vigentes">Contratos e Convênios</a></li>
+<li class="leaf"><a href="/transparencia/concursos" title="Informações sobre concursos da Câmara">Concursos</a></li>
+<li class="last leaf"><a href="/transparencia/lgpd" accesskey="2">LGPD</a></li>
+</ul></li>
+<li class="expanded dropdown"><a data-target="#" class="dropdown-toggle nolink">Comunicação <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/comunica%C3%A7%C3%A3o/not%C3%ADcias" title="Notícias">Notícias</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/sala-de-imprensa" title="Sala de Imprensa">Sala de imprensa</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/campanhas" accesskey="2">Campanhas</a></li>
+<li class="leaf"><a href="https://www.flickr.com/photos/camarabh/albums" target="_blank">Galeria de Imagens</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/v%C3%ADdeos/reuni%C3%B5es">Vídeos de Reuniões</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/v%C3%ADdeos/solenidades">Vídeos de Solenidades</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/podcasts" accesskey="2">Podcasts</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/revistas" accesskey="2">Revistas</a></li>
+<li class="last leaf"><a href="/comunica%C3%A7%C3%A3o/webstories" accesskey="2">Web Stories</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a accesskey="2" data-target="#" class="dropdown-toggle nolink">Educação Cidadã <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="https://www.cmbh.mg.gov.br/Educa%C3%A7%C3%A3o-Cidad%C3%A3/escola-do-legislativo" accesskey="2">Escola do Legislativo</a></li>
+<li class="leaf"><a href="https://www.cmbh.mg.gov.br/Educa%C3%A7%C3%A3o-Cidad%C3%A3/parlamento-jovem" accesskey="2">Parlamento Jovem</a></li>
+<li class="leaf"><a href="https://www.cmbh.mg.gov.br/Educa%C3%A7%C3%A3o-Cidad%C3%A3/camara-mirim" accesskey="2">Câmara Mirim</a></li>
+<li class="leaf"><a href="https://www.cmbh.mg.gov.br/Educa%C3%A7%C3%A3o-Cidad%C3%A3/camara-eja" accesskey="2">Câmara Eja</a></li>
+<li class="leaf"><a href="https://www.cmbh.mg.gov.br/Educa%C3%A7%C3%A3o-Cidad%C3%A3/rede-de-conversas" accesskey="2">Rede de Conversas</a></li>
+<li class="leaf"><a href="https://www.cmbh.mg.gov.br/Educa%C3%A7%C3%A3o%20Cidad%C3%A3/visite" accesskey="2">Agende sua Visita</a></li>
+<li class="last leaf"><a href="https://www.cmbh.mg.gov.br/eventos" accesskey="2">Seminários</a></li>
+</ul></li>
+</ul>				  				  				  									  
+			         </div>       
+   </div>
+           <!-- Busca celular-->      
+           <div id="expand-busca" class="collapse navbar-collapse"> 
+                    <div class="hidden-lg hidden-md hidden-sm">
+						
+							<div class="form-group form-inline">
+							<form class="search-form form-search content-search" role="search" action="/atividade-legislativa/pesquisar-legislacao/decreto/14906/2012" method="post" id="search-block-form--2" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Formulário de busca</h2>
+    <div class="input-group"><input title="Digite os termos que você deseja procurar." class="custom-search-box form-control form-text" placeholder="Pesquisar no site" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span>
+</button></span></div><fieldset  class="custom_search-popup panel panel-default form-wrapper" id="edit-popup--2">
+    <div class="panel-body" id="edit-popup-2-body">
+        <div class="form-item form-item-custom-search-types form-type-select form-group"> <label class="control-label" for="edit-custom-search-types--2">Pesquisar em</label>
+<select class="custom-search-selector custom-search-types form-control form-select" id="edit-custom-search-types--2" name="custom_search_types"><option value="c-all" selected="selected">-Todos-</option><option value="c-agenda">Agenda</option><option value="c-comissoes">Comissões</option><option value="c-page">Conteúdo Geral</option><option value="c-eventos">Eventos</option><option value="c-licitacao">Licitação</option><option value="c-noticias">Notícias</option><option value="c-faq">Perguntas Frequentes</option><option value="c-vereador">Vereador</option></select></div>  </div>
+</fieldset>
+<div class="form-actions form-wrapper form-group" id="edit-actions--3"><input alt="Pesquisar" class="custom-search-button element-invisible form-submit" type="image" id="edit-submit--3" name="op" src="/sites/all/themes/bootstrap_cmbh_mobile/images/icones/ic_search_black_24px.svg" /></div><input type="hidden" name="form_build_id" value="form-4Cus2w7ftADi90TpTgaJlARbfbkJqVoyVdRKu1_Ae94" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>													
+							<!--<input type="text" class="campo_busca" placeholder="Buscar no site">
+							<input class="btn btn-default" type="submit" value="OK">-->
+							</div>
+							
+							
+						
+                                              
+                    </div>
+           </div>
+ </nav>
+
+       <div class="region region-aovivo">
+    <section id="block-tv-camara-tv-camara-aovivo-estatico" class="block block-tv-camara   clearfix">
+
+      
+  
+</section> <!-- /.block -->
+  </div>
+
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+    
+      <div class="region region-header">
+    <section id="block-easy-breadcrumb-easy-breadcrumb" class="block block-easy-breadcrumb hidden-xs  hidden-xs clearfix">
+
+      
+    <div itemscope class="easy-breadcrumb" itemtype="http://data-vocabulary.org/Breadcrumb">
+          <span itemprop="title"><a href="/" class="easy-breadcrumb_segment easy-breadcrumb_segment-front">Início</a></span>               <span class="easy-breadcrumb_segment-separator">&gt;</span>
+                <span class="easy-breadcrumb_segment easy-breadcrumb_segment-1" itemprop="title">Atividade legislativa</span>               <span class="easy-breadcrumb_segment-separator">&gt;</span>
+                <span itemprop="title"><a href="/atividade-legislativa/pesquisar-legislacao" class="easy-breadcrumb_segment easy-breadcrumb_segment-2">Pesquisar Legislação</a></span>               <span class="easy-breadcrumb_segment-separator">&gt;</span>
+                <span itemprop="title"><a href="/atividade-legislativa/pesquisar-legislacao/decreto" class="easy-breadcrumb_segment easy-breadcrumb_segment-3">Decreto</a></span>               <span class="easy-breadcrumb_segment-separator">&gt;</span>
+                <span itemprop="title"><a href="/atividade-legislativa/pesquisar-legislacao/decreto/14906" class="easy-breadcrumb_segment easy-breadcrumb_segment-4">14906</a></span>               <span class="easy-breadcrumb_segment-separator">&gt;</span>
+                <span class="easy-breadcrumb_segment easy-breadcrumb_segment-title" itemprop="title">Pesquisar Legislação</span>            </div>
+
+</section> <!-- /.block -->
+  </div>
+  </header> <!-- /#page-header -->
+
+  <div class="row">
+	  	<section id="coluna-principal" role="main"  class="col-sm-12">
+      
+      	  <a id="iniciodoconteudo"  name="iniciodoconteudo"></a>
+      <span id="main-content" ></span>
+
+                    <h1 class="page-header">Pesquisar Legislação</h1>
+                                                    
+                
+        <div class="region region-content">
+    <section id="block-system-main" class="block block-system   clearfix">
+
+      
+  <div class="view view-pesquisar-proposicoes-coringa view-id-pesquisar_proposicoes_coringa view-display-id-page_1 view-dom-id-28dc9a97f48879fd1a90b9fad7c95403">
+        
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+</section> <!-- /.block -->
+<section id="block-consulta-normas-consulta-normas" class="block block-consulta-normas   clearfix">
+
+      
+  
+	<div class="caixa">
+    <form id="form_pesquisa_normas" name="formPesquisaNormas" method="post">
+        <input type="hidden" name="metodo" value="">
+        <input type="hidden" name="paginaRequerida" id="paginaRequerida_normas" value="1">
+        <input  type="hidden" name="urlNorma" id="urlNorma" value="">
+        <input  type="hidden" name="idNorma" id="idNorma" value="">
+        <input  type="hidden" name="buscarEmendas" id="buscarEmendas" value="">
+        <input  type="hidden" name="buscaViaUrl" id="buscaViaUrl_normas" value="1">
+        <input  type="hidden" name="mobile" id="mobile_normas" value="0">    
+	<div class="grupo">
+		<label for="tipoDeNorma">Tipo de norma:</label>
+		<select name="tipoDeNorma" id="tipoDeNorma" class="form-control"><option value="">[Todas]</option>stdClass Object
+(
+    [request] => GET /silinternet/servico/tiposDeNorma HTTP/1.0
+User-Agent: Drupal (+http://drupal.org/)
+Host: cmbhsilint.cmbh.mg.gov.br
+
+
+    [data] => {"qtde":11,"tiposDeNorma":[{"nome":"Ato do Presidente","id":"2c907f7625220eef01252ce30fb60096"},{"nome":"Decreto","id":"2c907f7809dba21a0109df3553190007"},{"nome":"Decreto Legislativo","id":"2c907f766c440a9f016c52c24feb004c"},{"nome":"Decreto-Lei","id":"2c907f7613f91fa6011445bc0eff0004"},{"nome":"Deliberação","id":"2c907f7624bb50570124d8bf559000c7"},{"nome":"Emenda à Lei Orgânica","id":"2c907f78064b443701064b444bb80006"},{"nome":"Instrução de Serviço","id":"2c907f7625220eef01252ce2e21f0095"},{"nome":"Lei","id":"2c907f78064b443701064b444c020008"},{"nome":"Lei Orgânica - NÃO ORIGINÁRIA DO SIL Tramitação","id":"2c907f7619968b1a011a0179819f12aa"},{"nome":"Portaria","id":"2c907f76242ea9eb01245e81563c05e4"},{"nome":"Resolução","id":"2c907f78064b443701064b444c130009"}]}
+    [protocol] => HTTP/1.1
+    [status_message] => OK
+    [headers] => Array
+        (
+            [server] => nginx
+            [date] => Thu, 09 Oct 2025 21:57:40 GMT
+            [content-type] => application/json;charset=utf-8
+            [content-length] => 787
+            [connection] => close
+            [set-cookie] => JSESSIONID=E65ED37B385CCE3F1872DD2C8438F965; Path=/silinternet; HttpOnly
+            [cache-control] => no-cache, no-store, must-revalidate
+            [pragma] => no-cache
+            [expires] => 0
+            [content-disposition] => inline
+            [x-cache-status] => HIT
+        )
+
+    [code] => 200
+)
+<option value="2c907f7625220eef01252ce30fb60096">Ato do Presidente</option><option selected="selected" value="2c907f7809dba21a0109df3553190007">Decreto</option><option value="2c907f766c440a9f016c52c24feb004c">Decreto Legislativo</option><option value="2c907f7613f91fa6011445bc0eff0004">Decreto-Lei</option><option value="2c907f7624bb50570124d8bf559000c7">Deliberação</option><option value="2c907f78064b443701064b444bb80006">Emenda à Lei Orgânica</option><option value="2c907f7625220eef01252ce2e21f0095">Instrução de Serviço</option><option value="2c907f78064b443701064b444c020008">Lei</option><option value="2c907f7619968b1a011a0179819f12aa">Lei Orgânica</option><option value="2c907f76242ea9eb01245e81563c05e4">Portaria</option><option value="2c907f78064b443701064b444c130009">Resolução</option>			
+		</select>
+	</div>
+	<div class="grupo">
+		<label for="numero">Número:</label>
+		<input class="form-control" type="text" name="numero" maxlength="8" size="8"
+				value="14906" onblur="if(this.value=='') this.value='[número]';"
+				onfocus="if(this.value=='[número]') this.value='';" id="numero_normas">
+	</div>
+	<div class="grupo">
+		<span class="entrecampos">(Ex: 1232)</span>
+	</div>	
+	<div class="grupo">
+		<label for="ano">Ano:</label>
+		<input class="form-control" type="text" name="ano" maxlength="5" size="5"
+				value="2012" onblur="if(this.value=='') this.value='[ano]';"
+				onfocus="if(this.value=='[ano]') this.value='';" id="ano_normas"> 
+	</div>
+	<div class="grupo">
+		<span class="entrecampos">(Ex: 2016)</span>
+	</div>	
+	<div class="grupo" style="margin-top:10px">		
+		<div class="grupo">
+			<label for="assunto">Assunto:</label>
+			<input class="form-control" type="text" name="assunto" maxlength="100" size="40"
+					value="[assunto]" onblur="if(this.value=='') this.value='[assunto]';"
+					onfocus="if(this.value=='[assunto]') this.value='';" id="assunto_normas">
+		</div>
+		<div class="grupo">
+			<span  class="entrecampos"> e </span>
+		</div>
+		<div class="grupo">
+			<input class="form-control" type="text" name="assunto2" maxlength="100" size="40"
+					value="[assunto2]" onblur="if(this.value=='') this.value='[assunto2]';"
+					onfocus="if(this.value=='[assunto2]') this.value='';" id="assunto2_normas"   style="margin-top:25px;">
+		</div>        
+	</div>
+	<div class="grupo" style="margin-top:10px">
+        <div class="grupo">
+            <label for="autoria">Autoria:</label>
+            <input class="form-control" type="text" name="autoria" maxlength="100" size="40"
+                        value="[autoria]" onblur="if(this.value=='') this.value='[autoria]';"
+                        onfocus="if(this.value=='[autoria]') this.value='';" id="autoria"> 
+        </div>
+        <div class="grupo">
+            <label for="tema">Tema:</label>
+            <select name="tema" id="tema" class="form-control"><option value="">[Todos]</option><option value="162485b5158f93b301158f93b60f0000">ABASTECIMENTO</option><option value="162485b5158f93b301158f93b60f0001">ADMINISTRAÇÃO PÚBLICA</option><option value="162485b5158f93b301158f93b60f0002">AGENTE POLÍTICO</option><option value="162485b5158f93b301158f93b60f0003">ASSISTÊNCIA SOCIAL</option><option value="162485b5158f93b301158f93b60f0004">BEM PÚBLICO</option><option value="162485b5158f93b301158f93b60f0005">CONTRATO PÚBLICO</option><option value="162485b5158f93b301158f93b60f0006">CULTURA</option><option value="162485b5158f93b301158f93b60f0007">DATA COMEMORATIVA</option><option value="162485b5158f93b301158f93b60f0008">DEFESA DO CONSUMIDOR</option><option value="162485b5158f93b301158f93b60f0009">DIREITOS HUMANOS</option><option value="162485b5158f93b301158f93b60f000a">EDIFICAÇÕES</option><option value="162485b5158f93b301158f93b60f000b">EDUCAÇÃO</option><option value="162485b5158f93b301158f93b60f000c">ESPORTES</option><option value="162485b5158f93b301158f93b60f000d">FERIADO</option><option value="162485b5158f93b301158f93b60f000e">FINANÇAS PÚBLICAS</option><option value="162485b5158f93b301158f93b60f000f">HABITAÇÃO</option><option value="162485b5158f93b301158f93b60f0010">HOMENAGEM</option><option value="162485b5158f93b301158f93b60f0011">MEIO AMBIENTE</option><option value="162485b5158f93b301158f93b60f0012">POLÍTICA INDUSTRIAL</option><option value="162485b5158f93b301158f93b60f0013">POLÍTICA URBANA</option><option value="162485b5158f93b301158f93b60f0014">POSTURAS MUNICIPAIS</option><option value="162485b5158f93b301158f93b60f0015">PREVIDÊNCIA</option><option value="162485b5158f93b301158f93b60f0017">PRÓPRIO PÚBLICO</option><option value="162485b5158f93b301158f93b60f0018">SANEAMENTO</option><option value="162485b5158f93b301158f93b60f0019">SAÚDE</option><option value="162485b5158f93b301158f93b60f001a">SEGURANÇA PÚBLICA</option><option value="162485b5158f93b301158f93b60f001b">SERVIÇO FUNERÁRIO</option><option value="162485b5158f93b301158f93b60f001c">SERVIDOR</option><option value="162485b5158f93b301158f93b60f001d">SÍMBOLO OFICIAL</option><option value="162485b5158f93b301158f93b60f001e">TRANSPORTE E TRÂNSITO</option><option value="162485b5158f93b301158f93b60f001f">TRIBUTAÇÃO</option><option value="162485b5158f93b301158f93b60f0020">TURISMO</option><option value="162485b5158f93b301158f93b60f0021">UTILIDADE PÚBLICA</option>			
+            </select>	
+        </div>
+        <div class="grupo">
+            <input type="button" id="pesquisar_normas" value="Pesquisar" class="btn btn-primary"  style="margin-top:25px;"/>
+        </div>
+	
+    </div>
+        </form>
+	</div>
+<a name="inicioResultados" id="inicioResultados_normas"></a>
+<div id="loader_normas" style="display:none"></div>
+<div id="resultadoPesquisa_normas" class="resultadoPesquisa rp-2018">
+</div>
+<div id="cache_normas" style="display:none"></div>
+
+<script>
+
+
+(function($){
+
+	$(document).ready(function(){	
+    
+       
+    
+    
+		$("#pesquisar_normas").click(function(){	
+			//alert($( "#form_pesquisa_normas" ).serialize());
+			$("#idNorma").val("");
+			$("#paginaRequerida_normas").val(1);
+			$("#urlNorma").val("");
+			$("#loader_normas").toggle();
+
+			$.post( "/sites/all/modules/consulta_normas/pesquisar.php", $( "#form_pesquisa_normas" ).serialize()).done(function( data ) {
+                
+				$("#resultadoPesquisa_normas").html(data);
+				//alert( "Data Loaded: " + data );
+				$("#buscaViaUrl_normas").val("");
+				$("#loader_normas").toggle();
+
+			});
+		});
+        
+    
+    
+   
+    
+    
+    $(".paginar_normas").live("click", function(){	
+			
+        $("#idNorma").val("");
+        $("#urlNorma").val("");		
+        $("#paginaRequerida_normas").val($(this).attr("title"));
+        $("#buscaViaUrl_normas").val("");
+        $("#loader_normas").toggle();
+
+        $.post( "/sites/all/modules/consulta_normas/pesquisar.php", $( "#form_pesquisa_normas" ).serialize()).done(function( data ) {
+            $("#resultadoPesquisa_normas").html(data);
+            //alert( "Data Loaded: " + data );
+            $("#loader_normas").toggle();
+        });
+    });
+    
+    $(".detalharAnexado").live("click", function(){	
+			
+        $("#idNorma").val("");
+        $("#urlNorma").val($(this).attr("data-caminho"));
+        $("#cache_normas").html($("#resultadoPesquisa_normas").html());
+        $("#loader_normas").toggle();
+
+        $.post( "/sites/all/modules/consulta_normas/proxy.php", $( "#form_pesquisa_normas" ).serialize()).done(function( data ) {
+            $("#resultadoPesquisa_normas").html(data);
+            //alert( "Data Loaded: " + data );
+            $("#loader_normas").toggle();
+        });
+			
+    });
+    
+    $("#voltarPesquisa_normas").live("click", function(){	
+			
+        $("#resultadoPesquisa_normasInterno").html($("#cache_normas").html());		
+			
+    });
+    
+    $(".detalhar_normas").live("click", function(){	
+			
+        $("#idNorma").val("");
+        $("#urlNorma").val($(this).attr("data-caminho"));
+        $("#cache_normas").html($("#resultadoPesquisa_normasInterno").html());
+        $("#loader_normas").toggle();
+        $.post( "/sites/all/modules/consulta_normas/proxy.php", $( "#form_pesquisa_normas" ).serialize()).done(function( data ) {
+            $("#resultadoPesquisa_normas").html(data);
+            $("#loader_normas").toggle();    
+            if ( history.pushState ) history.pushState("Legislação", "Link", $("#novaUrl").html());
+        });
+
+        var aTag = $("#inicioResultados_normas");
+        $("html,body").animate({scrollTop: aTag.offset().top},"slow");
+
+
+    });
+    
+    
+    $(".mudarPagina_normas").live("click", function(){	
+		
+        $("#idNorma").val("");
+        $("#urlNorma").val("");
+        $("#paginaRequerida_normas").val($(this).html());
+        //alert ($(this).html());
+        $("#loader_normas").toggle();
+
+        //alert($("#paginaRequerida_normas").val());
+        $.post( "/sites/all/modules/consulta_normas/pesquisar.php", $( "#form_pesquisa_normas" ).serialize()).done(function( data ) {
+        
+            $("#resultadoPesquisa_normas").html(data);
+            //alert( "Data Loaded: " + data );
+            $("#loader_normas").toggle();
+
+        });
+
+    });
+    
+    
+     $("#autoria").autocomplete({
+                source:[{label:"Adriano Ventura",value:1},{label:"Alberto Rodrigues",value:2},{label:"Alexandre Gomes",value:3},{label:"Álvaro Damião",value:4},{label:"Ana Paschoal",value:5},{label:"Anselmo José Domingos",value:6},{label:"Antônio Pinheiro",value:7},{label:"Antônio Torres-Gunda",value:8},{label:"Arnaldo Godoy",value:9},{label:"Arruda",value:10},{label:"Áurea Carolina",value:11},{label:"Autair Gomes",value:12},{label:"Balbino",value:13},{label:"Bella Gonçalves",value:14},{label:"Bim da Ambulância",value:15},{label:"Braulio Lara",value:16},{label:"Bruno Miranda",value:17},{label:"Cabo Júlio",value:18},{label:"Carlão Pereira",value:19},{label:"CarlosHenrique",value:20},{label:"Carlos Henrique",value:21},{label:"Carlúcio Gonçalves",value:22},{label:"Catatau do Povo",value:23},{label:"César Gordin",value:24},{label:"Chambarelle",value:25},{label:"Cida Falabella",value:26},{label:"Ciro Pereira",value:27},{label:"Cláudio do Mundo Novo",value:28},{label:"Cláudio Duarte",value:29},{label:"Cleiton Xavier",value:30},{label:"Coronel Piccinini",value:31},{label:"Daniel Nepomuceno",value:32},{label:"Delegado Edson Moreira",value:33},{label:"Délio Malheiros",value:34},{label:"Diego Sanches",value:35},{label:"Dimas da Ambulância",value:36},{label:"Divino Pereira",value:37},{label:"Doorgal Andrada",value:38},{label:"Doutor Sandro",value:39},{label:"Dra. Michelly Siqueira",value:40},{label:"Dr. Bernardo Ramos",value:41},{label:"Dr. Bruno Pedralva",value:42},{label:"Dr. Célio Frois",value:43},{label:"Dr. Nilton",value:44},{label:"Duda Salabert",value:45},{label:"Edinho Ribeiro",value:46},{label:"Edmar Branco",value:47},{label:"Eduardo da Ambulância",value:48},{label:"Elaine Matozinhos",value:49},{label:"Elvis Côrtes",value:50},{label:"Fábio Caldeira",value:51},{label:"Fernanda Pereira Altoé",value:52},{label:"Fernando Borja",value:53},{label:"Fernando Luiz",value:54},{label:"Flávia Borja",value:55},{label:"Flávio dos Santos",value:56},{label:"Fred Costa",value:57},{label:"Gabriel Sousa Marques de Azevedo",value:58},{label:"Geraldo Félix",value:59},{label:"Gêra Ornelas",value:60},{label:"Gilson Guimarães",value:61},{label:"Gilson Reis",value:62},{label:"Heleno",value:63},{label:"Helinho da Farmácia",value:64},{label:"Helton Junior",value:65},{label:"Henrique Braga",value:66},{label:"Hugo Thomé",value:67},{label:"Iran Barbosa",value:68},{label:"Irlan Melo",value:69},{label:"Iza Lourença",value:70},{label:"Jair Bolsonaro Di Gregório",value:71},{label:"Janaina Cardoso",value:72},{label:"João Bosco Rodrigues",value:73},{label:"João Oscar",value:74},{label:"João Vitor Xavier",value:75},{label:"Joel Moreira Filho",value:76},{label:"Jorge Santos",value:77},{label:"José Ferreira",value:78},{label:"Juhlia Santos",value:79},{label:"Juninho Los Hermanos",value:80},{label:"Juninho Paim",value:81},{label:"Léo",value:82},{label:"Leonardo Ângelo",value:83},{label:"Leonardo Mattos",value:84},{label:"Loíde Gonçalves",value:85},{label:"Lucas Ganem",value:86},{label:"Lúcio Bocão",value:87},{label:"Luís Tibé",value:88},{label:"Luiza Dulci",value:89},{label:"Luzia Ferreira",value:90},{label:"Macaé Evaristo",value:91},{label:"Maninho Félix",value:92},{label:"Marcelo Álvaro Antônio",value:93},{label:"Marcelo Aro",value:94},{label:"Márcio Almeida",value:95},{label:"Marcos Crispim",value:96},{label:"Maria Lúcia Scarpelli",value:97},{label:"Marilda Portela",value:98},{label:"Mateus Simões",value:99},{label:"Miguel Corrêa Jr.",value:100},{label:"Miltinho CGE",value:101},{label:"Moamed Rachid",value:102},{label:"Neila Batista",value:103},{label:"Nely Aquino",value:104},{label:"Neném da Farmácia",value:105},{label:"Neusinha Santos",value:106},{label:"Nikolas Ferreira",value:107},{label:"Orlei",value:108},{label:"Osman Miranda",value:109},{label:"Osvaldo Lopes",value:110},{label:"Ovídio Teixeira Cardoso",value:111},{label:"Pablo Almeida",value:112},{label:"Pablo César-Pablito",value:113},{label:"Paulinho Motorista",value:114},{label:"Paulo Augusto dos Santos - Paulão",value:115},{label:"Paulo Lamac",value:116},{label:"Pedrão do Depósito",value:117},{label:"Pedro Bueno",value:118},{label:"Pedro Patrus",value:119},{label:"Pedro Rousseff",value:120},{label:"Pelé do Vôlei",value:121},{label:"Preto",value:122},{label:"Pricila Teixeira",value:123},{label:"Professora Marli",value:124},{label:"Professora Nara",value:125},{label:"Professor Claudiney Dulim",value:126},{label:"Professor Elias Murad",value:127},{label:"Professor Juliano Lopes",value:128},{label:"Professor Ronaldo Gontijo",value:129},{label:"Professor Wendel Mesquita",value:130},{label:"Rafael Martins",value:131},{label:"Ramon Bibiano da Casa de Apoio",value:132},{label:"Reinaldinho",value:133},{label:"Reinaldo Gomes Preto Sacolão",value:134},{label:"Reinaldo Lima",value:135},{label:"Ricardo da Farmácia",value:136},{label:"Roberto da Farmácia",value:137},{label:"Rogerio Alkimim",value:138},{label:"Ronaldo Batista",value:139},{label:"Rubão",value:140},{label:"Rudson Paixão",value:141},{label:"Rui Resende",value:142},{label:"Sargento Jalyson",value:143},{label:"Sérgio Fernando Pinho Tavares",value:144},{label:"Sérgio Ferrara",value:145},{label:"Sílvia Helena",value:146},{label:"Silvinho Rezende",value:147},{label:"Sônia Lansky da Coletiva",value:148},{label:"Tarcísio Caixeta",value:149},{label:"Tileléo",value:150},{label:"Toninho Pinheiro da Vila Pinho",value:151},{label:"Totó Teixeira",value:152},{label:"Trópia",value:153},{label:"Uner Augusto",value:154},{label:"Valdir Antero Vieira - Índio",value:155},{label:"Valdivino",value:156},{label:"Vanderlei Miranda",value:157},{label:"Veré da Farmácia",value:158},{label:"Vile Santos",value:159},{label:"Vilmo Gomes",value:160},{label:"Vinícius Dantas",value:161},{label:"Wagner Ferreira",value:162},{label:"Walter Tosta",value:163},{label:"Wanderley Porto",value:164},{label:"Wellington Bessa - Sapão",value:165},{label:"Wellington Magalhães",value:166},{label:"Wesley Moreira",value:167},{label:"Wilsinho da Tabu",value:168}],
+                minLength: 2,
+                select: function(event, ui) {
+                    event.preventDefault();
+                    $("#autoria").val(ui.item.label);
+                }
+        });
+
+       
+
+        $("#refazerPesquisaNormas").live("click", function(){	
+        
+            $(".caixa").show();          
+            $("#refazerPesquisaNormas").hide();
+		});
+		
+		
+		// envio da pesquisa básica
+		
+		$("#loader").toggle();
+
+		$.post( "/sites/all/modules/consulta_normas/pesquisar.php", $( "#form_pesquisa_normas" ).serialize()).done(function( data ) {
+				$("#resultadoPesquisa_normas").html(data);
+				$("#buscaViaUrl_normas").val("");
+                
+				$("#loader").toggle();
+
+		});
+		
+		
+	});
+
+})(jQuery);
+
+  </script>
+</section> <!-- /.block -->
+  </div>
+        
+    </section>
+
+	 	
+    	
+	
+	 </div>
+</div>
+
+
+<!-- BEGIN # MODAL LOGIN -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog"   aria-hidden="true" style="display: none;">
+    	<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header" >
+					<img id="logo_login" src="/sites/all/themes/bootstrap_cmbh/images/logo_cmbh.png" alt="CÃ¢mara Municipal de Belo Horizonte">
+
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</button>
+				</div>
+                
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                
+                    <!-- Begin # Login Form -->
+                    
+					
+						<div class="modal-body">
+							<form class="compact-form" action="/node?destination=atividade-legislativa/pesquisar-legislacao/decreto/14906/2012" method="post" id="user-login-form" accept-charset="UTF-8">
+
+								<input class="form-control form-text required compact-form-field" id="edit-name" name="name" type="text"     placeholder="nome ou e-mail" required>
+								<input class="form-control form-text required compact-form-field" id="edit-pass" name="pass" type="password" placeholder="senha" required>
+								<a href="/user/password"  title="Definir uma nova senha">Esqueceu a senha?</a>
+								<div  class="modal-footer">
+									<div>
+										<input name="form_build_id" value="form-A0pmqMwf2njQic7PdlM-NIiIa77CtTpAuahh0iBbE3k" type="hidden">
+										<input name="form_id" value="user_login_block" type="hidden">
+										<button class="btn btn-login form-submit" id="edit-submit-modal" name="op" value="Entrar" type="submit" title="Clique para efetuar o login">ENTRAR</button>
+									</div>
+								</div>
+							</form>
+							<form class="compact-form" action="/user/register" method="post" id="user-login-form-new" accept-charset="UTF-8">
+								<div>
+									<p>N&atilde;o tem cadastro?</p>
+									<button id="login_register_btn" onclick="location.href='/user/register';" type="button" class="btn btn-login">CADASTRE-SE AGORA</button>
+								</div>
+							</form>
+						</div>
+						
+ 
+                    <!-- End # Login Form -->
+                    
+                </div>
+                <!-- End # DIV Form -->
+                
+			</div>
+		</div>
+</div>
+<!-- END # MODAL LOGIN -->
+
+
+
+
+
+
+
+
+<footer class="rodape" >
+    <a id="rodape" name="rodape" ></a>
+	<div class="container">
+			<div class="row">
+								  <div class="col-sm-3 col-xs-6" >
+					  <div class="region region-rodape-1">
+    <section id="block-menu-menu-menu-rodap-01" class="block block-menu   clearfix">
+
+      
+  <ul class="menu nav"><li class="first expanded dropdown"><a title="A Câmara" class="rodape_menu_pai dropdown-toggle nolink" data-target="#">A Câmara <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/A-C%C3%A2mara/entenda-a-camara" title="Entenda o funcionamento da Câmara">Entenda a Câmara</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/mesa-diretora">Mesa Diretora</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/como-chegar">Como chegar</a></li>
+<li class="leaf"><a href="/Educa%C3%A7%C3%A3o%20Cidad%C3%A3/visite">Agende uma Visita</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/memoria" title="Memória da câmara Municipal de BH">Memória</a></li>
+<li class="leaf"><a href="/A-C%C3%A2mara/estrutura-administrativa">Estrutura administrativa</a></li>
+<li class="last leaf"><a href="/A-C%C3%A2mara/procuradoria-mulher" accesskey="2">Procuradoria da Mulher</a></li>
+</ul></li>
+<li class="leaf"><a href="/eventos" title="Eventos e seminários" class="rodape_menu_pai">Eventos</a></li>
+<li class="leaf"><a href="/agenda" title="Agenda completa dos eventos da CMBH" class="rodape_menu_pai">Agenda</a></li>
+<li class="leaf"><a href="/participe" title="Todas as formas de participação" class="rodape_menu_pai">Participe</a></li>
+<li class="last expanded dropdown"><a title="Vereadores" class="rodape_menu_pai dropdown-toggle nolink" data-target="#">Vereadores <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/vereadores" title="Lista de vereadores">Conheça os Vereadores</a></li>
+<li class="leaf"><a href="/vereadores/bancadasblocos" accesskey="b">Bancadas e Blocos</a></li>
+<li class="last leaf"><a href="/vereadores/participacao-em-conselhos" title="Participação dos vereadores em conselhos">Conselhos</a></li>
+</ul></li>
+</ul>
+</section> <!-- /.block -->
+  </div>
+				  </div>  <!-- /#sidebar-first -->
+												  <div class="col-sm-3 col-xs-6" >
+					  <div class="region region-rodape-2">
+    <section id="block-menu-menu-menu-rodap-02" class="block block-menu   clearfix">
+
+      
+  <ul class="menu nav"><li class="first expanded dropdown"><a class="rodape_menu_pai dropdown-toggle nolink" accesskey="2" data-target="#">Atividade Legislativa <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/atividade-legislativa/pesquisar-legislacao" title="Pesquisar por legislação">Legislação</a></li>
+<li class="leaf"><a href="/atividade-legislativa/pesquisar-proposicoes" title="Pesquisar por projetos de lei e outras proposições">Proposições</a></li>
+<li class="leaf"><a href="/atividade-legislativa/pesquisar-reunioes" title="Pesquisar por reuniões">Reuniões</a></li>
+<li class="leaf"><a href="/atividade-legislativa/comissoes" title="Comissões permanentes e temporárias">Comissões</a></li>
+<li class="leaf"><a href="/atividade-legislativa/orcamento" title="Acompanhe e entenda a tramitação do orçamento">Ciclo Orçamentário</a></li>
+<li class="leaf"><a href="/atividade-legislativa/homenagens" title="Lista de homenageados pela Câmara">Homenagens</a></li>
+<li class="leaf"><a href="/atividade-legislativa/audiencias-publicas-visitas-tecnicas-seminarios" title="Audiências Públicas, Visitas Técnicas e Seminários">Audiências Públicas, Visitas Técnicas e Seminários</a></li>
+<li class="last leaf"><a href="/atividade-legislativa/distribui%C3%A7%C3%A3o-do-dia" title="Documentos distribuídos hoje">Distribuição do dia</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a title="Comunicação" class="rodape_menu_pai dropdown-toggle nolink" data-target="#">Comunicação <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/comunica%C3%A7%C3%A3o/not%C3%ADcias" title="Notícias">Notícias</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/sala-de-imprensa" title="Sala de Imprensa">Sala de Imprensa</a></li>
+<li class="leaf"><a href="/comunica%C3%A7%C3%A3o/v%C3%ADdeos/reuni%C3%B5es" accesskey="2">Vídeos de Reuniões</a></li>
+<li class="last leaf"><a href="/comunica%C3%A7%C3%A3o/v%C3%ADdeos/solenidades" accesskey="2">Solenidades</a></li>
+</ul></li>
+</ul>
+</section> <!-- /.block -->
+  </div>
+				  </div>  <!-- /#sidebar-first -->
+												  <div class="col-sm-3 col-xs-6" >
+					  <div class="region region-rodape-3">
+    <section id="block-menu-menu-menu-rodap-03" class="block block-menu   clearfix">
+
+      
+  <ul class="menu nav"><li class="first expanded dropdown"><a href="/servicos" class="rodape_menu_pai dropdown-toggle" data-target="#">Serviços <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/servicos/refeitorio-popular">Refeitório Popular</a></li>
+<li class="leaf"><a href="/servicos/sine" title="Sistema Nacional de Emprego">Sine</a></li>
+<li class="leaf"><a href="/servicos/conciliacao" title="Juizado de Conciliação">Conciliação</a></li>
+<li class="leaf"><a href="/servicos/posto-de-identificacao" title="Posto de Identificação">Posto de Identificação</a></li>
+<li class="leaf"><a href="/servicos/procon" title="Programa de Proteção e Defesa do Consumidor">Procon</a></li>
+<li class="leaf"><a href="/servicos/internet-popular" title="Internet Popular">Internet Popular</a></li>
+<li class="last leaf"><a href="/servicos/ponto-de-acolhimento-e-orienta%C3%A7%C3%A3o-%C3%A0-mulher-em-situa%C3%A7%C3%A3o-de-viol%C3%AAncia" accesskey="2">Ponto de atendimento à mulher</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a href="/transparencia-principal" class="rodape_menu_pai dropdown-toggle" data-target="#">Transparência <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/transparencia/licitacoes" title="Licitações em andamento e encerradas">Licitações</a></li>
+<li class="leaf"><a href="/transparencia/atuacao-dos-vereadores" title="Relatórios da atuação dos vereadores">Atuação dos vereadores</a></li>
+<li class="leaf"><a href="/transparencia/execu%C3%A7%C3%A3o-or%C3%A7ament%C3%A1ria/por-grupo-de-despesa" title="Dados sobre a execução orçamentária da câmara"> Execução Orçamentária</a></li>
+<li class="leaf"><a href="/transparencia/pessoal/quantidade" title="Relação de pessoal, remuneração e avaliação">Pessoal</a></li>
+<li class="leaf"><a href="/transparencia/vereadores/verba-indenizatoria" title="Relatórios de gastos da Verba Indenizatória por vereador">Verba Indenizatória</a></li>
+<li class="leaf"><a href="/transparencia/concursos" title="Informações sobre concursos da Câmara">Concursos</a></li>
+<li class="last leaf"><a href="/transparencia/lgpd" accesskey="2">LGPD</a></li>
+</ul></li>
+</ul>
+</section> <!-- /.block -->
+  </div>
+				  </div>  <!-- /#sidebar-first -->
+												  <div class="col-sm-3 col-xs-6" >
+					  <div class="region region-rodape-4">
+    <section id="block-block-6" class="block block-block   clearfix">
+
+      
+  <div class="rodapecol4">
+<table>
+<tr>
+<th>
+<img src="/sites/all/themes/bootstrap_cmbh/images/brasao.png" alt="Câmara Municipal de BH">
+</th>
+<th>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+<th align="right">
+<a href="https://www.rededecontrole.gov.br/verifique-adesao-pnpc/" target="_blank">
+<img src="/sites/default/files/destaques/2021/marca_participacao_pnpc-110.png" alt="redecontrole.gov.br">
+</a>
+</th>
+</tr>
+</table>
+
+<ul>
+<li><a href="/participe/fale-com-a-camara">Fale com a Câmara</a></li>
+<li><a href="/perguntas-frequentes">Perguntas Frequentes</a></li>
+<li><a href="/acessibilidade">Acessibilidade</a></li>
+<li><a href="/termos-de-uso">Termos de uso</a></li>
+<li><a href="/politica-privacidade-silap">Política de privacidade (SILAP)</a></li>
+<li><a href="http://webmail.cmbh.mg.gov.br">Webmail</a></li>
+<li><a href="http://intranet.cmbh.mg.gov.br">Intranet</a></li>
+<li><a href="/user">Efetuar Login</a></li>
+
+</ul>
+
+<address>Av. dos Andradas, 3.100<br>Santa Efigênia<br>Belo Horizonte - MG<br>CEP: 30260-900 <br> <a href="/A-Câmara/como-chegar"><span class="glyphicon glyphicon-map-marker"></span>  Como chegar</a></address>
+
+<p>
+<span data-nosnippet>Telefone geral: (31) 3555-1100</span>
+</p><p>
+Horário de funcionamento:<br> 7h às 19h
+</p>
+</div>
+<!--- Secure Site Seal - DO NOT EDIT --->
+<span id="ss_img_wrapper_115-55_image_en"><a href="http://www.alphassl.com/ssl-certificates/wildcard-ssl.html" target="_blank" title="SSL Certificates"><img alt="Wildcard SSL Certificates" border=0 id="ss_img" src="//seal.alphassl.com/SiteSeal/images/alpha_noscript_115-55_en.gif" title="SSL Certificate"></a></span>
+<!--- Secure Site Seal - DO NOT EDIT --->
+</div>
+</section> <!-- /.block -->
+  </div>
+				  </div>  <!-- /#sidebar-first -->
+							</div>
+	</div>
+	<div class="container" >
+			
+	</div>
+	
+</footer>
+	
+	<script type="application/javascript">
+document.getElementById("edit-search-block-form--2").accessKey = "3";
+
+</script>
+  <!--ESCONDER TITULO NA P�GINA LAI -->
+  <script src="https://www.cmbh.mg.gov.br/sites/all/modules/picture/picturefill2/picturefill.min.js?v=2.3.1"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/modules/picture/picture.min.js?v=7.98"></script>
+<script>window.eu_cookie_compliance_cookie_name = "";</script>
+<script defer="defer" src="https://www.cmbh.mg.gov.br/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.js?t3u4kx"></script>
+<script src="https://www.cmbh.mg.gov.br/sites/all/themes/bootstrap/js/bootstrap.js?t3u4kx"></script>
+
+  <script type="application/javascript">
+    (function($) {
+      $(document).ready(function() {
+        var linkCss;
+        $("#acess-tools li a.trocar").click(function(e) {
+          e.preventDefault();
+          if ($("link.trocarContraste").attr("href") != '#') {
+            linkCss = '#';
+          } else {
+            linkCss = '/sites/all/themes/bootstrap_cmbh/css/cmbh_dark.css';
+          }
+          $("link.trocarContraste").attr("href", linkCss);
+          $.cookie("css", linkCss, {
+            expires: 365,
+            path: '/'
+          });
+          return false;
+        });
+        if ($.cookie("css")) {
+          $("link.trocarContraste").attr("href", $.cookie("css"));
+        }
+
+        $("#search-block-form button").click(function() {
+          $("#loader_pesquisa_geral").toggle();
+        });
+        $("#search-form button").click(function() {
+          $("#loader_pesquisa_geral").toggle();
+        });
+
+      });
+    })(jQuery);
+  </script>
+</body>
+
+
+</html>

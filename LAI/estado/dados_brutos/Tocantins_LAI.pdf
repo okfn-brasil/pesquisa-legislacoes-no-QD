@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="j_idt3">
+            <meta http-equiv="Content-Language" content="pt-br" />
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />		
+            <link rel="icon" href="/decretos/resources/casacivil/images/_logo.png" type="image/png" />
+            <title>DECRETOS</title><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/theme.css.xhtml?ln=primefaces-bootstrap" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/fa/font-awesome.css.xhtml?ln=primefaces&amp;v=6.1" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/styles/custom.css.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/styles/layout-front.css.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/styles/components.css.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/styles/subirParaTopo.css.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/components.css.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=primefaces&amp;v=6.1" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/css/default/core.css.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=bsf" /><link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /><link type="text/css" rel="stylesheet" href="/decretos/javax.faces.resource/css/bsf.css.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=bsf" /><!--[if lt IE 9]><script src="/decretos/javax.faces.resource/js/html5shiv.js.xhtml?ln=bsf"></script><script src="/decretos/javax.faces.resource/js/respond.js.xhtml?ln=bsf"></script><![endif]--><script type="text/javascript" src="/decretos/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/decretos/javax.faces.resource/core.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/decretos/javax.faces.resource/components.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=primefaces&amp;v=6.1"></script><script type="text/javascript" src="/decretos/javax.faces.resource/jsf.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=javax.faces&amp;stage=Development"></script><script type="text/javascript" src="/decretos/javax.faces.resource/js/tooltip.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=bsf"></script><script type="text/javascript" src="/decretos/javax.faces.resource/js/bsf.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=bsf"></script><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='pt_BR';PrimeFaces.settings.projectStage='Development';}</script><meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async="true" src="https://www.googletagmanager.com/gtag/js?id=UA-90843045-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-90843045-2');
+        </script></head><body>
+
+        <script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/topo.js?k=izflux"></script>
+        <div class="topo"></div>
+        <section class="aw-content  js-content">
+            <div class="row">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/decretos/;jsessionid=05A7F2395A441969F541FEB12675FED9" title="Início">
+                    <i class="fa fa-home"> Início</i></a>
+            </li>
+            <li class="breadcrumb-item active">
+                <span>Decreto</span>
+            </li>
+            <div class="clearfix"></div>
+        </ol>
+        <div class="ui-fluid" style="margin-top: -10px"><div class="panel-group" id="j_idt20"><div style="border: none" class="panel panel-default"><div id="j_idt20content" class="panel-collapse collapse in"><div class="panel-body">
+                <fieldset>
+                    <legend class="navbar-header" style="font-size: 1.4em">Decreto N<u><sup>o</sup></u> 4.839, de 
+                        19/06/2013
+                            - <a href="https://diariooficial.to.gov.br/busca/?por=edicao&amp;edicao=3985" class="ui-link ui-widget" target="_blank">DOE <span title="Ir para Diário Oficial do Estado">3985</span></a><a href="/decretos/resources/pdf\decreto_4839.pdf;jsessionid=05A7F2395A441969F541FEB12675FED9" title="Baixar arquivo em PDF" target="_blank" class="btn btn-primary btn-xs pull-right">
+                                <i class="fa fa-download" aria-hidden="true"> Download</i></a>
+
+                        <div class="clearfix"></div>
+                    </legend>
+                </fieldset>
+
+                <div class="col-md-12">
+                    <div class="conteudo-decreto">
+                        <center><img src="/decretos/javax.faces.resource/images/governo_do_estado_do_tocantins.jpg.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil" />
+                        </center>
+                        <!--
+                        &lt;center&gt;
+                            &lt;span style="font-weight: bold; font-family: Arial;"&gt;
+                                &lt;h:outputText value="DECRETO N"/&gt;&lt;u&gt;&lt;sup&gt;o&lt;/sup&gt;&lt;/u&gt;
+                                &lt;h:outputText value=" "/&gt;
+                                &lt;h:outputText value="4839.0"&gt;
+                                    &lt;f:convertNumber minFractionDigits="0"/&gt;
+                                &lt;/h:outputText&gt;, de
+                                &lt;h:outputText value="19 de junho de 2013"/&gt;
+                            &lt;/span&gt;
+                        &lt;/center&gt;
+    
+                        &lt;h:outputText value="Define regras espec&iacute;ficas para o Poder Executivo quanto ao acesso &agrave; informa&ccedil;&atilde;o, e adota outras provid&ecirc;ncias." class="pull-right" 
+                                      style="width: 50%; margin-top: 2em; text-align: justify" escape="false"/&gt;
+                        &lt;div class="clearfix"&gt;&lt;/div&gt;-->
+
+                        <script>
+                            $(document).ready(function () {
+                                $('.MsoQuote').attr("style", "width: 50%; margin-top: 2em; text-align: justify; float:right");
+                                $('p[style*="margin-left:8.0cm"]').attr("style", "width: 50%; margin-top: 2em; text-align: justify; float:right");
+                                $('p[style*="8cm"]').attr("style", "width: 50%; margin-top: 2em; text-align: justify; float:right");
+                                $('p[style^="width: 50%"] + p').prepend('<div class="clearfix"></div>');
+                                $('table, td, th, tr').attr("width", "");
+                            });
+                        </script><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">DECRETO </span></b><b><span style="font-size: 14pt;"><span style="font-size: 15px;">N</span>º<span style="font-size: 15px;"> 4.839, de 19 de junho de 2013.</span><o:p></o:p></span></b></font></p><p class="MsoNormal" style="line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="margin-left: 8cm; text-align: justify; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Define regras
+específicas para o Poder Executivo quanto ao acesso à informação, e adota
+outras providências.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm -0.1pt 0.0001pt 327px; text-align: justify; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><span style="font-size: 14pt;"><span style="font-size: 15px;">O </span><b><span style="font-size: 15px;">GOVERNADOR DO
+ESTADO DO TOCANTINS</span></b><span style="font-size: 15px;">, no uso da atribuição que lhe confere o art. 40, inciso
+II, da Constituição do Estado, e </span></span><span style="font-size: 14pt;"><span style="font-size: 15px;">com fulcro no art. 45 da Lei Federal 12.527,
+de 18 de novembro de 2011,</span><o:p></o:p></span></font></p><p style="margin: 0cm -0.1pt 0.0001pt 0cm; text-align: justify; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">D E C R E T
+A</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">:</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO I</span><o:p></o:p></font></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">DAS DISPOSIÇÕES PRELIMINARES</span><o:p></o:p></font></span></b></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">Art. 1</span>º</span></b><span style="font-size: 15px; letter-spacing: -0.1pt;">
+Este Decreto define regras específicas para o Poder Executivo quanto ao acesso
+à informação, em complemento às normas gerais de âmbito nacional contidas na
+Lei </span><span style="font-size: 14pt;"><span style="font-size: 15px;">Federal
+12.527, de 18 de novembro de 2011.</span><span style="letter-spacing:-.1pt"><o:p></o:p></span></span></font></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">Art. 2</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">
+Incumbe aos gestores das entidades e dos órgãos do Poder Executivo:</span><o:p></o:p></span></font></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– promover a adequação do protocolo, registro, processamento, trâmite e
+arquivamento de documentos às diretrizes de políticas de acesso à informação;</span><o:p></o:p></font></span></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">II
+– garantir o direito ao acesso à informação mediante as transparências ativa,
+ativo-passiva e passiva, definidas neste Decreto.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO II</span><o:p></o:p></font></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">DAS TRANSPARÊNCIAS ATIVA,
+ATIVO-PASSIVA E PASSIVA</span><o:p></o:p></font></span></b></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">Art.&nbsp;3</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">&nbsp;A
+transparência ativa ocorre por meio dos sítios institucionais, atendidos os
+seguintes requisitos:</span><o:p></o:p></span></font></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– inserir, no menu principal,</span><i><span style="font-size: 15px;"> banner</span></i><span style="font-size: 15px;">
+com a expressão “Portal da Transparência”;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– redirecionar o acesso ao sítio principal denominado “Portal da Transparência
+do Governo do Estado do Tocantins – Poder Executivo”;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">III
+– manter, no sítio principal, uma área denominada “Programas, Objetivos e Ações
+Orçamentárias”, na qual são apresentadas as seguintes informações:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+lista dos programas, objetivos e ações orçamentário-financeiras executados pelas
+entidades e órgãos, na conformidade da descrição dos instrumentos oficiais de
+planejamento;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+relatórios sintéticos de monitoramento dos programas e ações;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">c)
+instrumentos oficiais de planejamento e orçamento do Poder Executivo.</span><o:p></o:p></font></span></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">Art. 4</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">
+A transparência ativo-passiva ocorre por meio do Serviço de Informações ao
+Cidadão – SIC </span><i><span style="font-size: 15px;">on-line</span></i><span style="font-size: 15px;">, inserido nos
+sítios institucionais em forma de </span><i><span style="font-size: 15px;">banner</span></i><span style="font-size: 15px;">,</span><i><span style="font-size: 15px;"> </span></i><span style="font-size: 15px;">que redireciona o acesso a informações
+específicas da entidade ou do órgão, expostas ou solicitadas.</span><o:p></o:p></span></font></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">Art. 5</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">
+A transparência passiva ocorre por meio do Serviço de Informações ao Cidadão –
+SIC presencial, instalado nas entidades e órgãos em unidade física identificada
+e de fácil acesso ao público.</span><o:p></o:p></span></font></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO III</span><o:p></o:p></font></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">DO PEDIDO DE ACESSO À INFORMAÇÃO</span></b><b><span style="font-size: 14pt;"><o:p></o:p></span></b></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 6</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">
+O pedido de acesso à informação é apresentado ao SIC, </span><i><span style="font-size: 15px;">on-line </span></i><span style="font-size: 15px;">ou presencial, em formulário padrão disponibilizado nos
+sítios institucionais e nas entidades e órgãos.</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">§1</span>º<span style="font-size: 15px;"> O</span></span><span style="font-size: 14pt;"><span style="font-size: 15px;"> formulário padrão é provido das
+seguintes informações do interessado:</span><span style="letter-spacing:-.1pt"><o:p></o:p></span></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– nome completo, número do CPF, data de nascimento, endereço completo, </span><i><span style="font-size: 15px;">e-mail</span></i><span style="font-size: 15px;">, escolaridade, profissão e
+telefone;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– especificação clara e precisa do solicitado.</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;"><br></span></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">§2</span>º<span style="font-size: 15px;">
+É facultado ao interessado o envio de pedido de acesso à informação por outro
+meio, desde que atendidos os requisitos do §1</span>º<span style="font-size: 15px;"> deste artigo.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 7</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">
+A resposta ao pedido compete ao dirigente do setor que contém a informação.</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo
+único. O prazo de resposta é de vinte dias, prorrogável justificadamente por
+mais dez, contado a partir da protocolização do pedido.</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">Art. 8</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">
+Cumpre às unidades descentralizadas oferecer os serviços de protocolo e de encaminhamento
+dos pedidos de acesso à informação.</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">Art. 9</span>º</span></b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">
+Caso não contenha a informação solicitada, incumbe ao gestor:</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">I
+– das unidades descentralizadas, de imediato, encaminhar o pedido ao SIC
+presencial de sua própria entidade ou órgão, quando o assunto for afeto a
+estes;</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><span style="font-size: 15px; letter-spacing: -0.1pt;">II
+– máximo das entidades e órgãos, ou de suas unidades descentralizadas,</span><span style="font-size: 14pt;"><span style="font-size: 15px;"> </span><span style="letter-spacing: -0.1pt; font-size: 15px;">quando o assunto não for afeto a estes,</span><span style="font-size: 15px;">
+enviar, em cinco dias, o pedido à Controladoria-Geral do Estado.</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo único. Na
+ocorrência do disposto no inciso II deste artigo:</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I – cabe à
+Controladoria-Geral do Estado, em cinco dias, redistribuir a solicitação à
+entidade ou ao órgão competente;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– o prazo de resposta inicia-se a partir do recebimento da solicitação pela entidade
+ou órgão responsável pela informação.</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">Art. 10.</span></b><span style="font-size: 15px; letter-spacing: -0.1pt;">
+</span><span style="font-size: 14pt;"><span style="font-size: 15px;">As
+informações contidas em processos administrativos são requeridas na entidade ou
+no órgão de origem.</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">Art.
+11.</span></b><span style="font-size: 15px; letter-spacing: -0.1pt;"> </span><span style="font-size: 14pt;"><span style="font-size: 15px;">Não
+são atendidos os pedidos de acesso à informação:</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– genéricos;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– desproporcionais;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">III
+– desarrazoados;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">IV
+– que exijam trabalhos adicionais de análise, produção, interpretação,
+tratamento, consolidação de dados e informações que não sejam da competência da
+entidade ou órgão.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><span style="font-size: 15px; letter-spacing: -0.1pt;">Parágrafo único.</span><span style="font-size: 14pt;"><span style="font-size: 15px;"> Na hipótese do inciso IV deste artigo,
+cumpre à entidade ou ao órgão, caso tenha conhecimento, indicar a fonte das
+informações, a partir das quais o interessado pode interpretá-las,
+consolidá-las ou realizar o tratamento dos dados.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 12.</span></b><span style="font-size: 15px;"> Para </span><span style="font-size: 15px;">ressarcimento de custos,</span><span style="font-size: 14pt;"><span style="font-size: 15px;"> caso haja necessidade de reprodução de
+documentos, incumbe à entidade ou ao órgão disponibilizar ao interessado o
+Documento de Arrecadação de Receitas Estaduais – DARE ou equivalente.</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO IV</span><o:p></o:p></font></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">DO </span></b><b><span style="font-size: 14pt;"><span style="font-size: 15px;">NÚCLEO
+DE SEGURANÇA E CREDENCIAMENTO – NSC </span><o:p></o:p></span></b></font></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">E DA </span><span style="letter-spacing:-.1pt"><span style="font-size: 15px;">COMISSÃO MISTA DE
+REAVALIAÇÃO</span><o:p></o:p></span></font></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">DE INFORMAÇÕES – CMRI</span></b><b><span style="font-size: 14pt;"><o:p></o:p></span></b></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 13.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">Para o tratamento das
+informações, ficam instituídos:</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– o Núcleo de Segurança e Credenciamento – NSC, competindo-lhe:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+garantir a segurança de informações sigilosas;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+regulamentar o credenciamento de segurança das pessoas físicas e jurídicas e
+das entidades e órgãos públicos;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– a </span><span style="letter-spacing: -0.1pt; font-size: 15px;">Comissão Mista de Reavaliação de
+Informações – CMRI</span><span style="font-size: 15px;">, competindo-lhe:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;"><br></span></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+reavaliar a classificação das informações;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+requisitar da autoridade classificadora os documentos e os esclarecimentos que
+julgar necessários;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">c)
+decidir recurso interposto sobre resposta do </span><span style="letter-spacing: -0.1pt; font-size: 15px;">Secretário-Chefe
+da Controladoria-Geral do Estado.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§1</span>º<span style="font-size: 15px;">
+Integram:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– o NSC:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+o Governador do Estado;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+o Vice-Governador do Estado;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">c)
+o Comandante-Geral da Polícia Militar do Estado do Tocantins;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">d)
+o Secretário-Chefe da Casa Militar;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">e)
+o Secretário de Estado da Segurança Pública;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– a CMRI:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+o Secretário-Chefe da Controladoria-Geral do Estado, na função de coordenador;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+o Procurador-Geral do Estado;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">c)
+o Secretário-Chefe da Casa Civil;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">d)
+o Secretário de Estado da Comunicação Social;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">e)
+o Secretário de Estado da Fazenda;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">f)
+o Secretário de Estado do Planejamento e da Modernização da Gestão Pública.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§2</span>º<span style="font-size: 15px;">
+A validade da credencial de segurança tem prazo e limite em razão do objeto.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§3</span>º<span style="font-size: 15px;">
+Cada membro titular da CMRI indica o respectivo suplente.</span><b><span style="letter-spacing:-.1pt"><o:p></o:p></span></b></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO V</span><o:p></o:p></font></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">DOS GRAUS DE SIGILO</span></b><span style="font-size: 14pt;"><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 14. </span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">A classificação da
+informação quanto ao grau de sigilo é de competência das seguintes autoridades:</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– no grau ultrassecreto:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+o Governador;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+o Vice-Governador;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">c)
+os Secretários de Estado e autoridades equivalentes;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– nos graus secreto e reservado, as autoridades referidas no inciso I deste
+artigo e os dirigentes máximos de autarquias, fundações, empresas públicas e
+sociedades de economia mista.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo
+único. É vedada a delegação da competência prevista neste artigo.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 15.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">As informações que
+colocarem em risco a segurança do Governador e do Vice-Governador do Estado,
+bem assim de seus respectivos cônjuges e filhos, ou equivalentes legais, são
+classificadas no grau reservado, permanecendo sob sigilo durante o mandato.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 16.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">A decisão que
+classificar a informação em qualquer grau de sigilo é formalizada por
+intermédio do Termo de Classificação de Informação – TCI, de acordo com o
+prescrito no Anexo Único a este Decreto.</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo único.
+Classificada a informação no grau ultrassecreto ou secreto, cabe à autoridade
+classificadora encaminhar em trinta dias cópia do TCI à CMRI.</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 17.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">Cumpre à autoridade classificadora
+publicar na internet, até o dia 1</span>º<span style="font-size: 15px;"> de junho de cada ano:</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– rol das informações classificadas em cada grau de sigilo, contendo a:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+categoria na qual se enquadra a informação;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+indicação de dispositivo legal que fundamenta a classificação;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">c)
+data da produção da informação;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">d)
+data e o prazo da classificação;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– rol das informações desclassificadas nos últimos doze meses;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;"><br></span></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">III
+– relatórios estatísticos:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">a)
+da quantidade de pedidos de acesso à informação;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">b)
+consolidados dos requerentes.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo
+único. As informações previstas neste artigo são mantidas em meio físico.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 18.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">A publicação de atos
+administrativos referentes a documentos, informações e dados sigilosos é
+efetuada pelo NSC, por extrato, no Diário Oficial do Estado.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo
+único. O extrato contém o número, o ano de edição e a ementa, de modo a não
+comprometer o sigilo.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 19.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> Na hipótese de
+documento que contenha informações classificadas em diferentes graus de sigilo,
+é atribuído tratamento do grau mais elevado, assegurado às partes não
+classificadas o acesso por meio de certidão, extrato ou cópia, com ocultação da
+parte sigilosa.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 20.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> </span><span style="letter-spacing: -0.1pt; font-size: 15px;">O acesso
+à informação em qualquer grau de sigilo restringe-se à pessoa que tenha
+comprovada necessidade de seu conhecimento e seja credenciada pelo NSC, sem
+prejuízo das atribuições dos agentes públicos autorizados por lei.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 21.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> É de dois anos o
+prazo máximo para reavaliar de ofício a classificação das informações nos graus
+ultrassecreto e secreto.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 22.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">Cabe à Secretaria da
+Segurança Pública promover o treinamento e a orientação para o tratamento de
+informações classificadas em qualquer grau de sigilo.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo
+único. É de responsabilidade dos dirigentes das entidades, dos órgãos e das
+pessoas físicas e jurídicas adotar as medidas necessárias para que seus servidores
+públicos, empregados, prepostos ou representantes atendam às medidas e aos
+procedimentos de segurança das informações.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO VI</span><o:p></o:p></font></span></b></p><p align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">DOS RECURSOS</span></b><span style="font-size: 14pt;"><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 23.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">Da resposta do:</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– </span><span style="letter-spacing:-.1pt"><span style="font-size: 15px;">dirigente do setor que contém a informação
+cabe recurso ao gestor máximo do órgão ou entidade;</span><o:p></o:p></span></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">II – gestor máximo da entidade ou do órgão cabe recurso ao
+Secretário-Chefe da Controladoria-Geral do Estado;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">III – do Secretário-Chefe da Controladoria-Geral do
+Estado cabe recurso à CMRI.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">§1</span>º<span style="font-size: 15px;"> O prazo para interposição dos
+recursos de que trata este artigo é de dez dias e o de manifestação do gestor
+máximo, do Secretário-Chefe ou da CMRI, cinco dias.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§2</span>º<span style="font-size: 15px;">
+Verificada a procedência das razões dos recursos, cumpre ao julgador determinar,
+em prazo certo, a adoção das medidas cabíveis para o pleno atendimento do
+acesso à informação.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 24.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">Negada a
+desclassificação ou a reavaliação pela autoridade responsável, cabe ao
+requerente, no prazo de dez dias contado da ciência da decisão, apresentar
+recurso à autoridade máxima da entidade ou do órgão.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§1</span>º<span style="font-size: 15px;">
+Cumpre à autoridade máxima de que trata este artigo decidir sobre o recurso em
+trinta dias.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§2</span>º<span style="font-size: 15px;">
+Desprovido o recurso, é facultado ao requerente recorrer à CMRI, no prazo de
+dez dias contado da ciência da decisão.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO VII</span><o:p></o:p></font></span></b></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">DAS
+INFORMAÇÕES PESSOAIS</span><o:p></o:p></font></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm -0.1pt 0.0001pt 0cm; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 25.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> É assegurada a publicidade da informação
+referente a subsídio, remuneração, auxílio, ajuda de custo, vantagem pecuniária
+e provento de aposentadoria ou pensão.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm -0.1pt 0.0001pt 0cm; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm -0.1pt 0.0001pt 0cm; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Parágrafo único.
+Excetua-se da regra deste artigo a publicidade da dedução pecuniária de cunho
+particular.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 26.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> A proteção das
+informações pessoais ocorre em idênticas condições à atribuída ao grau
+reservado de sigilo.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 27.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> Incumbe ao dirigente
+máximo da entidade ou do órgão reconhecer de modo fundamentado, a pedido ou de
+ofício, sobre a publicidade das informações pessoais contidas em documentos que
+estejam sob sua guarda.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">§1</span>º<span style="font-size: 15px;">
+Para subsidiar a decisão de reconhecimento, é facultado ao dirigente máximo da
+entidade ou do órgão solicitar emissão de parecer a profissional ou instituição
+com notória experiência no respectivo assunto.</span></span><span style="font-size: 14pt;"><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">§2</span>º<span style="font-size: 15px;">
+A decisão de reconhecimento é precedida da publicação por extrato da respectiva
+informação.</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">§3</span>º<span style="font-size: 15px;">
+O extrato contém a descrição resumida do assunto, a origem e o período que o
+conjunto de documentos é considerado de acesso público.</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">§4</span>º<span style="font-size: 15px;">
+Publicado o extrato, a decisão ocorre nos prazos mínimo de trinta dias e máximo
+de cinquenta dias, este prorrogável justificadamente por mais dez. </span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><span style="font-size: 15px;">§5</span>º<span style="font-size: 15px;">
+Atendidos os limites legais, após a decisão de reconhecimento, os documentos
+são considerados de acesso público.</span></span><span style="font-size: 14pt;"><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO VIII</span><o:p></o:p></font></span></b></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">DAS PESSOAS JURÍDICAS
+DE DIREITO PRIVADO </span><o:p></o:p></font></span></b></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">PARA FINS NÃO ECONÔMICOS</span><o:p></o:p></font></span></b></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 28. </span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">Cumpre às pessoas
+jurídicas de direito privado para fins não econômicos, que percebam recursos financeiros
+públicos oriundos do Poder Executivo, manter o acesso ininterrupto e universal das
+seguintes informações:</span><b><o:p></o:p></b></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– cópia do estatuto social vigente da entidade;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– relação nominal atualizada dos seus dirigentes;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">III
+– cópia integral de convênio, contrato, acordo, aditivo e relatório final de
+prestação de contas, ou instrumentos congêneres, realizado com o Estado do
+Tocantins.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§1</span>º<span style="font-size: 15px;">
+As informações de que trata este artigo são:</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">I
+– atualizadas e divulgadas, a partir da celebração dos atos, em sítio da internet,
+de domínio da pessoa jurídica, e em quadro de amplo acesso público afixado em
+sua sede;</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">II
+– disponibilizadas por cento e oitenta dias depois da entrega da prestação de
+contas final.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§2</span>º<span style="font-size: 15px;">
+A divulgação em sítio da internet é dispensada quando a pessoa jurídica de
+direito privado para fins não econômicos não disponha de meios próprios para
+realizá-la.</span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">§3</span>º<span style="font-size: 15px;">
+A dispensa, de que trata o §2</span>º<span style="font-size: 15px;"> deste artigo, depende de
+comprovação expressa pelo gestor da pessoa jurídica e de decisão do dirigente
+máximo da entidade ou do órgão público interveniente do instrumento
+administrativo celebrado. </span><o:p></o:p></font></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 14pt;"><span style="font-size: 15px;">Art. 29.</span><sup><span style="font-size: 15px;"> </span></sup></span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">O pedido de
+informação, referente a instrumento administrativo celebrado com pessoa
+jurídica de direito privado para fins não econômicos, é apresentado diretamente
+à entidade ou ao órgão responsável pelo repasse do recurso financeiro público.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO IX</span><o:p></o:p></font></span></b></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">DOS VALORES DA MULTA</span><o:p></o:p></font></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 30. </span></b><span style="font-size: 14pt;"><span style="font-size: 15px;">Os valores da multa pelo desatendimento do
+disposto na Lei Federal 12.257/2011 e neste Decreto são:</span><o:p></o:p></span></font></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">I
+– de R$ 1.000,00 a R$ 200.000,00, se pessoa física;</span><o:p></o:p></font></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">II
+– de R$ 5.000,00 a R$ 600.000,00, se pessoa jurídica.</span><o:p></o:p></font></span></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">CAPÍTULO X</span><o:p></o:p></font></span></b></p><p class="western" align="center" style="margin: 0cm 0cm 0.0001pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">DAS DISPOSIÇÕES
+GERAIS E FINAIS</span><o:p></o:p></font></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 31.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> Cabe à
+Controladoria-Geral do Estado adotar providências em parceria com as demais entidades
+e órgãos para constituir e orientar comissões destinadas a gerir a política de
+acesso à informação.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><b><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 32.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> Cumpre ao dirigente
+máximo de entidade e órgão promover a capacitação de servidores públicos para o
+atendimento dos objetivos deste Decreto.</span><o:p></o:p></span></font></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="western" style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Art. 33.</span></b><span style="font-size: 14pt;"><span style="font-size: 15px;"> Este Decreto entra
+em vigor na data de sua publicação.</span><o:p></o:p></span></font></p><p style="margin: 0cm 0cm 0.0001pt; text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" style="text-align: justify; text-indent: 2cm; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Palácio
+Araguaia, em Palmas, aos 19 dias do mês de junho de 2013; 192</span>º<span style="font-size: 15px;">
+da Independência, 125</span>º<span style="font-size: 15px;"> da República e 25</span>º<span style="font-size: 15px;">
+do Estado.</span><o:p></o:p></font></span></p><p class="MsoNormal" align="center" style="text-align: center; text-indent: 2cm; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">JOSÉ
+WILSON SIQUEIRA CAMPOS</span><o:p></o:p></font></span></b></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Governador do Estado</span><o:p></o:p></font></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+</span><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:16.4pt"><td width="272" style="width:203.85pt;padding:0cm 5.4pt 0cm 5.4pt;height:16.4pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">André Luiz de Matos Gonçalves</span><o:p></o:p></font></span></b></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Procurador-Geral do
+  Estado</span><o:p></o:p></font></span></p><span style="font-size: 15px;">
+  </span></td><td width="342" style="width:256.65pt;padding:0cm 5.4pt 0cm 5.4pt;height:16.4pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="margin-left: -10.5pt; text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Arrhenius Fábio Giovannetti Naves</span><o:p></o:p></font></span></b></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="margin-left: -10.5pt; text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Secretário de
+  Estado da Comunicação Social</span><b><o:p></o:p></b></font></span></p><span style="font-size: 15px;">
+  </span></td></tr></tbody></table><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+</span><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:31.5pt"><td width="281" style="width:210.95pt;padding:0cm 5.4pt 0cm 5.4pt;height:31.5pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">Marcelo Olímpio
+  Carneiro Tavares</span></b><b><span style="font-size: 14pt;"><o:p></o:p></span></b></font></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Secretário de
+  Estado da Fazenda</span><o:p></o:p></font></span></p><span style="font-size: 15px;">
+  </span></td><td width="333" style="width:249.55pt;padding:0cm 5.4pt 0cm 5.4pt;height:31.5pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px;">José Eliú de
+  Andrada Jurubeba</span></b><b><span style="font-size: 14pt;"><o:p></o:p></span></b></font></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Secretário de
+  Estado da Segurança Pública</span><o:p></o:p></font></span></p><span style="font-size: 15px;">
+  </span></td></tr></tbody></table><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+</span><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:49.2pt"><td width="300" style="width:225.15pt;padding:0cm 5.4pt 0cm 5.4pt;height:49.2pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Ricardo Eustáquio
+  de Souza</span><o:p></o:p></font></span></b></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Secretário-Chefe da
+  </span><o:p></o:p></font></span></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Controladoria-Geral
+  do Estado</span><o:p></o:p></font></span></p><span style="font-size: 15px;">
+  </span></td><td width="314" style="width:235.35pt;padding:0cm 5.4pt 0cm 5.4pt;height:49.2pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Flávio Rios Peixoto
+  da Silveira</span><o:p></o:p></font></span></b></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Secretário de
+  Estado do Planejamento e da Modernização da Gestão Pública</span><o:p></o:p></font></span></p><span style="font-size: 15px;">
+  </span></td></tr></tbody></table><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 15px;"><o:p><font face="Arial">&nbsp;</font></o:p></span></p><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+  </span><span style="font-size: 15px;">
+ </span><span style="font-size: 15px;">
+</span><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="614" style="width: 460.5pt;"><tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:27.6pt"><td width="300" style="width:225.15pt;padding:0cm 5.4pt 0cm 5.4pt;height:27.6pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Alfrenésio
+  Martins Feitosa</span><o:p></o:p></font></span></b></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Secretário-Chefe da
+  Casa Militar</span><o:p></o:p></font></span></p><span style="font-size: 15px;">
+  </span></td><td width="314" style="width:235.35pt;padding:0cm 5.4pt 0cm 5.4pt;height:27.6pt"><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Renan
+  de Arimatéa Pereira</span><o:p></o:p></font></span></b></p><span style="font-size: 15px;">
+  </span><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><span style="font-size: 14pt;"><font face="Arial"><span style="font-size: 15px;">Secretário-Chefe da Casa Civil</span><b><o:p></o:p></b></font></span></p><span style="font-size: 15px;">
+  </span></td></tr></tbody></table><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p style="line-height: 1;"><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><span style="font-size: 15px;">
+
+</span><font face="Arial"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><br clear="all"><span style="font-size: 15px;">
+</span></span></b><span style="font-size: 15px;">
+
+</span></font></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><font face="Arial"><b><span style="font-size: 15px; letter-spacing: -0.1pt;">ANEXO
+ÚNICO AO DECRETO </span></b><b><span style="font-size: 14pt;"><span style="font-size: 15px;">N</span>º<span style="font-size: 15px;">
+4.839, de 19 de junho de 2013.</span><span style="letter-spacing:-.1pt;mso-bidi-font-weight:
+bold"><o:p></o:p></span></span></b></font></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 15px; letter-spacing: -0.1pt;"><o:p><font face="Arial">&nbsp;</font></o:p></span></b></p><p class="MsoNormal" align="center" style="text-align: center; line-height: 1;"><b><span style="font-size: 14pt; letter-spacing: -0.1pt;"><font face="Arial"><span style="font-size: 15px;">GRAU
+DE SIGILO:</span></font><font face="Arial, sans-serif"><o:p></o:p></font></span></b></p><div align="center">
+
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="92%" style="width: 92.9%;">
+ <tbody><tr>
+  <td colspan="2" style="border:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><b><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">TERMO DE
+  CLASSIFICAÇÃO DE INFORMAÇÃO Nº___</span></b><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">/___<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Órgão e Entidade:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Grau de sigilo:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Categoria:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Tipo de documento:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Data de produção:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Fundamento legal para classificação:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Razões para a classificação:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Prazo da restrição de acesso:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Data de classificação:</span><span style="font-family:
+  &quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="50%" rowspan="2" style="width:50.02%;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Autoridade classificadora:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Nome:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Cargo:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="50%" rowspan="2" style="width:50.02%;border:solid black 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Autoridade ratificadora:</span><span style="font-family:
+  &quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">(quando aplicável)</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" style="margin-left:-.9pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+  letter-spacing:-.1pt">Nome:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Cargo:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="50%" rowspan="2" style="width:50.02%;border-top:none;border-left:
+  solid black 1.0pt;border-bottom:solid black 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Desclassificação em ____/____/_____</span><span style="font-family:
+  &quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">(quando aplicável)</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Nome:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Cargo:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="50%" rowspan="2" style="width:50.02%;border-top:none;border-left:
+  solid black 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Reclassificação em ____/____/_____</span><span style="font-family:
+  &quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">(quando aplicável)</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Nome:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Cargo:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="50%" rowspan="2" style="width:50.02%;border-top:none;border-left:
+  solid black 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Redução de prazo em ____/____/_____</span><span style="font-family:
+  &quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">(quando aplicável)</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Nome:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Cargo:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="50%" rowspan="2" style="width:50.02%;border-top:none;border-left:
+  solid black 1.0pt;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.3pt">Prorrogação de prazo em ___/____/_____</span><span style="font-family:
+  &quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">(quando aplicável)</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Nome:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width="49%" style="width:49.98%;border-top:none;border-left:none;
+  border-bottom:solid windowtext 1.0pt;border-right:solid black 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:
+  -.1pt">Cargo:</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td colspan="2" style="border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">&nbsp;</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">________________________________<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">Assinatura da
+  Autoridade Classificadora</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">&nbsp;</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">________________________________<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">Assinatura da
+  Autoridade Ratificadora<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">(quando
+  aplicável)</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">&nbsp;</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">________________________________<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">Assinatura da Autoridade
+  Responsável por Desclassificação<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">(quando
+  aplicável)<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">________________________________<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">Assinatura da
+  Autoridade Responsável por Reclassificação<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">(quando
+  aplicável)<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:120.5pt 333.15pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">________________________________</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">Assinatura da
+  Autoridade Responsável por Redução de Prazo<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">(quando
+  aplicável)<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">&nbsp;</span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:309.6pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">________________________________</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center;tab-stops:309.6pt"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">Assinatura da
+  Autoridade Responsável por Prorrogação de Prazo<o:p></o:p></span></p>
+  <p class="MsoNormal" align="center" style="text-align:center"><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;letter-spacing:-.1pt">(quando
+  aplicável)</span><span style="font-family:&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p></o:p></span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div><br /><br /><br />
+                        <center><span class="text-danger">Este texto não substitui o publicado no Diário Oficial do Estado.</span></center>
+
+                    </div>
+                </div></div></div></div></div><input type="hidden" name="j_idt20_collapsed" id="j_idt20_collapsed" value="false" /><script>$('#j_idt20content').on('show.bs.collapse', function(event){document.getElementById('j_idt20_collapsed').value='false';});</script><script>$('#j_idt20content').on('hide.bs.collapse', function(event){document.getElementById('j_idt20_collapsed').value='true';});</script>
+        </div>
+            </div>
+        </section>
+        <script type="text/javascript" charset="utf-8" src="https://barra.to.gov.br/base.js?k=izflux"></script>
+        <a href="/equipe">
+            <div class="text-primary breadcrumb" style="margin-bottom: 0">
+                <center><i class="fa fa-users" aria-hidden="true"></i> Equipe de Desenvolvimento</center>
+            </div>
+        </a><script type="text/javascript" src="/decretos/javax.faces.resource/javascripts/app.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil"></script><script type="text/javascript" src="/decretos/javax.faces.resource/javascripts/primefacesCalendar.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil"></script><script type="text/javascript" src="/decretos/javax.faces.resource/javascripts/subirParaTopo.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=casacivil"></script><script type="text/javascript" src="/decretos/javax.faces.resource/js/collapse.js.xhtml;jsessionid=05A7F2395A441969F541FEB12675FED9?ln=bsf"></script></body>
+
+
+</html>

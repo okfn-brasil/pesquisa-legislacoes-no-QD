@@ -1,0 +1,568 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="pt-br"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="pt-br"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="pt-br"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br">
+<!--<![endif]-->
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36698703-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-36698703-1');
+    </script>
+
+
+    <meta charset="UTF-8" /><title>
+	Alepe Legis - Portal da Legislação Estadual de Pernambuco
+</title><meta name="apple-mobile-web-app-capable" content="yes" /><meta http-equiv="X-UA-Compatible" content="IE=edge;" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="O Alepe Legis e o portal que reune a Legislação de Pernambuco." /><meta name="keywords" content="alepe legis, legislação de Pernambuco, assembleia legislativa de pernambuco, alepe, legislação estadual" /><meta name="robots" content="index, folow" /><link rel="canonical" href="http://legis.alepe.pe.gov.br" /><link href="Content/css/fonts.css" rel="stylesheet" /><link href="Content/css/plugins.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="Imagens/favicon/apple-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="Imagens/favicon/apple-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="Imagens/favicon/apple-icon-72x72.png" /><link rel="apple-touch-icon" sizes="76x76" href="Imagens/favicon/apple-icon-76x76.png" /><link rel="apple-touch-icon" sizes="114x114" href="Imagens/favicon/apple-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="Imagens/favicon/apple-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="Imagens/favicon/apple-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="Imagens/favicon/apple-icon-152x152.png" /><link rel="apple-touch-icon" sizes="180x180" href="Imagens/favicon/apple-icon-180x180.png" /><link rel="icon" type="image/png" sizes="192x192" href="Imagens/favicon/android-icon-192x192.png" /><link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon/favicon-32x32.png" /><link rel="icon" type="image/png" sizes="96x96" href="Imagens/favicon/favicon-96x96.png" /><link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon/favicon-16x16.png" />
+
+    <!-- Meta Facebook -->
+    <meta property="og:locale" content="pt_BR" /><meta property="og:type" content="website" /><meta property="og:title" content="Alepe Legis - Portal da Legislação Estadual de Pernambuco" /><meta property="og:url" content="http://legis.alepe.pe.gov.br" /><meta property="og:site_name" content="Alepe Legis - Portal da Legislação Estadual" /><meta property="og:description" content="Portal da Legislação Estadual de Pernambuco desenvolvido pela Assembleia Legislativa de PE" /><meta property="og:image" content="../../Imagens/favicon/ms-icon-310x310.png" /><meta property="og:image:type" content="image/png" /><meta property="og:image:width" content="310" /><meta property="og:image:height" content="310" />
+
+    <!-- Meta Google !-->
+    <meta name="google" content="notranslate" /><meta name="robots" content="index, folow" /><meta name="googlebot" content="index, folow" /><script src="/Scripts/jquery-2.1.4.js"></script>
+<script src="/Scripts/bootstrap.js"></script>
+<script src="/Scripts/plugins.js"></script>
+<script src="/Scripts/pnotify.js"></script>
+<script src="/Scripts/typehead.js"></script>
+<script src="/Scripts/bootstrap-tagsinput.js"></script>
+<script src="/Scripts/bootstrap-select.js"></script>
+<script src="/Scripts/jsFuncoesPortal.js"></script>
+<script src="/Scripts/jsFacebook.js"></script>
+<link href="/Content/css/jquery-ui.css" rel="stylesheet"/>
+<link href="/Content/css/all.css" rel="stylesheet"/>
+<link href="/Content/css/sprite.css" rel="stylesheet"/>
+<link href="/Content/css/queries.css" rel="stylesheet"/>
+<link href="/Content/css/bootstrap-tagsinput.css" rel="stylesheet"/>
+<link href="/Content/css/bootstrap-tokenfield.css" rel="stylesheet"/>
+<link href="/Content/css/plugins.css" rel="stylesheet"/>
+<link href="/Content/css/fullcalendar.css" rel="stylesheet"/>
+
+
+    
+    <!--[if lt IE 10]>
+          <link rel="stylesheet" href="/css/ie.css" media="screen" charset="utf-8" />
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    
+</head>
+<body>
+    <script type="text/javascript">
+
+        var constUrl = 'https://legis.alepe.pe.gov.br/';
+
+        function marcarNotificacoes() {
+            $.ajax({
+                type: "POST",
+                url: constUrl + "/Paginas/default.aspx/marcarNotificacoes",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                },
+                failure: function (response) {
+                    //alert('A operação não pôde ser executada. Por favor, recarregue a página e tente novamente.');
+                }
+            });
+        }
+    </script>
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <form method="post" action="./paginaNaoEncontrada.aspx" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMjM0Njk5MDMxD2QWAmYPZBYCAgEPZBYIAgIPFgIeB1Zpc2libGVoZAIID2QWAmYPZBYCZg9kFgQCBQ8WAh8AaGQCBw8WAh8AaGQCCQ8WAh8AaGQCEw9kFgJmD2QWAgIBD2QWAgICDxYCHwBoFgICAQ8WAh8AaGRkMkhq1i/VPgkDO6tvanBGySd517csHGVksoTevumptbw=" />
+
+
+<script src="/ScriptResource.axd?d=xVYh6GklrthsZ74H2UAASS0l1V6Qnzy4xchlPtFRDzhm4FzLf8K9zA2ywafqlYsbdX-SdlrjPics5OeJ9aGqTqXRIJn_R76mp6OeS22pOBomyeEQvWc6J6hNbNvMtG_QcYOFWuppNt8_3RMEFKD_O5MThuxpFxSbYYbyT_v6u7rodA2SrNP4f6VzduaSqB3X0&amp;t=13798092" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('A estrutura do cliente do ASP.NET Ajax falhou ao ser carregada.');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B6906BD5" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA3RUg2e2A2G+14D0Ruil106G1Uv58te/FayUB0RMnG5sGUo1j/kZ3h8mEJ2G3CI1QEmn7KMDHgreV4WOH9YRtN1w6yOjNVtrNIx/IjodmhgXkkWVVLTtWhMf1FTZvy9og0zAJETAhZ3EEykPEO+crud7qibHzhyNcL6wUn0UMLOpQs7T4OmWfd8cmwqqXR6hON2afyESH8Ny8fRwNq60CxPDz5GHWUrdV5qmeLu9+anvj913PbuULoxNlP48+I+I6s8gTTkL+Ui/ruoctKBUFGPUykSgszo/8/Du62zzUR+tLJ8UGP3aDGd2DBHRaFr6j8=" />
+        <input type="hidden" name="ctl00$hfUrl" id="hfUrl" value="https://legis.alepe.pe.gov.br/Paginas/Shared/paginaNaoEncontrada.aspx" />
+
+        
+        <div class="all container">
+
+            <header class="topo-mobile">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="menu-barra-m">
+                            <nav class="navbar navbar-primary menu-mobile" role="navigation">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" id="btnMenuMob" data-toggle="collapse" data-target="#mobile-menu">
+                                        <span class="sr-only">Alepe Legis</span>
+                                        <i class="fa fa-bars fa-2x"></i>
+                                    </button>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="centrallogo">
+                            <div class="logo" id="logo">
+                                <a href="https://legis.alepe.pe.gov.br/">
+                                    <img src="../../Imagens/legis.png" class="logo-legis-large" />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="menu-user-m">
+                            <nav class="navbar navbar-default menu-mobile" role="navigation">
+                                <div class="navbar-header">
+
+                                    
+
+                                    <div class="icon-notify-mobile">
+                                        <i class="fa fa-bell" id="bellNotiMobi"></i>
+                                    </div>
+
+                                    <div id="divLoginMobile">
+                                        <a class="navbar-toggle btn-default" href="#infomeErro" data-toggle="modal" data-target="#mobile-login">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                            <!--<span class="sr-only">Entrar</span> Entrar-->
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+
+                        <div class="collapse navbar-collapse" id="mobile-notify">
+                            <ul class="nav navbar-nav">
+                                <li>Olá,
+                                    <span id="lblUsrMobi">Usuário</span></li>
+                                <li><a href="https://legis.alepe.pe.gov.br/notificacao.aspx"><i class="fa fa-bell"></i> Notificações <span id="spNotifCntMob" class="badge fRight">0 </span></a></li>
+                                <li><a href="https://legis.alepe.pe.gov.br/favorito.aspx"><i class="fa fa-star"></i>Favoritos</a> </li>
+                                <li id="liConfigMob"><a href="https://legis.alepe.pe.gov.br/configuracao.aspx"><i class="fa fa-gear"></i> Configurações</a></li>
+                                <li><a href="javascript:__doPostBack(&#39;ctl00$ctl39&#39;,&#39;&#39;)"><i class="fa fa-close"></i>Sair</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="mobile-menu">
+                            <ul class="nav navbar-nav">
+                                <li><a href="https://legis.alepe.pe.gov.br/">Início</a></li>                                
+                                <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=2">Leis Complementares</a></li>
+                                <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=1">Leis Ordinárias</a></li>
+                                <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=6">Decretos do Executivo</a></li>
+                                <li><a href="https://legis.alepe.pe.gov.br/tema.aspx">Temas em Destaque</a></li>
+                                <li><a href="https://legis.alepe.pe.gov.br/calendario.aspx">Calendário Oficial</a></li>
+                                <li><a href="https://legis.alepe.pe.gov.br/faleConosco.aspx">Fale Conosco</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <header class="web">
+                <div class="row">
+                    <div class="col-sm-4 pull-right">
+                        <div class="submenu">
+                            <ul class="topo-menu">
+                                <li id="liLogin" role="presentation" class="dropdown middle">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Login">
+                                        <i class="fa fa-user"></i><span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <div class="window-login">
+
+                                            <div class="form-inline">
+                                                <legend>Login</legend>
+
+                                                <div class="col-sm-12">
+                                                    <div class="form-group">
+                                                        <div id="upMenu">
+	
+                                                                <input name="ctl00$tbxLogin" type="text" id="tbxLogin" class="form-control" placeholder="Email" />
+                                                                <input name="ctl00$tbxSenha" type="password" id="tbxSenha" class="form-control" placeholder="Senha" />
+                                                                
+                                                                
+
+                                                                <div class="row">
+                                                                    <div class="col-sm-12 text-center">
+                                                                        <input type="submit" name="ctl00$btnLogin" value="Entrar" id="btnLogin" class="btn btn-primary col-sm-12" />
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="ou">
+                                                                    <div class="line-left"></div>
+                                                                    <div class="line-text">ou</div>
+                                                                    <div class="line-right"></div>
+                                                                </div>
+
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <a href="#" class="btn btn-blue btn-md" onclick="javascript:loginByFacebook();"><i class="fa fa-facebook-square"></i> Login com Facebook</a>
+                                                                    </div>
+                                                                </div>
+                                                            
+</div>
+
+                                                        <div class="line"></div>
+
+                                                        <div class="col-sm-12 cadastro">
+                                                            Ainda não é cadastrado? <a href="https://legis.alepe.pe.gov.br/registro.aspx">Cadastre-se aqui</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </ul>
+                                </li>
+                                
+                                <!-- Fim do menu no topo apos login -->
+                                <!--  <a href="#" id="contraste" title='Contraste'>
+                                <li class="sprite icn-contraste"></li>
+                            </a>
+                             <a href="calendario.aspx" title='Calendario'>
+                              <li> <i class="fa fa-calendar"></i></li>
+                            </a>-->
+                                <a href="https://legis.alepe.pe.gov.br/faleConosco.aspx" title='Fale Conosco'>
+                                    <li><i class="fa fa-envelope"></i></li>
+                                </a>
+                                <a href="https://legis.alepe.pe.gov.br/info.aspx" title='Informações'>
+                                    <li><i class="fa fa-info-circle"></i></li>
+                                </a>
+                                <a target="_blank" href="https://www.facebook.com/alepelegis/?fref=ts" title='Facebook do AlepeLegis'>
+                                    <!--<li class="sprite icn-fb"></li>-->
+                                    <li><i class="fa fa-facebook-square"></i></li>
+                                </a>
+                                <a target="_blank" href="http://www.alepe.pe.gov.br/" title='Site da Alepe'>
+                                    <li class="sprite icn-alepe"></li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xs-12 col-md-2">
+                        <div class="logo">
+                            <a href="https://legis.alepe.pe.gov.br/">
+                                <!--<div id="logo" class="sprite logo-legis"></div>-->
+                                <img src="../../Imagens/legis.png" class="logo-legis-large" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-10">
+
+                        <nav class="navbar navbar-default menu-web" role="navigation">
+                            <div class="menu-principal">
+                                <ul class="nav navbar-nav">
+                                    <li class="o-line"><a href="https://legis.alepe.pe.gov.br/">Início</a></li>
+                                    <li><a href="https://legis.alepe.pe.gov.br/pesquisaAvancada.aspx">Pesquisa<br />
+                                        Avançada </a></li>                                    
+                                   <li><a href="https://legis.alepe.pe.gov.br/tema.aspx">Temas em <br />Destaque
+                                        </a></li>
+                                    <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=2">Leis
+                                        <br>
+                                        Complementares</a></li>
+                                    <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=1">Leis
+                                        <br>
+                                        Ordinárias</a></li>
+                                    <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=6">Decretos
+                                        <br>
+                                        do Executivo</a></li>
+
+                                    <li role="presentation" class="dropdown middle">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Outras<br />
+                                            Normas <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=13">Emendas Constitucionais</a></li>
+                                            <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=4">Resoluções da Alepe</a></li>
+                                            <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=5">Decretos Legislativos</a></li>
+                                            <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=11">Decretos-Lei</a></li>
+                                            <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=7">Atos Administrativos Normativos</a></li>
+                                            <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=15">Atos Administrativos Parlamentares</a></li>
+                                            <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=8">Portarias Administrativas da Alepe</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                     
+                                    
+                                    <li><a href="https://legis.alepe.pe.gov.br/calendario.aspx">Calendário<br />
+                                        Oficial</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </header> 
+        <div id="logoImpressao">
+            <img src="../../Imagens/legis.png" class="" />
+        </div>
+
+            <main class="content">
+                
+    <section class="page-erro">
+
+			<div class="jumbotron">
+			  <h3>Página não encontrada</h3>
+			  <p>A página que você está tentando acessar não pode ser encontrada.<br>
+			  	Volte à página inicial ou nos informe sobre o erro.</p>
+
+			  	<div class="pull-right">
+			  		<a class="btn btn-primary pull-right" href="#infomeErro" data-toggle="modal" data-target="#informeErro" role="button">Informar Erro</a>
+			  		<a class="btn btn-default pull-right" style="margin-right:10px;" href="https://legis.alepe.pe.gov.br/" role="button">Voltar à Página Inicial</a>
+			  	</div>
+			  
+			</div>
+			
+		</section>
+
+            </main>
+
+            <!--    <div class="row">
+             <div class="erro-informe fRight">
+                        <a href="#infomeErro" data-toggle="modal" data-target="#informeErro">Informe algum erro nesta página <i class="fa fa-exclamation-triangle"></i>
+                        </a>
+                    </div>
+            </div>-->
+
+        </div>
+        <div class="clear">
+            <br />
+        </div>
+
+        <div class="footer">
+            <div class="newfooter">
+                <div class="pull-left col-md-4 resumo-leis">
+                    <h4>Legislação por Tipo</h4>
+                    <ul class="list-none col-sm-5">
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=2">Leis Complementares</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=1">Leis Ordinárias</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=6">Decretos do Executivo</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=13">Emendas Constitucionais</a></li>
+                    </ul>
+
+                    <ul class="list-none col-sm-7">
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=4">Resoluções da Alepe</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=5">Decretos Legislativos</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=15">Atos Administrativos Parlamentares</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/lista.aspx?tiponorma=8">Portarias Administrativas da Alepe</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 normas-destaque">
+                    <h4>Normas em Destaque</h4>
+                    <ul class="list-link">
+                        <li><a href="https://legis.alepe.pe.gov.br/texto.aspx?id=4937"><i class="fa fa-caret-right"></i>Constituição Estadual</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/texto.aspx?id=10727"><i class="fa fa-caret-right"></i>Estatuto dos Servidores</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/texto.aspx?id=1044"><i class="fa fa-caret-right"></i>Previdência Social dos Servidores do Estado</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/texto.aspx?id=71171"><i class="fa fa-caret-right"></i>Regimento Interno</a></li>
+                        <li><a href="https://legis.alepe.pe.gov.br/texto.aspx?id=10401"><i class="fa fa-caret-right"></i>Código de Ética</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 calendario-rodape">
+                    <a href="calendario.aspx">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                        <br />
+                        Calendário Oficial
+                        <br />
+                        do Estado de Pernambuco
+                    </a>
+
+                    <br /><br />
+
+                    <a href="https://www.alepe.pe.gov.br/municipios/" target="_blank">
+                        Legislação Estadual
+                        <br />
+                        Municípios Pernambucanos                                                
+                    </a>
+                </div>
+
+                <div class="col-md-3 text-center contato-rodape">
+                    <div class="phone-footer">
+                        <h4><i class="fa fa-phone"></i>(81) 3183.2211</h4>
+                    </div>
+                    <div class="email-footer">
+                        <h5>E-mail: alepelegis@alepe.pe.gov.br</h5>
+                    </div>
+                    <div class="erro-footer">
+                        <a href="#infomeErro" data-toggle="modal" data-target="#informeErro">Informe algum erro nesta página <i class="fa fa-exclamation-triangle"></i>
+                        </a>
+                    </div>
+                    <div class="alepe-footer">
+                        <a href="http://www.alepe.pe.gov.br" target="_blank" title="Ir para o site da Alepe">
+                            <img src="../../Imagens/alepe-logo.png" alt="brasao da Assembleia Legislativa de Pernambuco" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+                    <div class="alepe-footer-print">
+                       
+                            <img src="../../Imagens/alepe-logo.png" alt="brasao da Assembleia Legislativa de Pernambuco" />
+                    
+                    </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="informeErro" tabindex="-1" role="dialog" aria-labelledby="informeErroLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Relatar erro</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-horizontal">
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">Nome</label>
+                                <div class="col-sm-10">
+                                    <input name="ctl00$tbxNomeErro" type="text" maxlength="100" id="tbxNomeErro" class="form-control" placeholder="Insira seu nome" />
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail3" class="col-sm-2 control-label">E-mail</label>
+                                <div class="col-sm-10">
+                                    <input name="ctl00$tbxEmailErro" type="text" maxlength="50" id="tbxEmailErro" class="form-control" placeholder="Insira seu e-mail" />
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="col-sm-2 control-label">Mensagem</label>
+                                <div class="col-sm-10">
+                                    <textarea name="ctl00$tbxMensagemErro" rows="10" cols="20" id="tbxMensagemErro" class="form-control">
+</textarea>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        <input type="submit" name="ctl00$btnEnviarErro" value="Enviar" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$btnEnviarErro&quot;, &quot;&quot;, true, &quot;vgErro&quot;, &quot;&quot;, false, false))" id="btnEnviarErro" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Modal Login -->
+        <div class="modal fade" id="mobile-login" tabindex="-1" role="dialog" aria-labelledby="informeErroLabel">
+            <div id="upLogin">
+	
+                    <div id="pnlLoginMob">
+		
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Login</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="inputEmail3" class="col-sm-2 control-label">E-mail</label>
+                                            <div class="col-sm-10">
+                                                <input name="ctl00$tbxLoginMob" type="text" id="tbxLoginMob" class="form-control" placeholder="Insira seu e-mail" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="" class="col-sm-2 control-label">Senha</label>
+                                            <div class="col-sm-10">
+                                                <input name="ctl00$tbxSenhaMob" type="password" id="tbxSenhaMob" class="form-control" placeholder="Insira sua senha" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    
+
+                                    <div class="row">
+                                        <div class="col-sm-12 pull-right">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                            <input type="submit" name="ctl00$btnLoginMob" value="Entrar" id="btnLoginMob" class="btn btn-primary" />
+                                        </div>
+                                    </div>
+                                    <div class="ou">
+                                        <div class="line-left"></div>
+                                        <div class="line-text">ou</div>
+                                        <div class="line-right"></div>
+                                    </div>
+                                    <br />
+
+                                    <div class="row">
+                                        <div class="col-sm-12 text-center">
+                                            <a href="#" class="btn btn-blue btn-md" onclick="javascript:loginByFacebook();"><i class="fa fa-facebook-square"></i> Login com Facebook</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="col-sm-12 cadastro text-center">
+                                        Ainda não é cadastrado? <a href="https://legis.alepe.pe.gov.br/registro.aspx">Cadastre-se aqui</a>
+                                    </div>
+                                </div>
+                            </div>
+                    
+	</div>
+                
+</div>
+        </div>
+
+         <!-- Modal -->
+    <div class="modal fade" id="modalAlert" tabindex="-1" role="dialog" aria-labelledby="informeErroLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="content">
+                        <p><span id="lblMsg">Label</span></p>
+                         <a class="btn btn-primary pull-right" data-dismiss="modal">Fechar</a><br /><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script>
+            function printNative() {
+                window.print();
+            }
+        </script>
+
+    </form>
+
+    
+
+</body>
+</html>

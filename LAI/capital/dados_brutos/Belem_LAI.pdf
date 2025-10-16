@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Leis e Decretos</title>
+  <base href="/leisedecretos/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.44ff128683c2ca6bfbcb.css"></head>
+<body>
+  <app-root></app-root>
+<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.12b5c32d1603e35dd556.js" nomodule defer></script><script src="polyfills-es2015.09ee2f719bd21ab5c7b1.js" type="module"></script><script src="main-es2015.c95affda5c7daa62f1d4.js" type="module"></script><script src="main-es5.c95affda5c7daa62f1d4.js" nomodule defer></script></body>
+</html>

@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="generator" content="Plone - http://plone.org">
+
+    
+      <base href="https://www.al.pi.leg.br/servicos/ouvidoria/decreto-15-188-de-22-05-2013.pdf"><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+
+
+  
+    <style type="text/css" media="screen">@import url(https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceportalmodelo.themestylescontraste-cachekey-a529c73fc4df5a769216ccdd53ad0819.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceportalmodelo.themestylesreset-cachekey-b464b4194a1990307fc7500304e133e4.css">
+    <link rel="stylesheet" type="text/css" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/base-cachekey-417c5e9f60c2a8706961c1fcadb0211e.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.overlays-cachekey-f0e70778b8650e919119a77c3106863a.css">
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/IEFixes-cachekey-9ac7ec1e22d450ee7ef2707c71d5c2ff.css" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourcecollective.covercontentchooser-cachekey-fd68f353f31f3f5aae5a2127de265693.css">
+    <style type="text/css" media="screen">@import url(https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourcecollective.flowplayer.cssflowplayer-cachekey-2a5d4e569deb570df617fca3b5287330.css);</style>
+    <style type="text/css" media="screen">@import url(https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceplonetruegallery-portlet-cachekey-02d2c85d49e501727f8c476e32a401cb.css);</style>
+    <style type="text/css">@import url(https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourcecollective.pollscsscollective.polls-cachekey-894ed0ae80cea1098973aecfdfc9c83c.css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/ploneCustom-cachekey-aa6cfcce41936548bfee74486df20d28.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="all" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.recurrencejquery.recurrenceinput-cachekey-e600bb032c8bb877f50e95c434d064ec.css">
+    <style type="text/css" media="screen">@import url(https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/easynewsletter-cachekey-d481d069f1a1273010a2c1ba8fc15930.css);</style>
+    <link rel="stylesheet" type="text/css" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/embedder-cachekey-5a0bf46f8cddf99bd01e0e043196c214.css">
+    <style type="text/css" media="screen">@import url(https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourcecollective.js.colorpicker-cachekey-7316c3c183fe7d980ba5d6d7cf94f60c.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.datetimestyles-cachekey-11fa97236d5cabed6fabbdfcbe41448a.css">
+    <style type="text/css" media="screen">@import url(https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceplone.formwidget.contenttreecontenttree-cachekey-45c822285602baa2e2cadfb6fca5e767.css);</style>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.al.pi.leg.br/portal_css/Sunburst%20Theme/resourceplone.app.eventevent-cachekey-5237f6be3780b8841c8802fe2c5e3a7c.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://al.pi.leg.br/++theme++novo-tema-alepi/css/base.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://al.pi.leg.br/++theme++novo-tema-alepi/css/temabase.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://al.pi.leg.br/++theme++novo-tema-alepi/css/social_like.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://al.pi.leg.br/++theme++novo-tema-alepi/css/cover.css">
+
+  
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourceplone.app.jquery-cachekey-07ace19e7c438fec4be9ce5bceaa6dc4.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.galleria-cachekey-595b65994e32d74e958a2113c5d7bfed.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.js.bootstrapjsbootstrap.min-cachekey-658049940414b4727f9b2591ae74eec9.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.flowplayerflowplayer.min-cachekey-564422dbe3d4a7bad677915311f7b604.js"></script>
+       <!--[if lte IE 8]>
+     
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.pollsjsexcanvas.min-cachekey-193ffa91482f4dc2560299dfe891de77.js"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.pollsjspolls-cachekey-f0cfc6870a5ef57184bedb8afbb5c307.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.z3cform.datagridfielddatagridfield-cachekey-3aafca7bbdf3fb463ca6ef5ed55a38e9.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.js.fullcalendarfullcalendar.min-cachekey-c28cdbbcc9320009c439464e55ae5811.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.js.colorpicker.jseye-cachekey-4b3b9c535cbdb0b8a457c2eeb32cace0.js"></script>
+    <script type="text/javascript" src="https://www.al.pi.leg.br/portal_javascripts/Sunburst%20Theme/resourcecollective.oembed-cachekey-f3e0a1ee2ac3d21b2156b1399df87327.js"></script>
+
+
+<title>Decreto-15.188-de-22.05.2013.pdf — Assembleia Legislativa do Piauí</title>
+
+        
+    <link rel="author" href="https://www.al.pi.leg.br/author/adm" title="Informações do Autor">
+
+
+    <link rel="canonical" href="https://www.al.pi.leg.br/servicos/ouvidoria/decreto-15-188-de-22-05-2013.pdf">
+<link rel="alternate" type="application/json+oembed" href="https://www.al.pi.leg.br/@@oembed?url=https%3A%2F%2Fwww.al.pi.leg.br%2Fservicos%2Fouvidoria%2Fdecreto-15-188-de-22-05-2013.pdf&amp;format=json" title="Decreto-15.188-de-22.05.2013.pdf oEmbed Profile">
+<link rel="alternate" type="text/xml+oembed" href="https://www.al.pi.leg.br/@@oembed?url=https%3A%2F%2Fwww.al.pi.leg.br%2Fservicos%2Fouvidoria%2Fdecreto-15-188-de-22-05-2013.pdf&amp;format=xml" title="Decreto-15.188-de-22.05.2013.pdf oEmbed Profile">
+
+
+    
+    
+
+
+
+<script type="text/javascript">var jqueryOmebedSettings = {embedMethod: "replace",defaultOEmbedProvider: "plone",activate_jqueryoembed_integration: true};</script>
+<script type="text/javascript">
+$(document).ready(function() {
+    // can use links inside div.oembed too since "a" don't work for tinymce styles
+    $("a.oembed,.oembed a").oembed(null, jqueryOmebedSettings);
+});
+</script>
+
+<script type="text/javascript">
+        jQuery(function($){
+            if (typeof($.datepicker) != "undefined"){
+              $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['pt-BR'],
+                {dateFormat: 'dd/mm/yy'}));
+            }
+        });
+        </script>
+
+
+
+
+    <link rel="search" href="https://www.al.pi.leg.br/@@search" title="Buscar neste site">
+
+
+
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+    
+
+  
+<meta charset="utf-8">
+
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
+
+
+
+<!--[if IE]>
+    <script src="http://htmlshiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="/++theme++tema-alepi-2024/css/style.css">
+<link media="all" href="/++theme++tema-alepi-2024/galleria-theme/galleria.tema-pm3.css" type="text/css" rel="stylesheet">
+<script src="/++theme++tema-alepi-2024/javascript/function.js" type="text/javascript"></script>
+<script src="/++theme++tema-alepi-2024/javascript/custom_tvalepiplay.js" type="text/javascript"></script>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link rel="icon" type="image/png" href="/++theme++tema-alepi-2024/img/favicon.ico">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-V2TMKJVSC7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V2TMKJVSC7');
+</script>
+
+
+</head>
+
+<body dir="ltr" class="template-file_view portaltype-file site-portal section-servicos subsection-ouvidoria subsection-ouvidoria-decreto-15-188-de-22-05-2013.pdf userrole-anonymous"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script><!-- Accessibility --><p class="hiddenStructure">
+  <a accesskey="2" href="https://www.al.pi.leg.br/servicos/ouvidoria/decreto-15-188-de-22-05-2013.pdf/view#content">Ir para o conteúdo.</a> |
+
+  <a accesskey="6" href="https://www.al.pi.leg.br/servicos/ouvidoria/decreto-15-188-de-22-05-2013.pdf/view#portal-globalnav">Ir para a navegação</a>
+</p><p class="hiddenStructure">Ferramentas Pessoais</p><div id="wrapper">
+
+    <!-- Header -->
+        <header role="banner" style="">
+            <div id="header-banner">
+                <a href="https://www.al.pi.leg.br" title="Assembleia Legislativa do Piauí" id="portal-logo">
+    <img src="https://www.al.pi.leg.br/logo.png" alt="Assembleia Legislativa do Piauí" title="Assembleia Legislativa do Piauí" height="70" width="384">
+
+
+
+
+</a>
+
+                <!-- User -->
+                
+
+                <ul id="portal-siteactions">
+
+    <li id="siteaction-sitemap"><a href="https://www.al.pi.leg.br/sitemap" accesskey="3" title="Mapa do Site">Mapa do Site</a></li>
+    <li id="siteaction-accessibility"><a href="https://www.al.pi.leg.br/accessibility-info" accesskey="0" title="Acessibilidade">Acessibilidade</a></li>
+    <li id="siteaction-vlibras"><a href="http://www.vlibras.gov.br/" accesskey="" title="VLibras">VLibras</a></li>
+    <li id="siteaction-contraste"><a href="#" accesskey="" title="Contraste">Contraste</a></li>
+    <li id="siteaction-perguntasfrequentes"><a href="https://www.al.pi.leg.br/acesso-a-informacao/faq" accesskey="" title="Perguntas Frequentes">Perguntas Frequentes</a></li>
+    <li id="siteaction-login"><a href="https://www.al.pi.leg.br/login" accesskey="" title="Acessar">Acessar</a></li>
+</ul>
+            
+                <div id="portal-searchbox">
+
+    <form id="searchGadget_form" action="https://www.al.pi.leg.br/@@search">
+
+        <div class="LSBox">
+        <label class="hiddenStructure" for="searchGadget">Busca</label>
+
+        <input name="SearchableText" type="text" size="18" title="Buscar no Site" placeholder="Buscar no Site" accesskey="4" class="searchField" id="searchGadget">
+
+        <input class="searchButton" type="submit" value="" alt="Buscar">
+
+        
+
+        <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
+        </div>
+    </form>
+
+    <div id="portal-advanced-search" class="hiddenStructure">
+        <a href="https://www.al.pi.leg.br/@@search" accesskey="5">Busca Avançada…</a>
+    </div>
+
+</div>
+ 
+
+
+
+                
+            </div>
+        </header>
+        <!-- Main Menu -->
+             
+                <nav id="main-navigation" role="navigation">
+                    <ul><li id="portaltab-index_html" class="plain"><a href="https://www.al.pi.leg.br" class="plain" title="">Página Inicial</a></li><li id="portaltab-institucional" class="plain"><a href="https://www.al.pi.leg.br/institucional" class="plain" title="">Institucional</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/institucional/acesso" class="state-published" title="Saiba como chegar na ALEPI">
+            
+            Como Chegar
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/institucional/estrutura-administrativa" class="state-published" title="">
+            
+            Estrutura Administrativa
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/institucional/estrutura%20mesa%20diretora" class="state-published" title="">
+            
+            Estrutura da Mesa Diretora
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/institucional/historia" class="state-published" title="Textos sobre a história da Casa Legislativa, desde sua criação, bem como, fotos, vídeos, áudios, entre outros.">
+            
+            História
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/downloads/regimento-interno-alepi" class="state-published" title="">
+            
+            Regimento Interno
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-transparencia" class="plain"><a href="https://transparencia.al.pi.leg.br" class="plain" title="">Transparência</a></li><li id="portaltab-atividade-legislativa" class="plain"><a href="https://www.al.pi.leg.br/atividade-legislativa" class="plain" title="">Atividade Legislativa</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://sapl.al.pi.leg.br" class="state-published" title="">
+            
+            Sapl
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://sapl.al.pi.leg.br/parlamentar/" class="state-published" title="">
+            
+            Deputados
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://sapl.al.pi.leg.br/comissao/" class="state-published" title="">
+            
+            Comissões
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://sapl.al.pi.leg.br/sessao/pesquisar-sessao?data_inicio__year=2025" class="state-published" title="">
+            
+            Sessões
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://sapl.al.pi.leg.br/materia/pesquisar-materia?tipo=&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=&amp;autoria__autor=&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;relatoria__parlamentar_id=&amp;em_tram" class="state-published" title="">
+            
+            Matérias
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://sapl.al.pi.leg.br/norma/pesquisar?tipo=&amp;numero=&amp;ano=&amp;data_0=&amp;data_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;ementa=&amp;assuntos=&amp;data_vigencia_0=&amp;data_vigencia_1=&amp;orgao=&amp;o=&amp;indexacao=&amp;autorianorma__autor=&amp;autorianorma__primeiro_autor=unknown&amp;autorianorma__autor__tipo=&amp;autorianorma__autor__parlamentar_set__filiacao__partido=&amp;salvar=Pesquisar" class="state-published" title="">
+            
+            Normas
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/atividade-legislativa/leis-tematicas" class="state-published" title="">
+            
+            Leis Temáticas
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-comunicacao" class="plain"><a href="https://www.al.pi.leg.br/comunicacao" class="plain" title="">Comunicação</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/comunicacao/eventos" class="state-published" title="">
+            
+            Agenda
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/comunicacao/noticias" class="state-published" title="Banco de notícias desta Casa Legislativa.">
+            
+            Notícias
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/comunicacao/fotos" class="state-published" title="">
+            
+            Galeria de Fotos
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/comunicacao/downloads" class="state-published" title="">
+            
+            Recursos Gráficos
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/comunicacao/radio" class="state-published" title="">
+            
+            Rádio
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/comunicacao/tv-assembleia" class="state-published" title="">
+            
+            Tv Assembleia
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-servicos" class="selected"><a href="https://www.al.pi.leg.br/servicos" class="plain" title="">Serviços</a>
+                <ul class="submenu">
+                    <li>
+
+    
+
+        <a href="https://biblivre.al.pi.leg.br/" class="state-published" title="">
+            
+            Biblioteca Alepi
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/servicos/carta-de-servico-ao-cidadao" class="state-published" title="">
+            
+            Carta de Serviço ao Cidadão
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/servicos/ouvidoria" class="state-published" title="">
+            
+            e-Sic / Ouvidoria
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/servicos/escola-do-legislativo" class="state-published" title="">
+            
+            Escola
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/servicos/acesso-a-informacao" class="state-published" title="">
+            
+            Lei de Acesso à Informação
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/servicos/lgpd" class="state-published" title="">
+            
+            LGPD
+        </a>
+
+        
+    
+</li>
+
+
+<li>
+
+    
+
+        <a href="https://www.al.pi.leg.br/servicos/procon" class="state-published" title="">
+            
+            Procon
+        </a>
+
+        
+    
+</li>
+                </ul>
+            </li><li id="portaltab-portal-do-servidor" class="plain"><a href="https://transparencia.al.pi.leg.br/app_Login_servidor/" class="plain" title="">Portal do Servidor</a></li><li id="portaltab-perguntas_frequentes" class="plain"><a href="https://www.al.pi.leg.br/perguntas_frequentes" class="plain" title="">Perguntas Frequentes</a></li></ul>
+                </nav>
+
+
+                <div class="banner-home"></div>
+
+
+        <div id="portal-breadcrumbs">
+
+    <span id="breadcrumbs-you-are-here">Você está aqui:</span>
+    <span id="breadcrumbs-home">
+        <a href="https://www.al.pi.leg.br">Página Inicial</a>
+        <span class="breadcrumbSeparator">
+            /
+            
+        </span>
+    </span>
+    <span id="breadcrumbs-1" dir="ltr">
+        
+            <a href="https://www.al.pi.leg.br/servicos">Serviços</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-2" dir="ltr">
+        
+            <a href="https://www.al.pi.leg.br/servicos/ouvidoria">e-Sic / Ouvidoria</a>
+            <span class="breadcrumbSeparator">
+                /
+                
+            </span>
+            
+         
+    </span>
+    <span id="breadcrumbs-3" dir="ltr">
+        
+            
+            
+            <span id="breadcrumbs-current">Decreto-15.188-de-22.05.2013.pdf</span>
+         
+    </span>
+
+</div>
+
+
+    <!-- Columns -->    
+        <div id="main">
+
+            
+
+            <main id="main-content" role="main">
+
+              <div id="viewlet-above-content">
+</div>
+
+              
+                <div class="">
+
+                    
+
+                    <span id="contentTopLeft"></span>
+                    <span id="contentTopRight"></span>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                    <div id="content">
+                      
+                      
+
+                        
+                            
+                            
+                                
+                                
+            
+                <h1 id="parent-fieldname-title" class="documentFirstHeading">
+                    Decreto-15.188-de-22.05.2013.pdf
+                </h1>
+            
+            
+        
+                            
+                            
+
+<div class="documentByLine" id="plone-document-byline">
+  
+
+  
+  
+    <span class="documentAuthor">
+      por <a href="https://www.al.pi.leg.br/author/adm">adm</a>
+         —
+    </span>
+  
+  
+
+  
+  
+
+  <span class="documentModified">
+    <span>última modificação</span>
+    26/06/2023 11h27
+  </span>
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+
+
+                            
+                                
+                                
+            
+                
+            
+            
+        
+                            
+
+                            
+                            <div id="content-core">
+                                
+        
+            <p>
+                
+      <span>
+      
+      
+        
+          
+          
+              <a href="https://www.al.pi.leg.br/servicos/ouvidoria/decreto-15-188-de-22-05-2013.pdf/at_download/file">
+                <img src="https://www.al.pi.leg.br/pdf.png" alt="PDF document icon">
+                Decreto-15.188-de-22.05.2013.pdf
+              </a>
+              <span class="discreet">
+                  —
+                  Documento PDF,
+                  1.37 MB (1433986 bytes)
+              </span>
+          
+          
+          
+
+        
+      
+    </span>
+    
+            </p>
+            
+        
+    
+                            </div>
+                            
+
+
+
+    <div class="visualClear"><!-- --></div>
+
+    <div class="documentActions">
+        
+
+        
+
+    </div>
+
+
+                        
+
+                      
+                    </div>
+                    
+
+                    
+
+                    <span id="contentBottomLeft"></span>
+                    <span id="contentBottomRight"></span>
+
+                </div>
+              
+
+              <div id="viewlet-below-content">
+
+
+
+
+
+</div>
+
+            </main>
+
+            
+            
+        </div>
+
+
+
+
+
+    <!-- Footer --> 
+        <footer role="contentinfo" id="footer-total">
+            <div id="footer-info" class="footer-item">
+
+    
+
+    <table class="tablefooter">
+<thead>
+<tr><th></th><th>Atendimento</th><th>Atividade Legislativa</th><th>Serviços</th></tr>
+</thead>
+<tbody>
+<tr><th><i class="icon-home"></i></th><th>
+<p>Assembleia Legislativa do Estado do Piauí - Palácio Petrônio Portela <br> <br> Endereço: <br> Av. Mal. Castelo Branco, 201 - Cabral Teresina/PI - CEP 64001-923<br> <br> Telefone: <br> 3133-3022 <br> <br> Expediente <br> De segunda-feira a sexta-feira: 7h às 13h <br> <br> Sessões Plenárias <br> De segunda-feira a quinta-feira: Inicio às 11h</p>
+<p>Email<br>ouvidoria@al.pi.leg.br</p>
+<p> </p>
+<p><a class="external-link" href="https://instagram.com/assembleiapiaui?igshid=MzRlODBiNWFlZA==" target="_self" title=""><img src="https://www.al.pi.leg.br/imagens/INSTAWHITE.png/@@images/138d12e4-4cd3-4a1f-a5a3-31cf783d18f5.png" alt="" class="image-inline" title=""></a><span>     <a class="external-link" href="https://www.facebook.com/assembleiapiaui?mibextid=ZbWKwL" target="_self" title=""><img src="https://www.al.pi.leg.br/imagens/FACEWHITE.png/@@images/eb374941-d412-4650-bac4-b4fb36761168.png" alt="" class="image-inline" title=""></a></span></p>
+<div id="btn-footer"><a href="https://www.al.pi.leg.br/institucional/acesso" type="button" class="btn"><i class="icon-pushpin"></i> Como Chegar</a></div>
+<br> <br>
+<div id="btn-footer"><a href="https://www.al.pi.leg.br/institucional/lista-telefonica" type="button" class="btn"><i class="icon-phone"></i> Lista Telefônica Gabinetes</a></div>
+<br> <br>
+<div id="btn-footer"><a href="https://www.al.pi.leg.br/institucional/lista-telefonica-setores" type="button" class="btn"><i class="icon-phone"></i> Lista Telefônica Setores</a></div>
+</th><th>
+<ul>
+<ul>
+<li><i class="icon-caret-right"></i> <a href="https://sapl.al.pi.leg.br/mesa-diretora/"> Mesa Diretora</a></li>
+</ul>
+</ul>
+<br>
+<ul>
+<ul>
+<li><i class="icon-caret-right"></i> <a href="https://sapl.al.pi.leg.br/parlamentar/"> Parlamentares</a></li>
+</ul>
+</ul>
+<br>
+<ul>
+<ul>
+<li><i class="icon-caret-right"></i> <a href="https://sapl.al.pi.leg.br/comissao/"> Comissões</a></li>
+</ul>
+</ul>
+<br>
+<ul>
+<ul>
+<li><i class="icon-caret-right"></i> <a href="https://sapl.al.pi.leg.br/materia/pesquisar-materia?tipo=&amp;ementa=&amp;numero=&amp;numeracao__numero_materia=&amp;numero_protocolo=&amp;ano=&amp;o=&amp;tipo_listagem=1&amp;tipo_origem_externa=&amp;numero_origem_externa=&amp;ano_origem_externa=&amp;data_origem_externa_0=&amp;data_origem_externa_1=&amp;local_origem_externa=&amp;data_apresentacao_0=&amp;data_apresentacao_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;autoria__autor=&amp;autoria__primeiro_autor=unknown&amp;autoria__autor__tipo=&amp;autoria__autor__parlamentar_set__filiacao__partido=&amp;relatoria__parlamentar_id=&amp;em_tramitacao=&amp;tramitacao__unidade_tramitacao_destino=&amp;tramitacao__status=&amp;materiaassunto__assunto=&amp;indexacao=&amp;salvar=Pesquisar"> Matérias Legislativas</a></li>
+</ul>
+</ul>
+<br>
+<ul>
+<li><i class="icon-caret-right"></i> <a href="https://sapl.al.pi.leg.br/norma/pesquisar?tipo=&amp;numero=&amp;ano=&amp;data_0=&amp;data_1=&amp;data_publicacao_0=&amp;data_publicacao_1=&amp;ementa=&amp;assuntos=&amp;data_vigencia_0=&amp;data_vigencia_1=&amp;orgao=&amp;o=&amp;indexacao=&amp;autorianorma__autor=&amp;autorianorma__primeiro_autor=unknown&amp;autorianorma__autor__tipo=&amp;autorianorma__autor__parlamentar_set__filiacao__partido=&amp;salvar=Pesquisar">Normas Jurídicas</a></li>
+</ul>
+</th><th>
+<div id="btn-footer-big"><a href="https://www.al.pi.leg.br/ouvidoria-1" type="button" class="btn"><i class="icon-comments"></i> E-Sic</a></div>
+<br> <br> <br>
+<div id="btn-footer-big"><a class="btn" href="https://outlook.office365.com/mail/" type="button"><i class="icon-envelope"></i> Webmail</a></div>
+<br> <br> <br>
+<div id="btn-footer-big"><a class="btn" href="https://intranet.al.pi.leg.br/" type="button"><i class="icon-group"></i> Intranet</a></div>
+</th></tr>
+</tbody>
+</table>
+<p> </p>
+
+    <p class="visualClear"></p>
+
+  </div>
+            <div id="footer-colophon" class="footer-item">
+    
+      <div class="colophon-item">
+        <a class="colophon-logo interlegis" href="http://www.interlegis.leg.br/"><img src="++theme++novo-tema-alepi/img/interlegis-white.png" alt="Logotipo do Interlegis"></a>
+        <div class="colophon-info">
+          Este site é feito com o software livre e aberto <a href="http://www.interlegis.leg.br/portalmodelo">Portal Modelo</a> desenvolvido pelo <a href="http://www.interlegis.leg.br">Interlegis</a> e roda sobre o CMS <a href="http://plone.org">Plone</a>.
+        </div>
+      </div>
+    
+      <div class="colophon-item">
+        <a class="colophon-logo creative-commons" href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR"><img src="++theme++novo-tema-alepi/img/cc-by-sa-footer-white.png" alt="Selo Creative Commons  BY-SA"></a>
+        <div class="colophon-info">
+          Os conteúdos e dados deste site estão publicados sob a licença <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR">Creative Commons 4.0 — Atribuir Fonte - Compartilhar Igual.</a>
+        </div>
+      </div>
+    
+    </div>
+            <!-- Colophon logos are referenced inside rules.xml! --> 
+            </footer></div></body>
+</html>
