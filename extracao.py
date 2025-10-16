@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 POPPLER_PATH = "C:\poppler-25.07.0\Library\bin"
 LAWS = ["LAI", "LGD", "LGPD", "MROSC"]
-TERRITORY_TYPES = ["capitais","estados"]
+TERRITORY_TYPES = ["capital","estado"]
 DIRECTORY = os.getcwd()
 DADOS_BRUTOS_DIRECTORY = "//dados_brutos"
 DADOS_EXTRAIDOS_DIRECTORY = "//dados_extraidos"
