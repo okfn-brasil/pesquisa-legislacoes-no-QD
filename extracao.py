@@ -4,13 +4,14 @@ from pdf2image import convert_from_path
 import pytesseract
 from bs4 import BeautifulSoup
 
-POPPLER_PATH = "C:\poppler-25.07.0\Library\bin"
+POPPLER_PATH = "C:\\poppler-25.07.0\\Library\\bin"
+TESSERACT_PATH = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"
 LAWS = ["LAI", "LGD", "LGPD", "MROSC"]
 TERRITORY_TYPES = ["capital","estado"]
 DIRECTORY = os.getcwd()
 DADOS_BRUTOS_DIRECTORY = "//dados_brutos"
 DADOS_EXTRAIDOS_DIRECTORY = "//dados_extraidos"
-MIN_TEXT_RATIO = 0.1
+MIN_TEXT_RATIO = 0.01
 
 def html_to_text(html_path: str):
     try:
@@ -47,7 +48,7 @@ def check_and_extract_text_from_pdf(full_file_path: str):
                     x0, y0, x1, y1, content, block_type, *rest = block
                     if block_type == 0:
                         rect = pymupdf.Rect(x0, y0, x1, y1)
-                        text_area += rect
+                        text_area += abs(rect)
         
                 total_text_area += text_area
         
@@ -64,9 +65,10 @@ def check_and_extract_text_from_pdf(full_file_path: str):
         return None 
 
 def convert_pdf_image_to_text(full_file_path: str):
+    pytesseract.pytesseract.tesseract_cmd = TESSERACT_PATH
     text = ""
     try:
-        images = convert_pdf_image_to_text(full_file_path, poppler_path = POPPLER_PATH)
+        images = convert_from_path(full_file_path, poppler_path = POPPLER_PATH)
         for i, image in enumerate(images):
             page_text = pytesseract.image_to_string(image, lang="por")
             text += page_text + "\n"
