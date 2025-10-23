@@ -1,12 +1,54 @@
-﻿Arquivo TXT,Caminho TXT,Município (CSV),Decreto (original),Decreto (número extraído),Trecho Encontrado
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Palmas (TO),"DECRETO Nº 2.213, DE 22 DE JUNHO DE 2022.",2.213,"nto: manifestação livre, informada e
+﻿Arquivo TXT,Caminho TXT,Capital / Estado,Município (CSV),Decreto (original),Decreto (número extraído),Trecho Encontrado
+TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Capital,Palmas (TO),"DECRETO Nº 2.213, DE 22 DE JUNHO DE 2022.",2.213,"Decreto entra em vigor na data da publicação.
+Palmas, 22 de junho de 2022.
+CINTHIA ALVES CAETANO RIBEIRO MANTOAN
+Prefeita de Palmas
+Edmilson Vieira das Virgens
+Secretário da Casa Civil do Município de Palmas
+3
+II - as seguintes definições:
+a) dado pessoal: informação relacionada à pessoa natural
+identificada ou identificável;
+b) dado pessoal sensível: dado pessoal sobre origem racial
+ou étnica, convicção religiosa, opinião política, filiação a sindicato
+ou a organização de caráter religioso, filosófico ou político, dado
+referente à saúde ou à vida sexual, dado genético ou biométrico,
+quando vinculado a uma pessoa natural;
+c) dado anonimizado: dado relativo a titular que não possa
+ser identificado, considerando a utilização de meios técnicos
+razoáveis e disponíveis na ocasião de seu tratamento;
+d) banco de dados: conjunto estruturado de dados
+pessoais, estabelecido em um ou em vários locais, em suporte
+eletrônico ou físico;
+e) titular: pessoa natural a quem se referem os dados
+pessoais que são objeto de tratamento;
+f) tratamento: toda operação realizada com dados
+pessoais, como as que se referem a coleta, produção, recepção,
+classificação, utilização, acesso, reprodução, transmissão,
+distribuição, processamento, arquivamento, armazenamento,
+eliminação, avaliação ou controle da informação, modificação,
+comunicação, transferência, difusão ou extração;
+g) anonimização: utilização de meios técnicos razoáveis
+e disponíveis no momento do tratamento, por meio dos quais um
+dado perde a possibilidade de associação, direta ou indireta, a
+um indivíduo;
+Maria Emília Mendonça Pedroza Jaber
+Secretária Municipal de Planejamento e Desenvolvimento Humano h) consentimento: manifestação livre, informada e
 inequívoca pela qual o titular concorda com o tratamento de seus
 dados pessoais para uma finalidade determinada;
 DECRETO Nº 2.213, DE 22 DE JUNHO DE 2022. i) controlador: pessoa natural ou jurídica, de direito público
 ou privado, a quem compete as decisões referentes ao tratamento
 de dados pessoais;
 Reg"
-TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Curitiba (PR),"Decreto Municipal n.º 326, de 17 de fevereiro de 2021",326,"ituídos em função de editais e também
+TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Capital,Curitiba (PR),"Decreto Municipal n.º 326, de 17 de fevereiro de 2021",326,"Decreto nº 758, de 16 de abril de 2014, da Lei
+Municipal nº 2.299, de 30 de março de 2017 e conforme o Ato DSG
+n° 451, de 27 de abril de 2022.
+CONSIDERANDO a Lei nº 2.240, de 23 de março de 2016,
+que reestrutura o Programa Integrado de Residências em Saúde
+e o Programa Municipal de Bolsas de Estudo e Pesquisa para a
+Educação pelo Trabalho; instituídos pela Lei n° 2010, de 12 de
+dezembro de 2013, em especial seu artigo 3º o qual disciplina que
+projetos da FESP são instituídos em função de editais e também
 por designação de pesquisadores.
 RESOLVE:
 Art. 1º DISPENSAR a servidora REJANE BARROS

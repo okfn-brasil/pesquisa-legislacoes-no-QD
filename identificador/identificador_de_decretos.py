@@ -40,19 +40,31 @@ def ler_txts():
 
 
 def buscar_trecho(texto, termo):
-    """Procura o termo no texto e retorna um trecho contextual se encontrado."""
+    """Procura o termo no texto e retorna um trecho contextual começando em 'decreto' se encontrado."""
     if not termo or not isinstance(texto, str):
         return None
 
     termo_limpo = re.escape(str(termo).strip())
     padrao = re.compile(termo_limpo, flags=re.IGNORECASE)
     match = padrao.search(texto)
+    
     if match:
-        start = max(0, match.start() - TRECHO_LIMITE // 2)
+        # Procurar a palavra "decreto" antes do termo
+        trecho_antes = texto[:match.start()]
+        padrao_decreto = re.compile(r'\bdecreto\b', flags=re.IGNORECASE)
+        matches_decreto = list(padrao_decreto.finditer(trecho_antes))
+        
+        if matches_decreto:
+            # Pega o último "decreto" antes do termo
+            start = matches_decreto[-1].start()
+        else:
+            # Se não encontrar "decreto", mantém o comportamento anterior
+            start = max(0, match.start() - TRECHO_LIMITE // 2)
+        
         end = min(len(texto), match.end() + TRECHO_LIMITE // 2)
         return texto[start:end].strip()
+    
     return None
-
 
 def carregar_csvs_identificados():
     """Carrega todos os identificado_<LEI>.csv que existirem e retorna dict {LEI: df}"""
@@ -92,15 +104,17 @@ def identificar_por_arquivo(textos, csvs):
 
         df = csvs[lei_encontrada]
 
-        # Detecta colunas uma vez fora do loop
+        # Detecta colunas relevantes
         col_num_original = next((c for c in df.columns if "(original)" in c.lower()), None)
         col_num_extraido = next((c for c in df.columns if "número extraído" in c.lower() or "numero extraido" in c.lower()), None)
         col_nome = next((c for c in df.columns if c.lower().strip() == "nome"), None)
+        col_capital_estado = next((c for c in df.columns if "capital" in c.lower() and "estado" in c.lower()), None)
 
         for _, row in df.iterrows():
             municipio = str(row.get(col_nome, "")).strip() if col_nome else ""
             valor_original = str(row.get(col_num_original, "")).strip() if col_num_original else ""
             valor_extraido = str(row.get(col_num_extraido, "")).strip() if col_num_extraido else ""
+            capital_estado = str(row.get(col_capital_estado, "")).strip() if col_capital_estado else ""
 
             trecho = buscar_trecho(conteudo, valor_original) if valor_original else None
             if not trecho and valor_extraido:
@@ -111,6 +125,7 @@ def identificar_por_arquivo(textos, csvs):
                 resultados_por_lei[lei_encontrada].append({
                     "Arquivo TXT": nome_arquivo,
                     "Caminho TXT": info["caminho"],
+                    "Capital / Estado": capital_estado,
                     "Município (CSV)": municipio,
                     "Decreto (original)": valor_original,
                     "Decreto (número extraído)": valor_extraido,
