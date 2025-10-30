@@ -1,4 +1,4 @@
-﻿Arquivo TXT,Caminho TXT,Capital / Estado,Município (CSV),Decreto (original),Decreto (número extraído),Trecho Encontrado
+﻿Arquivo TXT,Caminho TXT,Capital / Estado,Nome,Decreto (original),Decreto (número extraído),Trecho Encontrado
 TO_Palmas_LGPD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGPD\capital\dados_extraidos\TO_Palmas_LGPD.txt,Capital,Palmas (TO),"DECRETO Nº 2.213, DE 22 DE JUNHO DE 2022.",2.213,"Decreto entra em vigor na data da publicação.
 Palmas, 22 de junho de 2022.
 CINTHIA ALVES CAETANO RIBEIRO MANTOAN

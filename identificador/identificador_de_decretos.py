@@ -1,6 +1,12 @@
 import os
 import re
 import pandas as pd
+import spacy
+from spacy.matcher import Matcher
+
+# Inicializa o modelo NLP e o matcher
+nlp = spacy.load("pt_core_news_sm")
+matcher = Matcher(nlp.vocab)
 
 # Caminho base do projeto (sobe um nível da pasta identificador/)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -12,6 +18,9 @@ LEIS = ["LAI", "LGD", "LGPD", "MROSC"]
 TRECHO_LIMITE = 300
 
 
+# -------------------------------------------------------------------
+# Lê todos os .txt disponíveis
+# -------------------------------------------------------------------
 def ler_txts():
     """Lê todos os arquivos .txt nas pastas dados_extraidos e retorna um dicionário {nome_arquivo_sem_ext: {...}}"""
     textos = {}
@@ -39,33 +48,9 @@ def ler_txts():
     return textos
 
 
-def buscar_trecho(texto, termo):
-    """Procura o termo no texto e retorna um trecho contextual começando em 'decreto' se encontrado."""
-    if not termo or not isinstance(texto, str):
-        return None
-
-    termo_limpo = re.escape(str(termo).strip())
-    padrao = re.compile(termo_limpo, flags=re.IGNORECASE)
-    match = padrao.search(texto)
-    
-    if match:
-        # Procurar a palavra "decreto" antes do termo
-        trecho_antes = texto[:match.start()]
-        padrao_decreto = re.compile(r'\bdecreto\b', flags=re.IGNORECASE)
-        matches_decreto = list(padrao_decreto.finditer(trecho_antes))
-        
-        if matches_decreto:
-            # Pega o último "decreto" antes do termo
-            start = matches_decreto[-1].start()
-        else:
-            # Se não encontrar "decreto", mantém o comportamento anterior
-            start = max(0, match.start() - TRECHO_LIMITE // 2)
-        
-        end = min(len(texto), match.end() + TRECHO_LIMITE // 2)
-        return texto[start:end].strip()
-    
-    return None
-
+# -------------------------------------------------------------------
+# Carrega os CSVs identificados
+# -------------------------------------------------------------------
 def carregar_csvs_identificados():
     """Carrega todos os identificado_<LEI>.csv que existirem e retorna dict {LEI: df}"""
     pasta_identificados = os.path.join(BASE_DIR, "identificador", "identificado")
@@ -84,67 +69,72 @@ def carregar_csvs_identificados():
     return csvs
 
 
+# -------------------------------------------------------------------
+# Função principal de identificação dos decretos
+# -------------------------------------------------------------------
 def identificar_por_arquivo(textos, csvs):
-    """Procura decretos e retorna apenas os casos com match"""
+    """Usa spaCy Matcher para localizar o trecho do decreto conforme número da regulamentação"""
     pasta_saida = os.path.join(BASE_DIR, "identificador", "resultados")
     os.makedirs(pasta_saida, exist_ok=True)
 
-    resultados_por_lei = {lei: [] for lei in LEIS}
+    resultados_por_lei = {}
 
-    for nome_arquivo, info in textos.items():
-        nome_arquivo_upper = nome_arquivo.upper()
-        conteudo = info["conteudo"]
-
-        lei_encontrada = next((lei for lei in LEIS if lei in nome_arquivo_upper), None)
-        if not lei_encontrada:
-            continue
-
-        if lei_encontrada not in csvs:
-            continue
-
-        df = csvs[lei_encontrada]
-
-        # Detecta colunas relevantes
-        col_num_original = next((c for c in df.columns if "(original)" in c.lower()), None)
-        col_num_extraido = next((c for c in df.columns if "número extraído" in c.lower() or "numero extraido" in c.lower()), None)
-        col_nome = next((c for c in df.columns if c.lower().strip() == "nome"), None)
-        col_capital_estado = next((c for c in df.columns if "capital" in c.lower() and "estado" in c.lower()), None)
+    for lei, df in csvs.items():
+        resultados = []
+        print(f"\n🔎 Processando {lei}...")
 
         for _, row in df.iterrows():
-            municipio = str(row.get(col_nome, "")).strip() if col_nome else ""
-            valor_original = str(row.get(col_num_original, "")).strip() if col_num_original else ""
-            valor_extraido = str(row.get(col_num_extraido, "")).strip() if col_num_extraido else ""
-            capital_estado = str(row.get(col_capital_estado, "")).strip() if col_capital_estado else ""
+            numero_regulamentacao = str(row.get("Se sim, número da regulamentação (original)", "")).strip()
+            if not numero_regulamentacao:
+                continue
 
-            trecho = buscar_trecho(conteudo, valor_original) if valor_original else None
-            if not trecho and valor_extraido:
-                trecho = buscar_trecho(conteudo, valor_extraido)
+            # Nome base do arquivo (buscando sem extensão)
+            nome_cidade = str(row.get("Município", "")).strip()
+            if not nome_cidade:
+                continue
 
-            # 🔹 Somente adiciona se encontrou match
-            if trecho:
-                resultados_por_lei[lei_encontrada].append({
-                    "Arquivo TXT": nome_arquivo,
-                    "Caminho TXT": info["caminho"],
-                    "Capital / Estado": capital_estado,
-                    "Município (CSV)": municipio,
-                    "Decreto (original)": valor_original,
-                    "Decreto (número extraído)": valor_extraido,
-                    "Trecho Encontrado": trecho
+            # Tenta encontrar o arquivo .txt correspondente
+            possiveis_chaves = [k for k in textos.keys() if nome_cidade.lower() in k.lower()]
+            if not possiveis_chaves:
+                continue
+
+            chave_txt = possiveis_chaves[0]
+            texto = textos[chave_txt]["conteudo"]
+
+            # Cria padrão de busca (regex + NLP)
+            padrao_regex = re.escape(numero_regulamentacao)
+            match = re.search(padrao_regex, texto, flags=re.IGNORECASE)
+
+            if match:
+                start, end = match.span()
+                trecho_inicio = max(0, start - TRECHO_LIMITE)
+                trecho_fim = min(len(texto), end + TRECHO_LIMITE)
+                trecho_extraido = texto[trecho_inicio:trecho_fim].replace("\n", " ").strip()
+
+                resultados.append({
+                    "Lei": lei,
+                    "Municipio": nome_cidade,
+                    "Numero_Regulamentacao": numero_regulamentacao,
+                    "Trecho_Encontrado": trecho_extraido
                 })
 
-        print(f"🔍 Processado: {nome_arquivo} → {lei_encontrada}")
+        resultados_por_lei[lei] = resultados
 
-    # 🔹 Salva apenas se houver matches
-    for lei, resultados in resultados_por_lei.items():
+        # Salva os resultados de cada lei
         if resultados:
             df_res = pd.DataFrame(resultados)
-            saida_csv = os.path.join(pasta_saida, f"decretos_identificados_por_arquivo_{lei}.csv")
+            saida_csv = os.path.join(pasta_saida, f"decretos_identificados_{lei}.csv")
             df_res.to_csv(saida_csv, index=False, encoding="utf-8-sig")
             print(f"✅ {lei}: {len(df_res)} decretos encontrados e salvos em {saida_csv}")
         else:
             print(f"[AVISO] Nenhum match encontrado para {lei}.")
 
+    return resultados_por_lei
 
+
+# -------------------------------------------------------------------
+# MAIN
+# -------------------------------------------------------------------
 def main():
     print("🚀 Iniciando identificador de decretos pelos nomes dos arquivos .txt...\n")
     textos = ler_txts()

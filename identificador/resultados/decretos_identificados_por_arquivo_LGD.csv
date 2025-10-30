@@ -1,4 +1,4 @@
-﻿Arquivo TXT,Caminho TXT,Capital / Estado,Município (CSV),Decreto (original),Decreto (número extraído),Trecho Encontrado
+﻿Arquivo TXT,Caminho TXT,Capital / Estado,Nome,Decreto (original),Decreto (número extraído),Trecho Encontrado
 SaoPaulo_LGD,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LGD\estado\dados_extraidos\SaoPaulo_LGD.txt,Estado,Amazonas,-,-,"DECRETO N° 67.799, DE 13 DE JULHO DE 2023
 Institui a Estratégia de Governo Digital para o período de 2023 a 2026, no âmbito da Administração Pública direta e autárquica do Estado de São Paulo e dá providências correlatas.
 O GOVERNADOR DO ESTADO DE SÃO PAULO, no uso de suas atribuições legais,

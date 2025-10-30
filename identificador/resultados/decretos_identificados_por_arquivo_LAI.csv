@@ -1,4 +1,4 @@
-﻿Arquivo TXT,Caminho TXT,Capital / Estado,Município (CSV),Decreto (original),Decreto (número extraído),Trecho Encontrado
+﻿Arquivo TXT,Caminho TXT,Capital / Estado,Nome,Decreto (original),Decreto (número extraído),Trecho Encontrado
 Macapa_LAI,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\LAI\capital\dados_extraidos\Macapa_LAI.txt,Capital,Macapá (AP),LEI Nº 2.265/2017-PMM,2.265,"MUNICÍPIO DE MACAPÁ
 PREFEITURA MUNICIPAL
 LEI Nº 2.265/2017-PMM

@@ -1,4 +1,4 @@
-﻿Arquivo TXT,Caminho TXT,Capital / Estado,Município (CSV),Decreto (original),Decreto (número extraído),Trecho Encontrado
+﻿Arquivo TXT,Caminho TXT,Capital / Estado,Nome,Decreto (original),Decreto (número extraído),Trecho Encontrado
 ES_Vitoria_MROSC,c:\programas\ProjetosPY\pesquisa-legislacoes-no-QD\MROSC\capital\dados_extraidos\ES_Vitoria_MROSC.txt,Capital,Vitória (ES),"DECRETO Nº 17.131, DE 9 DE AGOSTO DE 2017.",17.131,"DECRETO Nº 17.131
 Dispõe sobre a aplicação, no âmbito da Administração
 Direta e Indireta do Município, da Lei Federal nº 13.019,
